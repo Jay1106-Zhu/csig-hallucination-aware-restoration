@@ -1,0 +1,18 @@
+{
+  "patch_size": 256,
+  "stride": 128,
+  "hypir": {"model_t": 200, "coeff_t": 200, "patch_size": 512, "stride": 256, "seed": 231, "upscale": 1},
+  "clip_model": "openai/clip-vit-base-patch32",
+  "dino_model": "facebook/dinov2-small",
+  "feature_batch_size": 32,
+  "seeds": [231, 232, 233],
+  "hidden_dim": 64,
+  "epochs": 40,
+  "learning_rate": 0.001,
+  "weight_decay": 0.01,
+  "batch_size": 256,
+  "threshold": 0.5,
+  "primary_feature": "fusion",
+  "auc_research_threshold": 0.65,
+  "bootstrap_draws": 10000
+}

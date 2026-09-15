@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "independent_images": 5,
+  "verified_patch_triplets": 3565,
+  "good_patches": 59,
+  "bad_patches": 3506,
+  "reconstructed_fold_checkpoints": 90,
+  "max_oof_probability_error": 2.9790496847148518e-08,
+  "train_only_scalers_verified": true,
+  "all_fold_metrics_recomputed": true,
+  "failure_panels": 20,
+  "manual_failure_annotations": 20,
+  "gain_heatmaps": 5,
+  "oof_confidence_heatmaps": 5,
+  "source_hashes_unchanged": true,
+  "frozen_feature_models_unchanged": true,
+  "artifact_hash_count": 191,
+  "test_images_used_for_training_or_evaluation": 0
+}

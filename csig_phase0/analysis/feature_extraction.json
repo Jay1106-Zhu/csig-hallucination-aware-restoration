@@ -1,0 +1,32 @@
+{
+  "clip": {
+    "seconds": 36.12216780000017,
+    "shape": [
+      3565,
+      1024
+    ],
+    "peak_gpu_bytes": 435054080,
+    "sources": [
+      "input",
+      "hypir"
+    ],
+    "dtype": "float32",
+    "normalized_per_view": true,
+    "autocast": "float16"
+  },
+  "dino": {
+    "seconds": 29.460600400023395,
+    "shape": [
+      3565,
+      768
+    ],
+    "peak_gpu_bytes": 250609152,
+    "sources": [
+      "input",
+      "hypir"
+    ],
+    "dtype": "float32",
+    "normalized_per_view": true,
+    "autocast": "float16"
+  }
+}

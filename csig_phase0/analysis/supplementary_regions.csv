@@ -1,0 +1,6 @@
+image_id,x,y,topic,patch_id,gain,label,oof_confidence,selection
+case1,1024,256,Chinese text,case1_y0256_x1024,-1.8971035758301475,BAD,0.002445128,"purposeful semantic illustration, not used for model selection or metrics"
+case2,1536,1792,Book text,case2_y1792_x1536,-7.325530440409786,BAD,5.9999078e-05,"purposeful semantic illustration, not used for model selection or metrics"
+case3,2432,768,Animal head,case3_y0768_x2432,-5.487652153583035,BAD,0.00057113986,"purposeful semantic illustration, not used for model selection or metrics"
+case4,2944,512,Vegetation details,case4_y0512_x2944,-1.181529684273757,BAD,0.00016216953,"purposeful semantic illustration, not used for model selection or metrics"
+case5,2432,1280,Clock structure,case5_y1280_x2432,-0.6522416815395289,BAD,0.00021730478,"purposeful semantic illustration, not used for model selection or metrics"

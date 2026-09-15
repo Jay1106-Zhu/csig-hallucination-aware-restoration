@@ -1,0 +1,7 @@
+[
+  {"image_id": "case1", "x": 1024, "y": 256, "topic": "Chinese text"},
+  {"image_id": "case2", "x": 1536, "y": 1792, "topic": "Book text"},
+  {"image_id": "case3", "x": 2432, "y": 768, "topic": "Animal head"},
+  {"image_id": "case4", "x": 2944, "y": 512, "topic": "Vegetation details"},
+  {"image_id": "case5", "x": 2432, "y": 1280, "topic": "Clock structure"}
+]

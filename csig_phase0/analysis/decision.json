@@ -1,0 +1,11 @@
+{
+  "decision": "YES",
+  "criterion": "fusion image-macro ROC-AUC > 0.65",
+  "value": 0.7195350582604529,
+  "semantic_annotations_completed": true,
+  "independent_images": 5,
+  "valid_auc_images": 3,
+  "practical_recommendation": "HOLD: collect independent paired data first",
+  "sensitivity_auc_without_single_positive_image": 0.592645284019893,
+  "gate_fusion_implemented": false
+}

@@ -1,0 +1,38 @@
+{
+  "format": "lossless RGB uint8 NPY arrays, per-image per-source, mmap-readable",
+  "path": "data/patches/{image_id}/{input,hypir,gt}.npy",
+  "shape": [
+    "patch_count",
+    256,
+    256,
+    3
+  ],
+  "row_index": "features/index.csv: patch_index",
+  "count": 3565,
+  "stats_columns": [
+    "input_r_mean",
+    "input_g_mean",
+    "input_b_mean",
+    "input_r_std",
+    "input_g_std",
+    "input_b_std",
+    "input_edge_density",
+    "input_laplacian_variance",
+    "input_fft_high_energy",
+    "input_gray_std",
+    "hypir_r_mean",
+    "hypir_g_mean",
+    "hypir_b_mean",
+    "hypir_r_std",
+    "hypir_g_std",
+    "hypir_b_std",
+    "hypir_edge_density",
+    "hypir_laplacian_variance",
+    "hypir_fft_high_energy",
+    "hypir_gray_std",
+    "residual_mae",
+    "residual_std",
+    "residual_mse",
+    "residual_abs_q95"
+  ]
+}
