@@ -2,6 +2,20 @@
 
 **Public repository · Phase 0 complete**
 
+## 当前阶段：Phase 0.5（全量公开发布）
+
+Phase 0.5 计算实验与完整审计已完成，结论 **HOLD**，不启动 Phase 1。入口：`csig_phase05/README.md`，主报告：`csig_phase05/reports/phase05_report.md`。
+
+数据为5张真实配对+50张合成配对；324个轻量分组verifier、220个候选、275个实际融合产物已归档。110份独立人工盲标注尚待人审核，不能宣称幻觉检测验证完成。
+
+用户已授权与上次同样全量公开：交付清单与下载器见 `publication/phase05/README.md`，独立Release为 `phase05-2026-09-15`。代码/表格/图表/盲标注界面在Git，全部数据、patch、特征、checkpoint、输出、日志和冻结权重在8个Release分包中；正式上传核验状态以 `publication/phase05/GITHUB_DELIVERY.md` 为准。
+
+```powershell
+python publication/phase05/download_phase05.py --extract
+```
+
+## Phase 0 历史公开发布（保持不变）
+
 本仓库公开原始方案、全部实验代码、指标和可视化。Phase 0 要求的 **patch、特征、模型、官方输出和完整日志** 全部放在同仓库 Release `phase0-2026-09-15`，不是仅有文档或示例。
 
 - 完整下载与逐项交付表：`publication/README.md`
@@ -23,7 +37,7 @@
 
 全部 20 个失败对照、五组 gain/confidence 热图、场景概览和补充语义区域均在 `csig_phase0/reports/visualization/`，原尺寸浮点热图另在 Release 中。
 
-本目录统一管理后续任务，当前只执行 **Phase 0：验证恢复可信度是否可预测**。
+本目录统一管理后续任务；Phase0已完成，新授权Phase0.5的本地进度见上方入口，不自动进入下一阶段。
 
 Phase 0 已于 2026-09-15 完成。Fusion AUC=0.7195 达到探索门槛，但仅三个有效 AUC 原图且一张只有一个 GOOD，实际推进建议 **HOLD：先补数据，不启动 Gate/专家训练**。
 

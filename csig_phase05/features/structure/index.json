@@ -1,0 +1,21 @@
+{
+  "row_index": "../index.csv",
+  "blocks": {
+    "structure": {
+      "file": "structure.npy",
+      "shape": [
+        1160,
+        37
+      ],
+      "sha256": "d84266f66f7df45561d9bf37f6c7559af95eaab807ad3eb24e748eec295c9220"
+    },
+    "stats": {
+      "file": "stats.npy",
+      "shape": [
+        1160,
+        24
+      ],
+      "sha256": "29883cd55285d61b64ad0dbc1e9b9c612ac0aab832844f4f85c3d5ffa42f46eb"
+    }
+  }
+}

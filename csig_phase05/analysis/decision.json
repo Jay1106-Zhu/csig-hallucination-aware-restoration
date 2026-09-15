@@ -1,0 +1,14 @@
+{
+  "decision": "HOLD",
+  "computational_status": "complete and independently audited",
+  "human_review_status": "0 reviewed of 110 pending",
+  "phase1_authorized": false,
+  "github_published": false,
+  "reasons": [
+    "insufficient real scenes and positive regions",
+    "candidate-aware primary weaker than LQ-only",
+    "no significant fixed-coverage damage reduction vs random",
+    "predicted actual fusion below LQ",
+    "independent human truth missing"
+  ]
+}

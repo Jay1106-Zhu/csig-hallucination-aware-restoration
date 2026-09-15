@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "scope": "computational artifacts; independent human review remains pending",
+  "source_images": 55,
+  "real_images": 5,
+  "synthetic_images": 50,
+  "native_regions_verified": 1160,
+  "candidates_verified": 220,
+  "perceptual_recomputed_regions": 55,
+  "max_pixel_gain_reproduction_error": 0.0,
+  "max_perceptual_reproduction_error": 0.0,
+  "verifier_checkpoints_verified": 324,
+  "max_oof_probability_error": 0.0,
+  "per_image_metrics_recomputed": 3520,
+  "blind_sample_hashes_verified": 110,
+  "selective_images_verified": 275,
+  "immutable_files_verified": 1447,
+  "phase0_unchanged": true,
+  "test_data_used": 0,
+  "restoration_models_trained": 0,
+  "human_annotations_fabricated": 0,
+  "limitations": [
+    "source_id is a scene proxy, not independently adjudicated scene identity",
+    "real alignment audit is low-frequency translation screening only",
+    "human-dependent results unavailable",
+    "oracle budget is fixed region count, not fixed pixel count",
+    "finite sample bootstrap is descriptive with few informative images"
+  ]
+}

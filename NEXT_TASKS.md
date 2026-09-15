@@ -1,6 +1,21 @@
 # 后续任务清单（未执行）
 
-此文件只整理后续工作，不授权自动开始新阶段。以 Phase 0 最终报告的 YES/NO 和限制为决策依据。
+## Phase 0.5 后的当前优先级
+
+Phase 0.5 已完成可计算实验，结论 **HOLD**。主报告 `csig_phase05/reports/phase05_report.md`，阶段后续事项 `csig_phase05/NEXT_TASKS.md`。不进入Phase1，不自动执行新训练；用户已另行授权全量公开发布，进展见 `publication/phase05/GITHUB_DELIVERY.md`。
+
+| 优先级 | 工作 | 当前状态 |
+| --- | --- | --- |
+| P0 | 真实人完成110个固定盲标注样本，保留severity和类型独立于质量指标 | 待人输入；界面在 `csig_phase05/data/annotations/index.html` |
+| P0 | 检查人工标注覆盖、重复审核/一致性，再做人工标签与PSNR的相关及类型分析 | 标签未就绪，不填充NA |
+| P0 | 扩充独立真实配对、正收益候选和夜景/中文等缺口 | 本轮50张新增均为synthetic，不等同真实配对补齐 |
+| P1 | 在新的固定独立协议下复验candidate-aware与实际选择损害 | 先满足数据和人类真值前置，不依据当前OOF挑参数 |
+| P1 | Phase1 Selective Restoration | HOLD，未授权启动 |
+| P2 | Phase0.5公开发布和大文件归档 | 已获得用户全量上传授权；独立Release、清单和核验记录在publication/phase05 |
+
+## Phase 0 之后的历史清单（原结论保留）
+
+以下表格是Phase0结束时的历史规划，不代表Phase0.5后仍未执行相应计算实验；现状以本页上方和Phase0.5报告为准。此文件不授权自动开始新阶段。
 
 Phase 0 当前结论：数值门槛为 YES（Fusion AUC=0.7195），但实际推进 **HOLD**。仅 59 个 GOOD、三个有效 AUC 原图；排除单正例原图后 AUC=0.5926。下一步应先补数据，而不是训练 Gate。
 

@@ -1,0 +1,8 @@
+{
+  "metric_direction": "all gains positive means improvement",
+  "regions": 1160,
+  "images": 55,
+  "perceptual_full_longside_max": 1024,
+  "candidate": "coeff_t=200",
+  "gt_used_only_for_label_and_evaluation": true
+}

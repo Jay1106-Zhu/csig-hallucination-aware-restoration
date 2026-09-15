@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "stage_file_count": 1868,
+  "exported_file_count": 1888,
+  "package_count": 8,
+  "missing_stage_files": [],
+  "duplicate_export_members": [],
+  "original_phase05_untouched": true,
+  "phase0_release_replaced": false,
+  "total_compressed_bytes": 3863920955
+}

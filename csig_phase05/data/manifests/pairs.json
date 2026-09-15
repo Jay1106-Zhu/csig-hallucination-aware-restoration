@@ -1,0 +1,1947 @@
+[
+  {
+    "image_id": "case1",
+    "scene_id": "case1",
+    "lq_path": "data/csig_dataset/验证集/case1_lq.jpg",
+    "gt_path": "data/csig_dataset/验证集/case1_gt.jpg",
+    "scene_category": "text",
+    "degradation_tags": [
+      "real_unknown"
+    ],
+    "source": "CSIG validation",
+    "domain": "real_csig",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "same-sized original pair + low-frequency phase correlation; not semantic ground truth",
+    "alignment_shift_512": [
+      -0.0886951325986729,
+      -0.10058708333428967
+    ],
+    "alignment_response": 0.9174377003801055,
+    "split": "validation",
+    "width": 4096,
+    "height": 3072,
+    "lq_sha256": "77ec110bcab7a973e78d783d7b9aa0afe963bb199a6062378dfa43af851f8bb4",
+    "gt_sha256": "c984142bb52b2ba610d3a98a7a7e2db52d822316df0233658b25bf8d37e2b654",
+    "candidate_path": "outputs/hypir/coeff_200/result/case1.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/case1.png",
+      "100": "outputs/hypir/coeff_100/result/case1.png",
+      "150": "outputs/hypir/coeff_150/result/case1.png",
+      "200": "outputs/hypir/coeff_200/result/case1.png"
+    },
+    "stability_sha256": {
+      "50": "ac61fe92c92c422964e57f210fabd6d47e6dc6410498b9e8a9acd21bec71ef13",
+      "100": "d3720ad5b12cc89db7731e9ceadd25d8dd439934a6ee0ed2010b375e21537431",
+      "150": "cb64122db3e4e095cd7baeca1cb3c1abe9c7a7ce9afc17d91323a7d8d32dabdf",
+      "200": "3bafc6e8ba1c1fb732115dff66c83c633658c4a06fb54c101765f33e6fad8831"
+    },
+    "candidate_sha256": "3bafc6e8ba1c1fb732115dff66c83c633658c4a06fb54c101765f33e6fad8831"
+  },
+  {
+    "image_id": "case2",
+    "scene_id": "case2",
+    "lq_path": "data/csig_dataset/验证集/case2_lq.jpg",
+    "gt_path": "data/csig_dataset/验证集/case2_gt.jpg",
+    "scene_category": "text",
+    "degradation_tags": [
+      "real_unknown"
+    ],
+    "source": "CSIG validation",
+    "domain": "real_csig",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "same-sized original pair + low-frequency phase correlation; not semantic ground truth",
+    "alignment_shift_512": [
+      -0.02056182515633509,
+      -0.016693950184105688
+    ],
+    "alignment_response": 0.9675200114579638,
+    "split": "validation",
+    "width": 3072,
+    "height": 4096,
+    "lq_sha256": "0f59e584691ea82f84b4175696f74ad0f775d7d5c2db27ed55d01f275d6867aa",
+    "gt_sha256": "0628c356de1a16e0a06af7a2faba0c44f6fa37dab96b7cdd8a71aa9bc17f1d22",
+    "candidate_path": "outputs/hypir/coeff_200/result/case2.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/case2.png",
+      "100": "outputs/hypir/coeff_100/result/case2.png",
+      "150": "outputs/hypir/coeff_150/result/case2.png",
+      "200": "outputs/hypir/coeff_200/result/case2.png"
+    },
+    "stability_sha256": {
+      "50": "fbb6c44769de5e78418df77faf2404f07c59a9993841ae4d16344b6f33228fa9",
+      "100": "8996dcb8e8b5c990eaa34cd715dd26940cb0c7bebc85ebfb82892fde6aa781c1",
+      "150": "7aff8bf602668c708a22bd2da1b04a99415279ea7c9c2438c723d40cc168b854",
+      "200": "84abe6dd35aab87764c16f039e6e7d55972ddcf577b0905f9cf4640efbb87b70"
+    },
+    "candidate_sha256": "84abe6dd35aab87764c16f039e6e7d55972ddcf577b0905f9cf4640efbb87b70"
+  },
+  {
+    "image_id": "case3",
+    "scene_id": "case3",
+    "lq_path": "data/csig_dataset/验证集/case3_lq.jpg",
+    "gt_path": "data/csig_dataset/验证集/case3_gt.jpg",
+    "scene_category": "animal",
+    "degradation_tags": [
+      "real_unknown"
+    ],
+    "source": "CSIG validation",
+    "domain": "real_csig",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "same-sized original pair + low-frequency phase correlation; not semantic ground truth",
+    "alignment_shift_512": [
+      -0.031647588060252474,
+      -0.04319277591844184
+    ],
+    "alignment_response": 0.9703493734123185,
+    "split": "validation",
+    "width": 4096,
+    "height": 3072,
+    "lq_sha256": "8b767705c669d9c1d095d9fb6eedd42c0268c1a9968a710d4405c94a455eee03",
+    "gt_sha256": "8e4f27be87699aa637f05e4876056614812275aaf3497ec513c7d1dc0446b2bb",
+    "candidate_path": "outputs/hypir/coeff_200/result/case3.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/case3.png",
+      "100": "outputs/hypir/coeff_100/result/case3.png",
+      "150": "outputs/hypir/coeff_150/result/case3.png",
+      "200": "outputs/hypir/coeff_200/result/case3.png"
+    },
+    "stability_sha256": {
+      "50": "d90a905dba892783c6762ed55eb779b7bd61e318792d183014e29439215c0f1a",
+      "100": "8f5098df86ed0143fd0b42e08f8ab005efbbde5829d926be635205b74030c6d0",
+      "150": "8154fe12b294329eb896f1b6ea38c918f8e309bd407508f1a03ce678fcd3982d",
+      "200": "5f1d73d27aed474cd75dfe6a45cef6c1d208d604cbf7e7e89b4ccf083c8d08ab"
+    },
+    "candidate_sha256": "5f1d73d27aed474cd75dfe6a45cef6c1d208d604cbf7e7e89b4ccf083c8d08ab"
+  },
+  {
+    "image_id": "case4",
+    "scene_id": "case4",
+    "lq_path": "data/csig_dataset/验证集/case4_lq.jpg",
+    "gt_path": "data/csig_dataset/验证集/case4_gt.jpg",
+    "scene_category": "vegetation",
+    "degradation_tags": [
+      "real_unknown"
+    ],
+    "source": "CSIG validation",
+    "domain": "real_csig",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "same-sized original pair + low-frequency phase correlation; not semantic ground truth",
+    "alignment_shift_512": [
+      -0.16598953724565035,
+      -0.1851472795377731
+    ],
+    "alignment_response": 0.8252767899539322,
+    "split": "validation",
+    "width": 4096,
+    "height": 3072,
+    "lq_sha256": "b62925591e0779c3f9d493a699ede0f7317283258265469c0afbaaa6ddd6269f",
+    "gt_sha256": "e4f2e7b2246a9ee8be39f3bf08c4726052eeb43614cf8ab0a972c72333595f2c",
+    "candidate_path": "outputs/hypir/coeff_200/result/case4.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/case4.png",
+      "100": "outputs/hypir/coeff_100/result/case4.png",
+      "150": "outputs/hypir/coeff_150/result/case4.png",
+      "200": "outputs/hypir/coeff_200/result/case4.png"
+    },
+    "stability_sha256": {
+      "50": "32827d59cf6eeef78d8e78bf929763017f068641af88e8a5bbe61c69f7856240",
+      "100": "5348f339003299afed5b1abd91cb0754ae53f825ae95c1e21e7d61111bff45c8",
+      "150": "1f8b2a33b31d088114c77ff597a3f079b19e6b2e6d057948109d802e279cdfeb",
+      "200": "66682c9096ebc98f7771314e34490bc1af71fb9328d46849592c24a6d95c7036"
+    },
+    "candidate_sha256": "66682c9096ebc98f7771314e34490bc1af71fb9328d46849592c24a6d95c7036"
+  },
+  {
+    "image_id": "case5",
+    "scene_id": "case5",
+    "lq_path": "data/csig_dataset/验证集/case5_lq.jpg",
+    "gt_path": "data/csig_dataset/验证集/case5_gt.jpg",
+    "scene_category": "architecture",
+    "degradation_tags": [
+      "real_unknown"
+    ],
+    "source": "CSIG validation",
+    "domain": "real_csig",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "same-sized original pair + low-frequency phase correlation; not semantic ground truth",
+    "alignment_shift_512": [
+      -0.019233291935677244,
+      0.020730732147683284
+    ],
+    "alignment_response": 0.9347753929905593,
+    "split": "validation",
+    "width": 4096,
+    "height": 3072,
+    "lq_sha256": "08c644afbdda256a27560db18b770f8e875a33a4705e545504f0027eab3398e6",
+    "gt_sha256": "08aa3df11f5951f5d9bf4cd740a0cf71a2be77e6ca52edd55daced056d049716",
+    "candidate_path": "outputs/hypir/coeff_200/result/case5.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/case5.png",
+      "100": "outputs/hypir/coeff_100/result/case5.png",
+      "150": "outputs/hypir/coeff_150/result/case5.png",
+      "200": "outputs/hypir/coeff_200/result/case5.png"
+    },
+    "stability_sha256": {
+      "50": "643fc935c72b6944888543f8c56be2c62e0409b3e64d1b55647cfeea58379248",
+      "100": "39b913ca9fa91872b34134d1a3e811afeae87313549c6a5b3d38e7c6dd27e247",
+      "150": "0281f60844842bed6a9fb11977c601e0cd2b15b932f0ffedb4823a227f9501d6",
+      "200": "640de0222134743db16b76a8a0cf51c4534ba1e7199ceb8cdd78fc1e7efe878a"
+    },
+    "candidate_sha256": "640de0222134743db16b76a8a0cf51c4534ba1e7199ceb8cdd78fc1e7efe878a"
+  },
+  {
+    "image_id": "bsds_100098",
+    "scene_id": "bsds_100098",
+    "lq_path": "data/input/bsds_100098.png",
+    "gt_path": "data/sources/bsds_train/100098.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "blur"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/100098.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 481,
+    "height": 321,
+    "lq_sha256": "eb5bf1338170b839215955aeb99bc6667f80f027f3d2b182e9cd11a87272f1d2",
+    "gt_sha256": "156fd9710dccd7bf3a821977f8d8155da0eccca553086f73771073e17a418aa6",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_100098.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_100098.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_100098.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_100098.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_100098.png"
+    },
+    "degradation_seed": 505,
+    "stability_sha256": {
+      "50": "8e9bef5f82f99cee7c66d9bb6146dbbc89860f8c6f37eff3dcaba1f71e1ed97e",
+      "100": "815234d962ad15ba653245f0fd67d30e83c5c826d0ac65fe584249a983a880a1",
+      "150": "22f9efd9376b1fce39f41d4e731839ed996ea045d53890c3099d34355c9668bd",
+      "200": "5f9c17346fae39c9bb8d9c376d965987b12bba63d29765b39612366b8deff7c5"
+    },
+    "candidate_sha256": "5f9c17346fae39c9bb8d9c376d965987b12bba63d29765b39612366b8deff7c5"
+  },
+  {
+    "image_id": "bsds_106025",
+    "scene_id": "bsds_106025",
+    "lq_path": "data/input/bsds_106025.png",
+    "gt_path": "data/sources/bsds_train/106025.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "low_resolution"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/106025.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 321,
+    "height": 481,
+    "lq_sha256": "814360c6c8c84f787b0420991f646c1cc018da1a856206cd6e50cc3f41e929e4",
+    "gt_sha256": "68c0e1afd93d8c4782d97bacea36453e59e2921d261e6f8622dc0832b2196f65",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_106025.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_106025.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_106025.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_106025.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_106025.png"
+    },
+    "degradation_seed": 506,
+    "stability_sha256": {
+      "50": "46bb49ff430a39138fa27e6c56de0aedb8c7dc898bf93ebb8356270988e47b00",
+      "100": "685d12636bdf3b8750ce9f66a7cff1de56884c2f2a737045c75300dbe65110e8",
+      "150": "a361ee7c29b3d4cb88b8b786895da0c3d7f23c2cd23e98e070229e707bf277a0",
+      "200": "66c9a53def33da50ceccda7c54400d6c85cc3e488aaed931ef3d95eb9f416910"
+    },
+    "candidate_sha256": "66c9a53def33da50ceccda7c54400d6c85cc3e488aaed931ef3d95eb9f416910"
+  },
+  {
+    "image_id": "bsds_112082",
+    "scene_id": "bsds_112082",
+    "lq_path": "data/input/bsds_112082.png",
+    "gt_path": "data/sources/bsds_train/112082.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "noise_jpeg"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/112082.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 481,
+    "height": 321,
+    "lq_sha256": "5f976b53415ddff46671a56a38bab4439d7c4fcc17898f830f056d3996059d4c",
+    "gt_sha256": "ba0aee5213b2433aae60bc69e933f26dd547ba797319bc807f63d4c5391e60ad",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_112082.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_112082.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_112082.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_112082.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_112082.png"
+    },
+    "degradation_seed": 507,
+    "stability_sha256": {
+      "50": "79b99cd614ba0a1e79210c6b436c9f827f0beeb55a3650b07048c672b5d2d475",
+      "100": "788b6ba59230fd889d2e5cb6355915e54a3ba6fcbb4b4064c011a8dfa3595b0a",
+      "150": "f8087fa777af80ff354285a3209915b2957deb52a6932012356dea422cb0c8e8",
+      "200": "e20d0a5becf54d8316c6e9fe978c504ade81e0d61baf1b4845434db802e8071e"
+    },
+    "candidate_sha256": "e20d0a5becf54d8316c6e9fe978c504ade81e0d61baf1b4845434db802e8071e"
+  },
+  {
+    "image_id": "bsds_138078",
+    "scene_id": "bsds_138078",
+    "lq_path": "data/input/bsds_138078.png",
+    "gt_path": "data/sources/bsds_train/138078.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "lowlight_glow"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/138078.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 321,
+    "height": 481,
+    "lq_sha256": "dce12cb77ded883c9443e2284923227abe84cfa87f59bac656e7e9731f41eaf8",
+    "gt_sha256": "156743043490583baa9af1ab4d1ae1811359bc5fa94d5c5de3e5b522f4099eb4",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_138078.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_138078.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_138078.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_138078.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_138078.png"
+    },
+    "degradation_seed": 508,
+    "stability_sha256": {
+      "50": "a9a2f6275aa9124c9e085e5e59019d89fa19744ca3c4c867b7a5c85551ab8541",
+      "100": "75d9ff2b774e238c09cab74442c86798931b7fc4b4d2e3b8c133593a07270a60",
+      "150": "2f41326dacd6d5e8aa4e5cbb06397aa9ab0d0cb4916656fbc2228ef0cb6df98d",
+      "200": "abb251ba5dc790d96423e4b03c92dc598328a3a22a2ea4a79a672fc87f9f8b9d"
+    },
+    "candidate_sha256": "abb251ba5dc790d96423e4b03c92dc598328a3a22a2ea4a79a672fc87f9f8b9d"
+  },
+  {
+    "image_id": "bsds_140055",
+    "scene_id": "bsds_140055",
+    "lq_path": "data/input/bsds_140055.png",
+    "gt_path": "data/sources/bsds_train/140055.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "mixed"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/140055.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 481,
+    "height": 321,
+    "lq_sha256": "845e75686a87d1aac342ee1c6566e3eba358e58b35db347bcb0b2be482593667",
+    "gt_sha256": "bb7a083e833fde82c57b1df0ba95c0d0577f50ae3bb687cb71a066d414d117aa",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_140055.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_140055.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_140055.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_140055.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_140055.png"
+    },
+    "degradation_seed": 509,
+    "stability_sha256": {
+      "50": "10b6e9479c656cf1b42cd4fe253b0a6d096efc7af2ea1069354179ae7b85b2e8",
+      "100": "f3e46a20ad9e80de617f9b7043e4c5d605cb5643e1281073ed5fb194bb53747b",
+      "150": "56da4d30de90d7644d21051ce6e58ef60ea93fba271e08bf6f82d2000e6bb9ad",
+      "200": "f516d7ee8ddeeb0187389aea4d009c45c5cb6035c8860a2b7f9d80ece94c25bc"
+    },
+    "candidate_sha256": "f516d7ee8ddeeb0187389aea4d009c45c5cb6035c8860a2b7f9d80ece94c25bc"
+  },
+  {
+    "image_id": "bsds_147021",
+    "scene_id": "bsds_147021",
+    "lq_path": "data/input/bsds_147021.png",
+    "gt_path": "data/sources/bsds_train/147021.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "blur"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/147021.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 481,
+    "height": 321,
+    "lq_sha256": "b78ae4025b34cfb5842a92d7f9e74e6005d4305d7ded0280a2c9c599b04b1f7a",
+    "gt_sha256": "34d7ac9fa5e9e2fd50c3b7cd107315620b7dab16ff8832cf642e8fc6d3334b34",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_147021.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_147021.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_147021.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_147021.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_147021.png"
+    },
+    "degradation_seed": 510,
+    "stability_sha256": {
+      "50": "9d4bafb762cc6f40e8150d9cc6dffdae880573d035f4d6cf317f0d1dcc82d2b3",
+      "100": "7ca5da9d2110641393aa7d283688da981a777368526ae3f7d0477b083995c4ba",
+      "150": "0983105c9df6eac445f64ca17b7f37b0d05fec9409e05bf3d3608b16eddc2cf9",
+      "200": "0793afa6a694137c0564f0f3118874dc051887ed0763bb18182e351d19fa8af0"
+    },
+    "candidate_sha256": "0793afa6a694137c0564f0f3118874dc051887ed0763bb18182e351d19fa8af0"
+  },
+  {
+    "image_id": "bsds_153077",
+    "scene_id": "bsds_153077",
+    "lq_path": "data/input/bsds_153077.png",
+    "gt_path": "data/sources/bsds_train/153077.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "low_resolution"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/153077.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 481,
+    "height": 321,
+    "lq_sha256": "56a678655373793e8c44ce5cfdc93cc7c469be1303c8d2d353a61585066b0eec",
+    "gt_sha256": "110645113f9d5c2eb024358a62c87931a6478b102c5c4e9d3ecd1ebb13dc232d",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_153077.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_153077.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_153077.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_153077.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_153077.png"
+    },
+    "degradation_seed": 511,
+    "stability_sha256": {
+      "50": "06153a09a816e322d333dd15049637b5b28a1f9c3260c80753cf3d1066b5acec",
+      "100": "a0cffca3961079248694292f5d85b24bc2a8385b966b351011027412652bd1cc",
+      "150": "f4d1e4137fc4a87e9fd9ce4f8736095018c09c824bef9ddcca7dbef1fef54278",
+      "200": "386419f515042aab452dc33971756e5698cfea318c053244a5400ce72f3ccd5d"
+    },
+    "candidate_sha256": "386419f515042aab452dc33971756e5698cfea318c053244a5400ce72f3ccd5d"
+  },
+  {
+    "image_id": "bsds_159029",
+    "scene_id": "bsds_159029",
+    "lq_path": "data/input/bsds_159029.png",
+    "gt_path": "data/sources/bsds_train/159029.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "noise_jpeg"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/159029.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 481,
+    "height": 321,
+    "lq_sha256": "5522969f0b74b6e91d58b792e130300bab32f95019692f5db24824830389d9ce",
+    "gt_sha256": "bb2dfcfcf6889b4791b3e7990a36669ad1b6b8d5299500879046328edf6b40b7",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_159029.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_159029.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_159029.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_159029.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_159029.png"
+    },
+    "degradation_seed": 512,
+    "stability_sha256": {
+      "50": "71b8a17635715b92780a4a953d21be11bbf6b09008c0a1f26e16b8b23d126854",
+      "100": "52343653fcdb4c0aa81fc29d79e479676e821540328e2f9800f18eeadee419d6",
+      "150": "60013aca06edc1157be774a0879f70c6ed4f115568e125829b1379b789967b11",
+      "200": "7fcdd605aff2d97f0482a1ae0df3718006b64c6360fc3cb63a338c74a3c9b80f"
+    },
+    "candidate_sha256": "7fcdd605aff2d97f0482a1ae0df3718006b64c6360fc3cb63a338c74a3c9b80f"
+  },
+  {
+    "image_id": "bsds_159045",
+    "scene_id": "bsds_159045",
+    "lq_path": "data/input/bsds_159045.png",
+    "gt_path": "data/sources/bsds_train/159045.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "lowlight_glow"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/159045.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 481,
+    "height": 321,
+    "lq_sha256": "292b50da380033f9ba2ad33777eb632a9398f1efcc603fbb86bc3506cdc813d0",
+    "gt_sha256": "505d42ffdc0a397baa7b2f2d47026613fd56dbfac2aac79f616838f11374687e",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_159045.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_159045.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_159045.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_159045.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_159045.png"
+    },
+    "degradation_seed": 513,
+    "stability_sha256": {
+      "50": "9c43a0d23ad37c93f49d6902035e3ac97356f32eb09aec1fc3cab7241ab2203f",
+      "100": "deddea53ab17c25f20cd580b4e8b20a8b27a6a1a60f06e938fd17c830f0ea67b",
+      "150": "68ff3ca160a93173bf9140dec52f4155d6c1f6871039f8dc1ace1575a6df909f",
+      "200": "1b7669579dc23059aeea17ca8edec83335b9be3ec9449b624d26f6f77e172c64"
+    },
+    "candidate_sha256": "1b7669579dc23059aeea17ca8edec83335b9be3ec9449b624d26f6f77e172c64"
+  },
+  {
+    "image_id": "bsds_159091",
+    "scene_id": "bsds_159091",
+    "lq_path": "data/input/bsds_159091.png",
+    "gt_path": "data/sources/bsds_train/159091.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "mixed"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/159091.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 481,
+    "height": 321,
+    "lq_sha256": "f8266a34aa87902254e76c227cd53c38182cb72b5d07f763086c1d691f03b76e",
+    "gt_sha256": "b38575cd4fb844fb60eb2ed78fb384c6bd96557018e01bfa4e102593106cd839",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_159091.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_159091.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_159091.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_159091.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_159091.png"
+    },
+    "degradation_seed": 514,
+    "stability_sha256": {
+      "50": "e00f8a55c636fcba59b9b8597f876e786b71e775e3c936d7248f7f403d0b229a",
+      "100": "a71853f6e2255fe9fde035de1fe12d48296762f70f8e25f47e1fad8ff2007431",
+      "150": "1c096074d3c0135f89aa1cc482cda8945626a3aba6430e49f3edafb791e0f325",
+      "200": "ed85941336e83f4e41c769be703d230f8f762991fe6dafc1009ca8a586cb7995"
+    },
+    "candidate_sha256": "ed85941336e83f4e41c769be703d230f8f762991fe6dafc1009ca8a586cb7995"
+  },
+  {
+    "image_id": "bsds_164074",
+    "scene_id": "bsds_164074",
+    "lq_path": "data/input/bsds_164074.png",
+    "gt_path": "data/sources/bsds_train/164074.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "blur"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/164074.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 481,
+    "height": 321,
+    "lq_sha256": "74c41f4e3c6cd695bd067122ea6d974bbdd608b38a0e42d2118815149ebd8752",
+    "gt_sha256": "a6a0a2f76bc102579ba47c6a076f1be1564640976fccc524a9e6420061c3a288",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_164074.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_164074.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_164074.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_164074.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_164074.png"
+    },
+    "degradation_seed": 515,
+    "stability_sha256": {
+      "50": "300f98ea961f6c0d7f48f32511bd201c1a58de61f749942327b02d676abb969f",
+      "100": "fcbb7287536480cfeb0ae3de7471658d001f3f84d5ae63e13eafca948ed59efc",
+      "150": "81b1d2b8d122a98975d0b2826341c43e3765177fa5f356f2e966c40aff7c03d6",
+      "200": "126f630eefa3c51d1ed849c716d0ae15bc7a17f4189a4247efc2df231b254869"
+    },
+    "candidate_sha256": "126f630eefa3c51d1ed849c716d0ae15bc7a17f4189a4247efc2df231b254869"
+  },
+  {
+    "image_id": "bsds_166081",
+    "scene_id": "bsds_166081",
+    "lq_path": "data/input/bsds_166081.png",
+    "gt_path": "data/sources/bsds_train/166081.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "low_resolution"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/166081.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 481,
+    "height": 321,
+    "lq_sha256": "141d7590daf42a6a2efd61390d2b4fc3c2a310db362a43674502c12127368d04",
+    "gt_sha256": "34216b6ce9050572b99502f7d67397caf712487864a0a85c94b921211e73b4d0",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_166081.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_166081.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_166081.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_166081.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_166081.png"
+    },
+    "degradation_seed": 516,
+    "stability_sha256": {
+      "50": "3d3204e4c75b222d8bed9ef94c356b79ca1527c570b15a9c68ad47f5f7b21300",
+      "100": "05a7cc6060b54d4e43508c0e2be52660381a2d29ca29464559632246d2e0a87f",
+      "150": "de4367855749c5e4ca7f872e243dbfa9cc6df61c9f7241eda479a655698786c4",
+      "200": "586427f84a448f5b741a4c91ad6f0d4a77224794332fee70323db2481db895e3"
+    },
+    "candidate_sha256": "586427f84a448f5b741a4c91ad6f0d4a77224794332fee70323db2481db895e3"
+  },
+  {
+    "image_id": "bsds_176039",
+    "scene_id": "bsds_176039",
+    "lq_path": "data/input/bsds_176039.png",
+    "gt_path": "data/sources/bsds_train/176039.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "noise_jpeg"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/176039.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 481,
+    "height": 321,
+    "lq_sha256": "87322f22164c80a10fd97f00be6dca2d40066e44abd1737be38de6ab25fa18ce",
+    "gt_sha256": "0799daf823e07de1910179b720779230f8aa076bbbac51ecc954d47aa1dc53bc",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_176039.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_176039.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_176039.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_176039.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_176039.png"
+    },
+    "degradation_seed": 517,
+    "stability_sha256": {
+      "50": "c1ab479cc6747aab8fa4d6df59ef7dd9dfb5c344bd4df93718c7fc7d5553d8c6",
+      "100": "2158070e72b928e372dd4046c619cea079145da6608194bfe1fd0cbe34011d7e",
+      "150": "bbdba1c09cd7d47c7ef5f0274ce7ce8c0b847faca734109df80fd31726029dd6",
+      "200": "f377743e0908ad259016078ceb141ec0c4b8689873e3ea42a4f418f5bfba5bf6"
+    },
+    "candidate_sha256": "f377743e0908ad259016078ceb141ec0c4b8689873e3ea42a4f418f5bfba5bf6"
+  },
+  {
+    "image_id": "bsds_183055",
+    "scene_id": "bsds_183055",
+    "lq_path": "data/input/bsds_183055.png",
+    "gt_path": "data/sources/bsds_train/183055.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "lowlight_glow"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/183055.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 481,
+    "height": 321,
+    "lq_sha256": "650eb881d4d5e66ba086c94eab4a00f783b531477f040788d3823f252ce0dd6f",
+    "gt_sha256": "bd0c5c4df40bb1b449b71b5e0efde7781599a7724a12a20c0d6902d03e6011be",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_183055.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_183055.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_183055.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_183055.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_183055.png"
+    },
+    "degradation_seed": 518,
+    "stability_sha256": {
+      "50": "1cb08437009558a0c41c577704ae0b55a5f8d62be4e5f86f5abcbd7e252de70e",
+      "100": "0c2a486c93823517de4be551c9c64dbd8029f2fe0e222a2c47db465c4a8a8068",
+      "150": "46ddb6bdcabea6a1770952ead36b91fae02299d48de16c08df44ce1c21d153e2",
+      "200": "926b09b3a20032bc3b08b9f037046c92958c9165a4ddc1baaf7e799881f2691f"
+    },
+    "candidate_sha256": "926b09b3a20032bc3b08b9f037046c92958c9165a4ddc1baaf7e799881f2691f"
+  },
+  {
+    "image_id": "bsds_187029",
+    "scene_id": "bsds_187029",
+    "lq_path": "data/input/bsds_187029.png",
+    "gt_path": "data/sources/bsds_train/187029.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "mixed"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/187029.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 321,
+    "height": 481,
+    "lq_sha256": "dd7e70c6130142e495fb38638119ce4f2a7823ac1576f1c029b9787e8a3ed601",
+    "gt_sha256": "e65e91083c8ee708181253fc41c8c6d14ddf45ab3f293c72faa98312632e759a",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_187029.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_187029.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_187029.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_187029.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_187029.png"
+    },
+    "degradation_seed": 519,
+    "stability_sha256": {
+      "50": "556fc56bc49396fdd728d47b704dbd79d7cd89ecd69a4ea722c1e29fede2eefe",
+      "100": "406824c361ad80c6874b2f396797cee746cc829876b1505a24cb1e6364b3e9df",
+      "150": "e20958fad4838990d56f7ba8b7c7a7f3ce6955d6cf9916d9fa199b5b48ec22de",
+      "200": "8e6d5a7052aec7f2857e4a89c2b8bd8993861e3713a0ed3a9e84b5b350f0d384"
+    },
+    "candidate_sha256": "8e6d5a7052aec7f2857e4a89c2b8bd8993861e3713a0ed3a9e84b5b350f0d384"
+  },
+  {
+    "image_id": "bsds_188063",
+    "scene_id": "bsds_188063",
+    "lq_path": "data/input/bsds_188063.png",
+    "gt_path": "data/sources/bsds_train/188063.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "blur"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/188063.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 481,
+    "height": 321,
+    "lq_sha256": "d4d7e1072809080d23d08d39ecc88a222f2121c37bfeee41c3e545dcaecf4ad7",
+    "gt_sha256": "a63954d1f0fc671278dd3f71f1a0d821f78eb04d51c01abd6706a7e03567a388",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_188063.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_188063.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_188063.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_188063.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_188063.png"
+    },
+    "degradation_seed": 520,
+    "stability_sha256": {
+      "50": "e81a2ad5aefec8b6b472cc0b9fb6f7bd64f153af9498358efd43f6f4d94e49c4",
+      "100": "1d9bbd4b76a27330cbb6b6c4b528e6f3bb729ab733ca8c434fb2c04f4ab7cd7b",
+      "150": "4226078c75626ab0dc85f73580e96812432b53dce3a2ee85a63a93b3f5280a2b",
+      "200": "2662fa349b5170ad8dce0713d1b69dc1af3c73c72bf713aac8d8b2785d405b80"
+    },
+    "candidate_sha256": "2662fa349b5170ad8dce0713d1b69dc1af3c73c72bf713aac8d8b2785d405b80"
+  },
+  {
+    "image_id": "bsds_198023",
+    "scene_id": "bsds_198023",
+    "lq_path": "data/input/bsds_198023.png",
+    "gt_path": "data/sources/bsds_train/198023.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "low_resolution"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/198023.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 321,
+    "height": 481,
+    "lq_sha256": "584c016e582a7703d28d3b3aa4adad67259ea9c760ccb4bd56e26b553c345654",
+    "gt_sha256": "70b5b6cdea34366b9007972603ebd3b2e794e69305393f1b6430af93933e0cb4",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_198023.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_198023.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_198023.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_198023.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_198023.png"
+    },
+    "degradation_seed": 521,
+    "stability_sha256": {
+      "50": "1a5eaca962ba774692dc02044a199a013dbe6cbea882cc29847737cc53ba95b8",
+      "100": "690aeaea6cd4ea4271d74136facbb68fd422e2166a8b11cdc636e45a81a266e3",
+      "150": "483a4da72d6abe44232138cb13aa3a1554be634f058632b90b5431fda06fbced",
+      "200": "152346d7cae8be766fbf196dc7b9b9c525b0e881925f2ea398e8d20715c30ac9"
+    },
+    "candidate_sha256": "152346d7cae8be766fbf196dc7b9b9c525b0e881925f2ea398e8d20715c30ac9"
+  },
+  {
+    "image_id": "bsds_198054",
+    "scene_id": "bsds_198054",
+    "lq_path": "data/input/bsds_198054.png",
+    "gt_path": "data/sources/bsds_train/198054.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "noise_jpeg"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/198054.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 321,
+    "height": 481,
+    "lq_sha256": "5fdb4944f7ad8b35bf1fb79d469c06e9d26fb28811c824fb0c49548292811ebc",
+    "gt_sha256": "99d4493b459f08f64fe5f84e25434409c7611f818b840eb47b1307d0d46f06ee",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_198054.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_198054.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_198054.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_198054.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_198054.png"
+    },
+    "degradation_seed": 522,
+    "stability_sha256": {
+      "50": "1b80fc25140b5d7ac492c746c37925e165d199df119421a79e87ad103dab03c5",
+      "100": "a37b1e1c7fae535ef3546f1aaf9b141f9badbca9d9898364a9847b930548ad91",
+      "150": "87c3c23896719fd14576a3123a3c48997f9498780fc9edcde5b7f82e0c8152c4",
+      "200": "254ffe3bf71b873ca826b20eafc71a286be499c4ae55c993d9b35b335541585a"
+    },
+    "candidate_sha256": "254ffe3bf71b873ca826b20eafc71a286be499c4ae55c993d9b35b335541585a"
+  },
+  {
+    "image_id": "bsds_20008",
+    "scene_id": "bsds_20008",
+    "lq_path": "data/input/bsds_20008.png",
+    "gt_path": "data/sources/bsds_train/20008.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "lowlight_glow"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/20008.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 321,
+    "height": 481,
+    "lq_sha256": "51a8bdc6734535ce28f4b09729d6e0d2cb7b968863a3017f8d8b05ec88a7c0dc",
+    "gt_sha256": "a051d50a0ad0680cd89fdd3e7aeed911ee53de62dce312f9e76334bf7389f8db",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_20008.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_20008.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_20008.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_20008.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_20008.png"
+    },
+    "degradation_seed": 523,
+    "stability_sha256": {
+      "50": "0c49f639e6a4d78da5acb42571db34fdc9a7053ec342c7f0f2a7a6985f7a3392",
+      "100": "cff41a04eef58912906d486f9a6c7b3e5f967aa6b60f26d1180be28151964ed1",
+      "150": "f2e6e1e5f295101af91362bc34463dc40ca0916400083742acff4b18c30e99bc",
+      "200": "d6c1b6ca8eb135e3bacd893a898ac7c9d7f3722c972fecef40259ddf2ba7d2a0"
+    },
+    "candidate_sha256": "d6c1b6ca8eb135e3bacd893a898ac7c9d7f3722c972fecef40259ddf2ba7d2a0"
+  },
+  {
+    "image_id": "bsds_216041",
+    "scene_id": "bsds_216041",
+    "lq_path": "data/input/bsds_216041.png",
+    "gt_path": "data/sources/bsds_train/216041.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "mixed"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/216041.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 481,
+    "height": 321,
+    "lq_sha256": "cd16a48161a80924c33c842379b76601a260ea7e1a8d2068230c3ec097925be8",
+    "gt_sha256": "7e55b55f1db1dab5c1f3aaf34d7ea6c88fa16da189d58dacf4fb41bab093f262",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_216041.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_216041.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_216041.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_216041.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_216041.png"
+    },
+    "degradation_seed": 524,
+    "stability_sha256": {
+      "50": "4fb1ce7e7c063e19a5f72a900301fba39d50432ea127247f27de200d39534cce",
+      "100": "30cfe57e3958f52ff5207288aff59754e006ca11d8570440cf5db656ab2a49c1",
+      "150": "255220bdd09a22f66301c8f02df2aa27a93d4af33d119405bb560e6699d198f5",
+      "200": "e212c64604d86f6681f1730d1e8a6e86de347de5d7378081097fabcbf7ec2360"
+    },
+    "candidate_sha256": "e212c64604d86f6681f1730d1e8a6e86de347de5d7378081097fabcbf7ec2360"
+  },
+  {
+    "image_id": "bsds_225017",
+    "scene_id": "bsds_225017",
+    "lq_path": "data/input/bsds_225017.png",
+    "gt_path": "data/sources/bsds_train/225017.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "blur"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/225017.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 321,
+    "height": 481,
+    "lq_sha256": "8ace8ee74e1299efe0ffc59e906ece98879073ec6f5bfcecf4c3da9cb0f7992e",
+    "gt_sha256": "976e768d57a080a70fb8f5b9294614cb20f9fb87d62e627f79e90e7b4f0cb8f2",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_225017.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_225017.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_225017.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_225017.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_225017.png"
+    },
+    "degradation_seed": 525,
+    "stability_sha256": {
+      "50": "f52bc001117ad11a51510084bfe246a2f4779e7501e1ea5fb73e3609853adb4c",
+      "100": "3d92acf9c1c3d5a44a3cd00d20bb9b3f2d63a6c6480d6fe9346f4c8502b4d468",
+      "150": "62e664dceb81c130952900bac9dbf5aa649241e055fe6533666e986d429ebc9f",
+      "200": "f908fb58c151fbfff2b60237fa454fe02ee04d20fb95d93e9f87270b6eeebe5e"
+    },
+    "candidate_sha256": "f908fb58c151fbfff2b60237fa454fe02ee04d20fb95d93e9f87270b6eeebe5e"
+  },
+  {
+    "image_id": "bsds_23025",
+    "scene_id": "bsds_23025",
+    "lq_path": "data/input/bsds_23025.png",
+    "gt_path": "data/sources/bsds_train/23025.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "low_resolution"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/23025.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 321,
+    "height": 481,
+    "lq_sha256": "e9b864c7fd225a24cfdfe7c39b690b898247589ba180392acd7c1fc63ddc25ad",
+    "gt_sha256": "5603852f1c983746485bdf459c83961a9b208d540b838697a863056a9d3446d5",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_23025.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_23025.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_23025.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_23025.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_23025.png"
+    },
+    "degradation_seed": 526,
+    "stability_sha256": {
+      "50": "b624b47cd1ceb63f3d0709f712e7491fe5d98c371d00722dd62bd9ac278b20bc",
+      "100": "021a8621317739b079195fb72003bc2bb66a9883dff1f72b856e1888b4966764",
+      "150": "c9769c7fa081b5649c5de8d5bb85d883ba3b02700df8e11133b2aa8e106b45aa",
+      "200": "35b8a7520d90e32160c22e5db5f7c3f0d43b681ae29146cdafa83093fd0ff602"
+    },
+    "candidate_sha256": "35b8a7520d90e32160c22e5db5f7c3f0d43b681ae29146cdafa83093fd0ff602"
+  },
+  {
+    "image_id": "bsds_23080",
+    "scene_id": "bsds_23080",
+    "lq_path": "data/input/bsds_23080.png",
+    "gt_path": "data/sources/bsds_train/23080.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "noise_jpeg"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/23080.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 481,
+    "height": 321,
+    "lq_sha256": "c141e9abef6cfc5efc774305ec7beb29a3dac1fcf1f0f3cbc36643895771bc8f",
+    "gt_sha256": "e167d0c757e60b9d7832e893a84f04c3afd34627d5d3c3a68b5605161e44d6e7",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_23080.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_23080.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_23080.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_23080.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_23080.png"
+    },
+    "degradation_seed": 527,
+    "stability_sha256": {
+      "50": "162072e0a7e288a403bd116115a8541f9b35f74361d1d9f58040610c23b8c320",
+      "100": "546e037c70d28b79ec790e1c8b05e9e5169b918ec403d1ef1c74d7548984ee07",
+      "150": "dd4985f80237ca29f9016b8c433d979bb8e24e2644857697f2f4c21fe4b7694c",
+      "200": "a7de566a87ecce3b520a5dd2670a5bbc6a8e057d99df7a841e88f58c3725f521"
+    },
+    "candidate_sha256": "a7de566a87ecce3b520a5dd2670a5bbc6a8e057d99df7a841e88f58c3725f521"
+  },
+  {
+    "image_id": "bsds_231015",
+    "scene_id": "bsds_231015",
+    "lq_path": "data/input/bsds_231015.png",
+    "gt_path": "data/sources/bsds_train/231015.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "lowlight_glow"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/231015.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 481,
+    "height": 321,
+    "lq_sha256": "dbda0941ae62c448dd2fe6f00c5eafe1d10d696197c3685c9fcbf5f201b68020",
+    "gt_sha256": "52f766c478c17ca494ae55677b1d77b448d31119c9935b8a2523e04083b9a08e",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_231015.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_231015.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_231015.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_231015.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_231015.png"
+    },
+    "degradation_seed": 528,
+    "stability_sha256": {
+      "50": "c9d40bfe9991c08d1bf4fa460a8dd1956013e88495c476d99843848605a42749",
+      "100": "cb7de9ab214903614b9106a64db3778788b9056fdade7639d2ddef1b61fc89e6",
+      "150": "2d300280ce61a80d394b8ea8a6da2d08b73ed748e5cd79e26cdba45956a32b91",
+      "200": "68ab57cc8c656c46987da2d915e598a6fc25672b78bf1526480e1155be9c76b2"
+    },
+    "candidate_sha256": "68ab57cc8c656c46987da2d915e598a6fc25672b78bf1526480e1155be9c76b2"
+  },
+  {
+    "image_id": "bsds_236017",
+    "scene_id": "bsds_236017",
+    "lq_path": "data/input/bsds_236017.png",
+    "gt_path": "data/sources/bsds_train/236017.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "mixed"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/236017.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 481,
+    "height": 321,
+    "lq_sha256": "4d845740d0c3dd6b6c21bb76e8596eb0063b2bb896453adb00170ff89fa2815c",
+    "gt_sha256": "2122231b75ce09ef22471aefe8a94ff595ca6cd048dadb3174fb6535c8241a38",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_236017.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_236017.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_236017.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_236017.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_236017.png"
+    },
+    "degradation_seed": 529,
+    "stability_sha256": {
+      "50": "5fd3c07e704d27b6e1ad059361d71624ebe60d048617b7e6bd8866e2e4f1c1a4",
+      "100": "ad421879a990fc69f722c153dffe10e8737e496417e22af7bf20a4a2c1f61910",
+      "150": "7abf0666756b5d47f8c570eb923a0b15d4d56efe58d6429bd3bf7af952a7d6a3",
+      "200": "018e06bded75f9081a8313a6fa0e8c1d2afb4f9fb449b8525bed29f9f428fc45"
+    },
+    "candidate_sha256": "018e06bded75f9081a8313a6fa0e8c1d2afb4f9fb449b8525bed29f9f428fc45"
+  },
+  {
+    "image_id": "bsds_245051",
+    "scene_id": "bsds_245051",
+    "lq_path": "data/input/bsds_245051.png",
+    "gt_path": "data/sources/bsds_train/245051.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "blur"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/245051.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 481,
+    "height": 321,
+    "lq_sha256": "1f6a9762e6a2aee3aadf8f277bd35baba94e5c4ebc06607d3be6459075ee3270",
+    "gt_sha256": "cfa804a708b2b742a3edfdf5bffc5038ad8882b999a2eb25275e142cf805f842",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_245051.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_245051.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_245051.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_245051.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_245051.png"
+    },
+    "degradation_seed": 530,
+    "stability_sha256": {
+      "50": "f7ad9c7393954dc18be1135ac3954277f4eeb833a22c5dc749c2646613a7bfbb",
+      "100": "1d45c8bba411788ea15c9eae817b89aab82a8c51b48913ed32d78d0bd58bba62",
+      "150": "48d211e6bdd846a53827dcf8ec7444fbdd1297cb43cf0636b1561c361ba4b4af",
+      "200": "091f3dcf5b7a00c2ae9aae09b421ae928f0433815d0da3348e0d86d633273e32"
+    },
+    "candidate_sha256": "091f3dcf5b7a00c2ae9aae09b421ae928f0433815d0da3348e0d86d633273e32"
+  },
+  {
+    "image_id": "bsds_246016",
+    "scene_id": "bsds_246016",
+    "lq_path": "data/input/bsds_246016.png",
+    "gt_path": "data/sources/bsds_train/246016.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "low_resolution"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/246016.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 321,
+    "height": 481,
+    "lq_sha256": "64586128349d1836a50d1d1647a974de7795d56b544c2e63fd0af4e4026fcba3",
+    "gt_sha256": "f0d4c02752e0883e838911cef69b2a579a5e47776a373d32a135089a999f7480",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_246016.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_246016.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_246016.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_246016.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_246016.png"
+    },
+    "degradation_seed": 531,
+    "stability_sha256": {
+      "50": "93cbb7cc268120a6fae3ac46414861342a81c4aa4c6a303b7a701c045d4a87b3",
+      "100": "3bd942dea526c870c3ecb480b2aa463eabec9f42400f1ed091ba4eb7524cee8d",
+      "150": "bbcd4a6892b7db624b3a6b539b76b4175566990e51b2f51d340e4f989b704f04",
+      "200": "5c5f2ee42dcd99b58acc2b84de13a4ed23451485b217a304033ac72fdef94720"
+    },
+    "candidate_sha256": "5c5f2ee42dcd99b58acc2b84de13a4ed23451485b217a304033ac72fdef94720"
+  },
+  {
+    "image_id": "bsds_249061",
+    "scene_id": "bsds_249061",
+    "lq_path": "data/input/bsds_249061.png",
+    "gt_path": "data/sources/bsds_train/249061.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "noise_jpeg"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/249061.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 481,
+    "height": 321,
+    "lq_sha256": "32e392ca310d140c30e91f5981df85a3777ff8d8307663f352551c1f9c484685",
+    "gt_sha256": "4e7e2815c209ff5a736590464a99bd3ad2cb1ffe6ee75c855973e67e276e0f1e",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_249061.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_249061.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_249061.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_249061.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_249061.png"
+    },
+    "degradation_seed": 532,
+    "stability_sha256": {
+      "50": "a5390ae24b6032b116642c9c737dc779fa8f4581045a9a5f21462f8ff2e8334a",
+      "100": "36f86c1121ca29dff93b21fc9c5265008112ee2ff36cecc7778d99c0b872bfb9",
+      "150": "2c915d2da567771ae41bf3eee4c479596644b5cbc294639fdca7e77496574479",
+      "200": "b6bf9e600631fcb3d530fa029adb19507a413d121699195e9bfb074758bf273b"
+    },
+    "candidate_sha256": "b6bf9e600631fcb3d530fa029adb19507a413d121699195e9bfb074758bf273b"
+  },
+  {
+    "image_id": "bsds_25098",
+    "scene_id": "bsds_25098",
+    "lq_path": "data/input/bsds_25098.png",
+    "gt_path": "data/sources/bsds_train/25098.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "lowlight_glow"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/25098.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 321,
+    "height": 481,
+    "lq_sha256": "7cc9befd41429df08a5d41f863505405f3b38446b84ac1c364ffbfc0fee4531a",
+    "gt_sha256": "4cf953fb3cc6bbb9089483a8bcdc3fb956b3ea9aeb444673f5ab4703fe25705a",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_25098.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_25098.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_25098.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_25098.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_25098.png"
+    },
+    "degradation_seed": 533,
+    "stability_sha256": {
+      "50": "b30c55e0d87912c2b80faec63e16afa9444097c3707dd387e91372a74e4c6e8e",
+      "100": "f5a5d3b9bfd88ea8c52c152e6e626f6b6c517276638883227b49a6ae2e15d43e",
+      "150": "d6ddfee6d70b9d03fc8ab6a7641c416c980859c84b21469d94f7931378cf28b5",
+      "200": "363b19bb6ce4dfcca7643731ed5c6393ac4e1df2b07c09876b7c0c5bb66ebbc0"
+    },
+    "candidate_sha256": "363b19bb6ce4dfcca7643731ed5c6393ac4e1df2b07c09876b7c0c5bb66ebbc0"
+  },
+  {
+    "image_id": "bsds_253036",
+    "scene_id": "bsds_253036",
+    "lq_path": "data/input/bsds_253036.png",
+    "gt_path": "data/sources/bsds_train/253036.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "mixed"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/253036.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 481,
+    "height": 321,
+    "lq_sha256": "006045fecbefa88eff067b8d6abbc16b26165db0392dd6f186dcc1dd2658a0ea",
+    "gt_sha256": "7a54cba62c89a3e4042c000d9f9333f940e5f7c88e18a11e88a6ea5cf771796a",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_253036.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_253036.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_253036.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_253036.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_253036.png"
+    },
+    "degradation_seed": 534,
+    "stability_sha256": {
+      "50": "0080ee3234226f025ea9c5895c53a0b567d15d9b1cda8618dd376d1394564b88",
+      "100": "252ee2666eea08a1e87ec84f1b1b49193d92c0485bd24510909d06cc7be63a93",
+      "150": "b75b2e78bec0e87b4629f1259274ea0edbaf3662e68069b70b9d7ef001737bb9",
+      "200": "9e063df83700147e6e53d13bd0f54e77d47e602fc3488b9ae1393b0ab71b69d0"
+    },
+    "candidate_sha256": "9e063df83700147e6e53d13bd0f54e77d47e602fc3488b9ae1393b0ab71b69d0"
+  },
+  {
+    "image_id": "bsds_254054",
+    "scene_id": "bsds_254054",
+    "lq_path": "data/input/bsds_254054.png",
+    "gt_path": "data/sources/bsds_train/254054.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "blur"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/254054.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 321,
+    "height": 481,
+    "lq_sha256": "91188a6c31a90c27291494ba001db38d7f94f08f7c9e32f65b28d66f78e253a0",
+    "gt_sha256": "d92db03f3a55c6d7e13decc2977ad970935691a19b843ab9e0564d749aea2109",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_254054.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_254054.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_254054.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_254054.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_254054.png"
+    },
+    "degradation_seed": 535,
+    "stability_sha256": {
+      "50": "e63ba75b4a36e2e743c33127ea1f9eac02485a614ff9b65d4f28ebe192646d55",
+      "100": "ee6a5bc4b59874954df0054822b5af13098dc2afe05b2bbf9ca5564f56c53a7a",
+      "150": "147611de189eec963a26edc80c5653a329e541e0f4584c50cfc69edaa2adda2d",
+      "200": "c71326033712c18a88d9a2544c04aa836349d6b6f9f350144b0ae6f72167c0c9"
+    },
+    "candidate_sha256": "c71326033712c18a88d9a2544c04aa836349d6b6f9f350144b0ae6f72167c0c9"
+  },
+  {
+    "image_id": "bsds_27059",
+    "scene_id": "bsds_27059",
+    "lq_path": "data/input/bsds_27059.png",
+    "gt_path": "data/sources/bsds_train/27059.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "low_resolution"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/27059.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 321,
+    "height": 481,
+    "lq_sha256": "5ca9a4765f88360a1a9f92f4d7549adfe8bef4b010f1b6cbf1ec6398fed5cc3c",
+    "gt_sha256": "b2ad41923ca24fbe04b6b291dc8d1ed99eb79ad9060f93d99b4c715ac4684b91",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_27059.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_27059.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_27059.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_27059.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_27059.png"
+    },
+    "degradation_seed": 536,
+    "stability_sha256": {
+      "50": "ca159238dfa566df458e528752924373650b7995807f8e2cd76862035231d49d",
+      "100": "4cd00f51d958c50d68c3b32889c3186b2105a93ac3de0f62a02cb146cd8dba46",
+      "150": "562ac32056776fd1e5119abbbfae91baaa4afe69995b9622cd11089d31eb5a1d",
+      "200": "57318e577aa21c7815e64614864aaa6c18c3299ad158ef636d60c4da676e50bf"
+    },
+    "candidate_sha256": "57318e577aa21c7815e64614864aaa6c18c3299ad158ef636d60c4da676e50bf"
+  },
+  {
+    "image_id": "bsds_271008",
+    "scene_id": "bsds_271008",
+    "lq_path": "data/input/bsds_271008.png",
+    "gt_path": "data/sources/bsds_train/271008.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "noise_jpeg"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/271008.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 481,
+    "height": 321,
+    "lq_sha256": "47102966ff64c3b5156c36f03cdf61b1275039ac06ab716962e518ce8abe7748",
+    "gt_sha256": "51810e553db1d021984d797753285f6dded11db5919a55a131a196d988228450",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_271008.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_271008.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_271008.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_271008.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_271008.png"
+    },
+    "degradation_seed": 537,
+    "stability_sha256": {
+      "50": "23082df3973ac6c81d8f2514795472a02eac9aa619a2ca33f2723c07f4b4cde4",
+      "100": "3a30bcaf7de0f8337c8eff46883da2d77480177808b8ed18e2cd0211ef5ca3da",
+      "150": "0a6a374d8b257f1188922173c07fe602ed0a2c56e76ecb81bffd098ef58b7298",
+      "200": "ea820cb7cf94af520bfe1d2fb7974c7f52317c23fc55de98f6b9996f4b4bfc1f"
+    },
+    "candidate_sha256": "ea820cb7cf94af520bfe1d2fb7974c7f52317c23fc55de98f6b9996f4b4bfc1f"
+  },
+  {
+    "image_id": "bsds_274007",
+    "scene_id": "bsds_274007",
+    "lq_path": "data/input/bsds_274007.png",
+    "gt_path": "data/sources/bsds_train/274007.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "lowlight_glow"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/274007.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 321,
+    "height": 481,
+    "lq_sha256": "75b49faec00b7ebc61f4f9b53f2b7019c475ee184ee3565533cd21744192ef25",
+    "gt_sha256": "c71cd2933b7f209292d204ab1da52e9d707f9115789f08a553b0a62712ba29f9",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_274007.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_274007.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_274007.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_274007.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_274007.png"
+    },
+    "degradation_seed": 538,
+    "stability_sha256": {
+      "50": "f4597b842ea1b1335b546dbb65bfdf428aacf958aa302545ed3ce31bd0256cd0",
+      "100": "f5f612ac581eb18740750fcd71beee38c003635ff8e04aab09df73e9ef651cbb",
+      "150": "885fb295e0d6cae70ecaa54610dc18b80b59a24c7f9e0277d06de36fdb0c3192",
+      "200": "984779c580aa15a9b1c5264ffcc193a1fdfd512e001c1799ab405d6f5ec2c9a5"
+    },
+    "candidate_sha256": "984779c580aa15a9b1c5264ffcc193a1fdfd512e001c1799ab405d6f5ec2c9a5"
+  },
+  {
+    "image_id": "bsds_286092",
+    "scene_id": "bsds_286092",
+    "lq_path": "data/input/bsds_286092.png",
+    "gt_path": "data/sources/bsds_train/286092.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "mixed"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/286092.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 481,
+    "height": 321,
+    "lq_sha256": "6a8e8b36f1fc70d9560d3c934986906159de6fe7dd97c7066fba3ebb310a9523",
+    "gt_sha256": "232614953c26018ca9f1038acf1c58912672be9960f433f35aff53111537ca1b",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_286092.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_286092.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_286092.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_286092.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_286092.png"
+    },
+    "degradation_seed": 539,
+    "stability_sha256": {
+      "50": "bceda2cbd388df4e4f5c0b2a6caf0c3d0d3c91aac202af8811ed7142eb276dc6",
+      "100": "b4ca4d84dc7695813aa341dc146d413be2279d7c86fe088f0d359d53ec3df64b",
+      "150": "ede7865b09fcbd032907fe47a257e37f5b362f120a0d17d7ca73ebc9c30d152d",
+      "200": "2905ae8019d10d078aeaf62dfc073823031a847d24d94043e0824d95241d4416"
+    },
+    "candidate_sha256": "2905ae8019d10d078aeaf62dfc073823031a847d24d94043e0824d95241d4416"
+  },
+  {
+    "image_id": "bsds_309004",
+    "scene_id": "bsds_309004",
+    "lq_path": "data/input/bsds_309004.png",
+    "gt_path": "data/sources/bsds_train/309004.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "blur"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/309004.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 481,
+    "height": 321,
+    "lq_sha256": "4b47bb485b50df07d492114b03d2064a7613f8f93992183e5e61412e40e458fb",
+    "gt_sha256": "6f12849beaa81204d9e2d9af32f78d6d95d09ca5036c61cd9216675dd8d48f14",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_309004.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_309004.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_309004.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_309004.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_309004.png"
+    },
+    "degradation_seed": 540,
+    "stability_sha256": {
+      "50": "f6d49b99e41e62844ebb0866b14b2565203ca00764a70d204f08fe7e4fb7d456",
+      "100": "bc3974789c8ac294603344875613b5507e0e5b49dc82db8efa14d1bd58140561",
+      "150": "ea0da55b32def574f70a42bc53c830bd6e54d801d33a23487921d1cb1cbb9a54",
+      "200": "6ff354826f5bacef0387961cd41d52948b71f9b4e2c201c85f701ccb88a08859"
+    },
+    "candidate_sha256": "6ff354826f5bacef0387961cd41d52948b71f9b4e2c201c85f701ccb88a08859"
+  },
+  {
+    "image_id": "bsds_311081",
+    "scene_id": "bsds_311081",
+    "lq_path": "data/input/bsds_311081.png",
+    "gt_path": "data/sources/bsds_train/311081.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "low_resolution"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/311081.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 321,
+    "height": 481,
+    "lq_sha256": "c02101f1de33c09b723bb70945d08ca00a7a0c055fe389231f9488507e04ee52",
+    "gt_sha256": "c0e14ae2bd9800fe2ea8470eb45a6001aacf85ca884eda65371e6ee21d8ec608",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_311081.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_311081.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_311081.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_311081.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_311081.png"
+    },
+    "degradation_seed": 541,
+    "stability_sha256": {
+      "50": "01d77c0ca2e1331fd06a8e3dc68d50132685d729264df00988379cd8c43a803e",
+      "100": "854c0b39c821fdb3a3737585f6ad5f7a7075cac004a1789c48e9381d5584e17e",
+      "150": "63b6aa14de214e500a7e9565041b1bf8e0d74006ff80d2fc6543100bf291e12c",
+      "200": "139133f23cb9473cb592f0aa3096160c6cd88ed2f4928347e017348c3c04cead"
+    },
+    "candidate_sha256": "139133f23cb9473cb592f0aa3096160c6cd88ed2f4928347e017348c3c04cead"
+  },
+  {
+    "image_id": "bsds_314016",
+    "scene_id": "bsds_314016",
+    "lq_path": "data/input/bsds_314016.png",
+    "gt_path": "data/sources/bsds_train/314016.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "noise_jpeg"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/314016.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 481,
+    "height": 321,
+    "lq_sha256": "5fbd02e3e26ce63886a376ad52b5b8302f9310ca928f2c264c94039a28e2490f",
+    "gt_sha256": "d6c0b2e35420643aa21a16a3a7b480a525d8b7bc7f0ba1f13ba4f10f5d3c280e",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_314016.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_314016.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_314016.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_314016.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_314016.png"
+    },
+    "degradation_seed": 542,
+    "stability_sha256": {
+      "50": "55a29578a25985e97641d6cf0122c40ba693c2b9e6c721796eb680d350604a06",
+      "100": "a5cc50ec28d187d0e4297fe50a91f732c69c37b6a2b8aa567020c578978c4a76",
+      "150": "b453df16e11e58effbb748ec433465e16f9ebcad1936276b4c0895f7f8fd1cde",
+      "200": "74719c897162c550ea08a769006676cb702be50d0dff0b6f670fff4f9e2c2585"
+    },
+    "candidate_sha256": "74719c897162c550ea08a769006676cb702be50d0dff0b6f670fff4f9e2c2585"
+  },
+  {
+    "image_id": "bsds_323016",
+    "scene_id": "bsds_323016",
+    "lq_path": "data/input/bsds_323016.png",
+    "gt_path": "data/sources/bsds_train/323016.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "lowlight_glow"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/323016.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 481,
+    "height": 321,
+    "lq_sha256": "e443f6d58092b81323f3222d68ae639dfe995eecd14c2140387d68c8490c7d07",
+    "gt_sha256": "5ab43672021c622a34fa85931a6f63d10e2c93b297e5c0dd894d3ea25148a42d",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_323016.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_323016.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_323016.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_323016.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_323016.png"
+    },
+    "degradation_seed": 543,
+    "stability_sha256": {
+      "50": "1f736bbcb44547a94f8ad7303c1916c1fd44dd604f13d8a2c8fe91bdbe6c52c9",
+      "100": "1627b1bcce6df2978998ea94e2cbe6ebadc471d8efaf2cb4c4813462c7b58ddb",
+      "150": "ac846b51d99912239cabe7fc2ff56322aefcee09423b506f5e5af0b200f43653",
+      "200": "4ff1d1c63b8c0e64a211ef676f04e8643e1efbb8334ed89cc9af0a3da53031b9"
+    },
+    "candidate_sha256": "4ff1d1c63b8c0e64a211ef676f04e8643e1efbb8334ed89cc9af0a3da53031b9"
+  },
+  {
+    "image_id": "bsds_368078",
+    "scene_id": "bsds_368078",
+    "lq_path": "data/input/bsds_368078.png",
+    "gt_path": "data/sources/bsds_train/368078.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "mixed"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/368078.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 321,
+    "height": 481,
+    "lq_sha256": "560993d31c0a87900ce5a20c9f78eb3938a0d18e3b3fedeff4b2c1d84fb48b13",
+    "gt_sha256": "8b38267196f7b7f608c2eb1db535075d6e5d3b8df9e6180db6ad8bcbd30a8561",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_368078.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_368078.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_368078.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_368078.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_368078.png"
+    },
+    "degradation_seed": 544,
+    "stability_sha256": {
+      "50": "085a953ef13de6dfb1ce7377b5149315d9d4dfc680763c0b930baa5a7536a029",
+      "100": "1e12f9942ace7720d31776d26f7675a628cc582846bbb81686223be5f99b0037",
+      "150": "c0714cdd7ffed83f9027ea62b6900b589a0fd5db5b7a02591192f23627fc7fc1",
+      "200": "4e2a58409dd84611bca1966bd0bea78654f6142a9162ae6ae84b2cb47492044b"
+    },
+    "candidate_sha256": "4e2a58409dd84611bca1966bd0bea78654f6142a9162ae6ae84b2cb47492044b"
+  },
+  {
+    "image_id": "bsds_374020",
+    "scene_id": "bsds_374020",
+    "lq_path": "data/input/bsds_374020.png",
+    "gt_path": "data/sources/bsds_train/374020.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "blur"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/374020.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 481,
+    "height": 321,
+    "lq_sha256": "9e414af1dd4e4541745507ae1fc26d1102529b48c42678662fe1458df19fad67",
+    "gt_sha256": "c4bf625ad708d23f951b3efb0550612098b89ed485d5e076a6ecb441327a5790",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_374020.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_374020.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_374020.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_374020.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_374020.png"
+    },
+    "degradation_seed": 545,
+    "stability_sha256": {
+      "50": "de30b189cf5e7bc66c2e31e9980dc031cc6a66d1de176149bcde8f9d541ccd3f",
+      "100": "7909e41f9ecf31d5c7902a44fcb2157cbc611943fdf794f8793a2a6d77d37dbf",
+      "150": "3769fc3b62961d24a8e6ac0320e5de88372f07b8192bc4fb5e4dd863edd479d5",
+      "200": "0ffa4b9eac3f0ce42759d88bfe3a1c82af4fa26e8194e03f0b93403a9c5ce865"
+    },
+    "candidate_sha256": "0ffa4b9eac3f0ce42759d88bfe3a1c82af4fa26e8194e03f0b93403a9c5ce865"
+  },
+  {
+    "image_id": "bsds_385028",
+    "scene_id": "bsds_385028",
+    "lq_path": "data/input/bsds_385028.png",
+    "gt_path": "data/sources/bsds_train/385028.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "low_resolution"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/385028.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 481,
+    "height": 321,
+    "lq_sha256": "ec173d632e372b2b9ec36f0a529cb82ea8f11e6cd7b61d339a47d6f618de45e9",
+    "gt_sha256": "f77f509acec929bbedf9f641febc8cc57ba5db26677606357af94837a5218b86",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_385028.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_385028.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_385028.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_385028.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_385028.png"
+    },
+    "degradation_seed": 546,
+    "stability_sha256": {
+      "50": "98991b5fe06635ae4fd8620538f8a42eed63141f11aac33a8e611df6a9ce51e4",
+      "100": "261ec9a6e094055d4fb82ecc772d420492f39733caeefbd72ebac67a5689d99e",
+      "150": "a41f02cb1720c9761102849965ba179d764642c0dd722eaae095e1f127d03512",
+      "200": "cbd5426a0382c8d818df8bc9e484fb395c9294c0f9733b94b11c64f516a10330"
+    },
+    "candidate_sha256": "cbd5426a0382c8d818df8bc9e484fb395c9294c0f9733b94b11c64f516a10330"
+  },
+  {
+    "image_id": "bsds_41004",
+    "scene_id": "bsds_41004",
+    "lq_path": "data/input/bsds_41004.png",
+    "gt_path": "data/sources/bsds_train/41004.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "noise_jpeg"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/41004.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 481,
+    "height": 321,
+    "lq_sha256": "7545b9799913dda1f06c10a120dadecaca87f8136f37b18650989cba57333e56",
+    "gt_sha256": "18ab4ca2c20426fad316757ea6ab3b260fa6ea37ccff518cd4a7cc329091991b",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_41004.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_41004.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_41004.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_41004.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_41004.png"
+    },
+    "degradation_seed": 547,
+    "stability_sha256": {
+      "50": "90e05229a095d07c257dcd10ce228b8f986fc28ab4c9dfde9224e569f5b0a7a3",
+      "100": "a8388c4e307d6e3787f0a566da2f8e35bb2c55c3040a2e0d54ec1d7e9d9d5030",
+      "150": "31f6c2daf8dd55247eee5f2fb8a7f4f176f975c335af63b652bce625eaaa61e5",
+      "200": "c00e04952d1cf4d7459e280368b27fb4939078276467d653efd2dea59e2bff04"
+    },
+    "candidate_sha256": "c00e04952d1cf4d7459e280368b27fb4939078276467d653efd2dea59e2bff04"
+  },
+  {
+    "image_id": "bsds_45077",
+    "scene_id": "bsds_45077",
+    "lq_path": "data/input/bsds_45077.png",
+    "gt_path": "data/sources/bsds_train/45077.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "lowlight_glow"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/45077.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 481,
+    "height": 321,
+    "lq_sha256": "073f858c0d6fc26fb37723d72f2bcc7243340cb2a3b70705f61e2dfa7e8c25d8",
+    "gt_sha256": "be1cc8eccd4d479e7c7af652b445813caba0078fa53214ef8b29daef2040fbe2",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_45077.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_45077.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_45077.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_45077.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_45077.png"
+    },
+    "degradation_seed": 548,
+    "stability_sha256": {
+      "50": "8a2d05a126d9b9f6b344628511ba38be344fb6d869af416663c5ac36bbdd5f4a",
+      "100": "5522d68d0f42a1ea2d4de4380035694450fb301ceaa91a0e44522dda55838ad5",
+      "150": "698b856874e81107793b37669993aa22b020a8ad795e662c829c29a3bd03287d",
+      "200": "1429e532dae24e6ac72e6b4dd20cf48229c7daf805937f89cbb1156e5c203163"
+    },
+    "candidate_sha256": "1429e532dae24e6ac72e6b4dd20cf48229c7daf805937f89cbb1156e5c203163"
+  },
+  {
+    "image_id": "bsds_46076",
+    "scene_id": "bsds_46076",
+    "lq_path": "data/input/bsds_46076.png",
+    "gt_path": "data/sources/bsds_train/46076.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "mixed"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/46076.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 321,
+    "height": 481,
+    "lq_sha256": "2ebbcfaa281c42634a62db87d0e17694b42958ddc5fc6ccfe890d6533c1c0e6d",
+    "gt_sha256": "0dd7dd057a991aba7b44e809a3d03aaf75c8ab889f8b56c5cd1eb1493246f0f8",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_46076.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_46076.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_46076.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_46076.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_46076.png"
+    },
+    "degradation_seed": 549,
+    "stability_sha256": {
+      "50": "9bfce2bb16ef03cfdb5c5ccad023adf0c5f56d84c4812af4ba3fde223bb7a959",
+      "100": "282f86ed4d738522443eec7d471a71a0866d475bca0538be880254e14a43f782",
+      "150": "ec434952116e801c157ce3230220f18b98128b54c20fe5802264cfece156db49",
+      "200": "a243ed58415145a19a3c208a334aa619961d98229c1b2fab12b093205b4d03cf"
+    },
+    "candidate_sha256": "a243ed58415145a19a3c208a334aa619961d98229c1b2fab12b093205b4d03cf"
+  },
+  {
+    "image_id": "bsds_59078",
+    "scene_id": "bsds_59078",
+    "lq_path": "data/input/bsds_59078.png",
+    "gt_path": "data/sources/bsds_train/59078.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "blur"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/59078.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 481,
+    "height": 321,
+    "lq_sha256": "97cee02c68e3d7c467281bfd45fefa4d5fa8706f7f280fadabf22b327282148b",
+    "gt_sha256": "0c17430f9e2250cf5a60e10cb65079cf8df3dad8881a2e7bb5a23e24bf0803e4",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_59078.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_59078.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_59078.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_59078.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_59078.png"
+    },
+    "degradation_seed": 550,
+    "stability_sha256": {
+      "50": "1a2bc3b964e54d107a16628bcadd32c0fe75799538ba5bd79f5084d7891bfcc7",
+      "100": "73522c62a562be11b20c6eae1e5993c00273d777c8b9d10d25605c559dbbbe5b",
+      "150": "ed3aa79486fe365c2a3f2bfee24cc72488ad4927cfaf3c58c1ffbed872955d94",
+      "200": "b8ef0b938b6fc673677eae380998fb7b90eba71975d5597cdc01629d22c7a7f0"
+    },
+    "candidate_sha256": "b8ef0b938b6fc673677eae380998fb7b90eba71975d5597cdc01629d22c7a7f0"
+  },
+  {
+    "image_id": "bsds_61086",
+    "scene_id": "bsds_61086",
+    "lq_path": "data/input/bsds_61086.png",
+    "gt_path": "data/sources/bsds_train/61086.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "low_resolution"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/61086.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 321,
+    "height": 481,
+    "lq_sha256": "90067a5622fb2de7ff0a4c86b73a404f7057af89ce999e7897e8db297d04e8f5",
+    "gt_sha256": "e35da38a9202415a56cb5eeb4ce33cd83f39035a4098193881072f85968cf7e6",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_61086.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_61086.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_61086.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_61086.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_61086.png"
+    },
+    "degradation_seed": 551,
+    "stability_sha256": {
+      "50": "fa00743b4dedef9d205b76e81d9b3edc77e9bd415747263e57013c74d2081ee2",
+      "100": "44c3b89ab971d1721e9706046cc498ec4562ac8213828fef8a6e034e46cfa95f",
+      "150": "24951c1691e3944c121da8f2f5a72e13feac43053d64f28cf4245ba16342a079",
+      "200": "6e43727908b070a7de27ecd523ff41aaeedd84370a95b84def13267bd98f5066"
+    },
+    "candidate_sha256": "6e43727908b070a7de27ecd523ff41aaeedd84370a95b84def13267bd98f5066"
+  },
+  {
+    "image_id": "bsds_76002",
+    "scene_id": "bsds_76002",
+    "lq_path": "data/input/bsds_76002.png",
+    "gt_path": "data/sources/bsds_train/76002.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "noise_jpeg"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/76002.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 481,
+    "height": 321,
+    "lq_sha256": "969cd35a0874b0aebfd43612aefe5483746c83507a2f8a1206d1451cba5ee0a0",
+    "gt_sha256": "3b6097fcf9468966497876ef6a6717b4fe0f56767053936b718161a8dca75f04",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_76002.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_76002.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_76002.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_76002.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_76002.png"
+    },
+    "degradation_seed": 552,
+    "stability_sha256": {
+      "50": "540b32e40536dce8b4e37f37eadc38205447833ec9dd4a1a2d63b5046dd7b93f",
+      "100": "0017b18258e9065b5365675aca614d0cca9cf079c7e04d3ea2683c02b7a3cf0d",
+      "150": "cbf86ba4c4d6decb2e2f0b8785428741c73cf6be8570c57ddee371fdd2bd3100",
+      "200": "105d9381c837db8d4bf6cb185f55820e8bb8a1638011e90a65112c9d531147a4"
+    },
+    "candidate_sha256": "105d9381c837db8d4bf6cb185f55820e8bb8a1638011e90a65112c9d531147a4"
+  },
+  {
+    "image_id": "bsds_80099",
+    "scene_id": "bsds_80099",
+    "lq_path": "data/input/bsds_80099.png",
+    "gt_path": "data/sources/bsds_train/80099.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "lowlight_glow"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/80099.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 481,
+    "height": 321,
+    "lq_sha256": "072919d5390e290bc77d19e03f4cfb1125af5ca6648ef1908270c6898b4a43eb",
+    "gt_sha256": "e56ed8b4ecb8246ed8096360bcebc13a4489872520d665c39be34915cf51db88",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_80099.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_80099.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_80099.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_80099.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_80099.png"
+    },
+    "degradation_seed": 553,
+    "stability_sha256": {
+      "50": "1e03f258aaa83fc22787909713190fbdac067de0125b87448ea0f59868289136",
+      "100": "bb33118cda617eee2c0e8fc64676783ffd799bd0bad08ef5606d6cde6a4b00a6",
+      "150": "e902010043060775fd1dd8eb5b004ff0d3561cd732f416e6f429bf46c33fa199",
+      "200": "32d0f37ea501481be39abd56fa21ef8c83e1c3f04f5895280522a64fd4b84c05"
+    },
+    "candidate_sha256": "32d0f37ea501481be39abd56fa21ef8c83e1c3f04f5895280522a64fd4b84c05"
+  },
+  {
+    "image_id": "bsds_92059",
+    "scene_id": "bsds_92059",
+    "lq_path": "data/input/bsds_92059.png",
+    "gt_path": "data/sources/bsds_train/92059.jpg",
+    "scene_category": "unreviewed_natural_scene",
+    "degradation_tags": [
+      "mixed"
+    ],
+    "source": "BIDS/BSDS500@a04b7c6c3a9f0ace74bf205c72a43d32e1c72722/train/92059.jpg",
+    "domain": "synthetic_bsds",
+    "pairing_verified": true,
+    "alignment_verified": true,
+    "alignment_method": "deterministic same-coordinate synthetic degradation; no geometry transform",
+    "split": "validation",
+    "width": 321,
+    "height": 481,
+    "lq_sha256": "ef3c0e333cceaee65ab61727c4810b465e269777711421b4813d053df8738ff8",
+    "gt_sha256": "71cf42a1550c534cefb59fe712635ab25682b2239300bb53983f16cb81e0ed3b",
+    "candidate_path": "outputs/hypir/coeff_200/result/bsds_92059.png",
+    "stability_paths": {
+      "50": "outputs/hypir/coeff_50/result/bsds_92059.png",
+      "100": "outputs/hypir/coeff_100/result/bsds_92059.png",
+      "150": "outputs/hypir/coeff_150/result/bsds_92059.png",
+      "200": "outputs/hypir/coeff_200/result/bsds_92059.png"
+    },
+    "degradation_seed": 554,
+    "stability_sha256": {
+      "50": "ebb7222bfed9a3e0b5bef5d01d0fa0f23f0afb4eb12927525ac80fdcbf2288b0",
+      "100": "5c75a38b4b5850aed92528cf27061a320a2fb4c5f5fbece09a5d94c5c2442543",
+      "150": "d5e5647fc4a65fd9e7980d8268cdbb935e0a0bf43f6aaf1e22f920b680bc0c72",
+      "200": "cdcfbccdf2de5b3dba49c7d0994005752a53e87385376cae0c15bc09468ac3cb"
+    },
+    "candidate_sha256": "cdcfbccdf2de5b3dba49c7d0994005752a53e87385376cae0c15bc09468ac3cb"
+  }
+]

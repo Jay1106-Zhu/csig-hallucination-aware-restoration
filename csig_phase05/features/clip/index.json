@@ -1,0 +1,13 @@
+{
+  "row_index": "../index.csv",
+  "blocks": {
+    "clip": {
+      "file": "clip.npy",
+      "shape": [
+        1160,
+        1024
+      ],
+      "sha256": "208f9ba857ac34077260903b1e01c7a6689bed47215e46997c0752416335d780"
+    }
+  }
+}

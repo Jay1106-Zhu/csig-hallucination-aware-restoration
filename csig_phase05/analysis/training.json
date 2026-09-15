@@ -1,0 +1,13 @@
+{
+  "seconds": 37.13788699998986,
+  "checkpoint_count": 324,
+  "run_count": 68,
+  "primary_model": "mixed_groupcv_psnr_benefit_V7_logistic_505",
+  "seed_selection": "none; logistic deterministic, all MLP seeds reported",
+  "features_sha256": "d1eeb7f91510be61cfcfa2fff328678e64b6dec3c86f594c49df067f26d6b45d",
+  "label_sha256": "2c7e33814c2ceef8726f34e6341888762279f6445e05178893c558a11c2b2bc4",
+  "scaling": "training-only scene-balanced mean and variance",
+  "weighting": "equal total loss weight per scene; no outcome-based class reweighting",
+  "target_limit": "quality proxies only; human hallucination and usefulness conjunction remain pending",
+  "test_data_used": false
+}

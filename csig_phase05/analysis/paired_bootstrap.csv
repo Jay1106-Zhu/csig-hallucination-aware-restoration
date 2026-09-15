@@ -1,0 +1,16 @@
+domain,metric,comparison,coverage,image_count,mean_difference,lower_95,upper_95,draws,unit,seed
+all,damage_rate,V7 logistic minus fixed random,0.5,55,0.008712121212121211,-0.0009469696969696976,0.02727272727272727,2000,paired source image,505
+all,psnr_gain,V7 logistic minus fixed random,0.5,55,-0.17963736172725026,-0.41401352678448466,0.019870878706757775,2000,paired source image,505
+all,ssim_gain,V7 logistic minus fixed random,0.5,55,-0.00043261017170593527,-0.016472788437050908,0.014190930303637729,2000,paired source image,505
+all,lpips_gain,V7 logistic minus fixed random,0.5,55,-0.00881109306523506,-0.022298510596295024,0.004979517578544654,2000,paired source image,505
+all,dists_gain,V7 logistic minus fixed random,0.5,55,-0.0006252387482108491,-0.006933994305348305,0.005583828558129342,2000,paired source image,505
+real_csig,damage_rate,V7 logistic minus fixed random,0.5,5,-0.004166666666666674,-0.00833333333333337,0.0,2000,paired source image,505
+real_csig,psnr_gain,V7 logistic minus fixed random,0.5,5,-0.04120106995584609,-0.43986718835810634,0.3320240199081072,2000,paired source image,505
+real_csig,ssim_gain,V7 logistic minus fixed random,0.5,5,0.004670726523424191,2.395336205760967e-05,0.007511720123390358,2000,paired source image,505
+real_csig,lpips_gain,V7 logistic minus fixed random,0.5,5,-0.0018235774080191448,-0.011046693508978935,0.005768769800973433,2000,paired source image,505
+real_csig,dists_gain,V7 logistic minus fixed random,0.5,5,0.0005943583945433303,-0.008673876912022632,0.007187130053838092,2000,paired source image,505
+synthetic_bsds,damage_rate,V7 logistic minus fixed random,0.5,50,0.01,0.0,0.03,2000,paired source image,505
+synthetic_bsds,psnr_gain,V7 logistic minus fixed random,0.5,50,-0.19348099090439072,-0.44189757535458984,0.018136096489788135,2000,paired source image,505
+synthetic_bsds,ssim_gain,V7 logistic minus fixed random,0.5,50,-0.0009429438412189484,-0.018995924808084964,0.015074587315320964,2000,paired source image,505
+synthetic_bsds,lpips_gain,V7 logistic minus fixed random,0.5,50,-0.00950984463095665,-0.025103752890601756,0.004827147787436841,2000,paired source image,505
+synthetic_bsds,dists_gain,V7 logistic minus fixed random,0.5,50,-0.0007471984624862671,-0.007697454065084457,0.006058430060744285,2000,paired source image,505

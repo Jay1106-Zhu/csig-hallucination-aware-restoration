@@ -1,0 +1,70 @@
+{
+  "feature_row_order": "features/index.csv",
+  "global_dimension": 384,
+  "clip_dimension_per_view": 512,
+  "pairwise_order": [
+    "LQ384",
+    "restored384",
+    "absolute_difference384",
+    "elementwise_product384",
+    "cosine1",
+    "L2_distance1"
+  ],
+  "token_summary16": [
+    "same_position_disagreement_mean",
+    "same_position_disagreement_std",
+    "same_position_disagreement_median",
+    "same_position_disagreement_q90",
+    "nearest_token_displacement_mean",
+    "nearest_token_displacement_std",
+    "nearest_token_displacement_q90",
+    "nearest_token_displacement_gt1_fraction",
+    "normalized_residual_mean",
+    "normalized_residual_std",
+    "local_match_cosine_mean",
+    "local_match_cosine_std",
+    "global_nearest_cosine_mean",
+    "top10pct_disagreement_mean",
+    "max_disagreement",
+    "nearest_is_same_position_fraction"
+  ],
+  "structure_order37": [
+    "gradient7",
+    "laplacian7",
+    "highpass7",
+    "orientation_difference_mean",
+    "orientation_valid_fraction",
+    "abs_orientation_histogram_difference8",
+    "LQ_edge_fraction",
+    "restored_edge_fraction",
+    "edge_xor_fraction",
+    "edge_iou",
+    "LQ_to_restored_boundary_distance",
+    "restored_to_LQ_boundary_distance"
+  ],
+  "structure_seven_stats": [
+    "LQ_mean",
+    "restored_mean",
+    "LQ_std",
+    "restored_std",
+    "absolute_residual_mean",
+    "absolute_residual_std",
+    "absolute_residual_q90"
+  ],
+  "stability12": [
+    "pixel_variance_mean",
+    "pixel_variance_std",
+    "pixel_variance_q90",
+    "edge_variance_mean",
+    "LPIPS_to_main_mean",
+    "LPIPS_to_main_std",
+    "LPIPS_to_main_max",
+    "normalized_CLS_variance_mean",
+    "normalized_CLS_variance_max",
+    "normalized_token_variance_sum_mean",
+    "normalized_token_variance_sum_std",
+    "normalized_token_variance_sum_q90"
+  ],
+  "stats24": "unchanged Phase0 statistical_features: per-view RGB means3/std3, edge fraction, laplacian variance, highband FFT fraction, gray std; residual abs mean/std/MSE/q95",
+  "no_gt_no_image_id_no_position_features": true
+}

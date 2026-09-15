@@ -1,0 +1,32 @@
+{
+  "weights": [
+    {
+      "source": "torchvision pretrained checkpoint",
+      "name": "alexnet-owt-7be5be79.pth",
+      "sha256": "7be5be791159472b1fbf3c69796f7cb30dca7ad8466c2df70058c37116cdee02"
+    },
+    {
+      "source": "torchvision pretrained checkpoint",
+      "name": "vgg16-397923af.pth",
+      "sha256": "397923af8e79cdbb6a7127f12361acd7a2f83e06b05044ddf496e83de57a5bf0"
+    },
+    {
+      "source": "LPIPS alex calibrated v0.1",
+      "name": "alex.pth",
+      "sha256": "df73285e35b22355a2df87cdb6b70b343713b667eddbda73e1977e0c860835c0"
+    },
+    {
+      "source": "DISTS alpha beta 0.1",
+      "name": "weights.pt",
+      "sha256": "f5e65c96230b7f6ca995691647d482237e4cab8a50c5c4a5784f219ef0748218"
+    }
+  ],
+  "frozen": true,
+  "DISTS_loading": "load_weights=False then copy official alpha/beta from installed package; no third-party source modification",
+  "LPIPS_input": "RGB float[-1,1]",
+  "DISTS_input": "RGB float[0,1]",
+  "region_geometry": "native valid pixels; min side64 fallback, observed min65",
+  "full_image_geometry": "long side <=1024 for perceptual only, area resize; native PSNR/SSIM",
+  "SSIM": "RGB Gaussian11 sigma1.5, valid center average",
+  "psnr_zero_mse": "MSE floored at1e-12 to keep finite JSON values; no identical LQ/candidate-vs-GT region observed"
+}

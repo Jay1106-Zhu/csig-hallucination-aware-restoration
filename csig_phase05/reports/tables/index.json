@@ -1,0 +1,94 @@
+{
+  "tables": [
+    {
+      "path": "../../analysis/ablation_comparisons.csv",
+      "sha256": "742308e8450bb9c84224ce8efd77fb5388118fcc6360401cb695d1785e80b062",
+      "bytes": 8601
+    },
+    {
+      "path": "../../analysis/image_metrics.csv",
+      "sha256": "71e0805cd71af57e231a5a17a3e360864b62ad48a97b9f634ba6ad9705fcdeb3",
+      "bytes": 20663
+    },
+    {
+      "path": "../../analysis/label_distribution.csv",
+      "sha256": "e942d63b5198f97f48e9740ddb9ec311d2133d0e9944ccf9ba931969459066b5",
+      "bytes": 6868
+    },
+    {
+      "path": "../../analysis/oof_predictions.csv",
+      "sha256": "8e4f6c095ecf7c82c661b66867134c4ae078d2b11f190c6a920aa561a518cd00",
+      "bytes": 10730466
+    },
+    {
+      "path": "../../analysis/oracle_upper_bound.csv",
+      "sha256": "0794b8075a202350a6e6a3d04b699e321c1d7da5ac14d81eeecac6b55e4001b4",
+      "bytes": 34366
+    },
+    {
+      "path": "../../analysis/paired_bootstrap.csv",
+      "sha256": "1957ac640414ca8659d218edacfa3c5b68069bf74bb18dbeaad3e3e4892b3eb2",
+      "bytes": 2319
+    },
+    {
+      "path": "../../analysis/region_index.csv",
+      "sha256": "373edcd37003844dded8c4b045e77aeb27fc942ca15c52104fcdb4f6a5d49335",
+      "bytes": 154517
+    },
+    {
+      "path": "../../analysis/region_metrics.csv",
+      "sha256": "2c7e33814c2ceef8726f34e6341888762279f6445e05178893c558a11c2b2bc4",
+      "bytes": 310501
+    },
+    {
+      "path": "../../analysis/restoration_gain.csv",
+      "sha256": "2c7e33814c2ceef8726f34e6341888762279f6445e05178893c558a11c2b2bc4",
+      "bytes": 310501
+    },
+    {
+      "path": "../../analysis/risk_coverage.csv",
+      "sha256": "7ab6dce8124c97c5b3a106e54ede7d78bf2edf1c0f881b71b7703dcc3ee5fe18",
+      "bytes": 9768926
+    },
+    {
+      "path": "../../analysis/risk_coverage_summary.csv",
+      "sha256": "c17ca6f98340405a59f0b77d184c5cae6b458bd5c652b7b973c7450220c43dcf",
+      "bytes": 431058
+    },
+    {
+      "path": "../../analysis/scene_group_metrics.csv",
+      "sha256": "cb7e9cd4e354f3ca99550c36cb9dc942fab69975026a0ebd8ca420855acbb5a8",
+      "bytes": 894
+    },
+    {
+      "path": "../../analysis/selective_fusion_metrics.csv",
+      "sha256": "31955a951b2bc42f6e2b81de4e78fb62a25a8046ec619557c6bd488e17212728",
+      "bytes": 91272
+    },
+    {
+      "path": "../../analysis/selective_fusion_summary.csv",
+      "sha256": "d4da03b84c5c1e1b7871400c5bd9108d653dc2449d000d14b354267206a37931",
+      "bytes": 4665
+    },
+    {
+      "path": "../../analysis/trust_targets.csv",
+      "sha256": "10547d6528eb399cbe1022cd413cf7fa3f0bc6106122001efed11dc93fd33670",
+      "bytes": 31688
+    },
+    {
+      "path": "../../analysis/verifier_metrics.csv",
+      "sha256": "d21b48c9eda011818edae7736e11d00e77e7bc3f8aaee5417e6578e48aeae5e3",
+      "bytes": 49024
+    },
+    {
+      "path": "../../analysis/verifier_per_image.csv",
+      "sha256": "8b7ca87315a8fa490137089f3092e19adf2c1cc365fa616cbdbcb99c93873c16",
+      "bytes": 651644
+    },
+    {
+      "path": "../../analysis/verifier_summary.csv",
+      "sha256": "d21b48c9eda011818edae7736e11d00e77e7bc3f8aaee5417e6578e48aeae5e3",
+      "bytes": 49024
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "row_index": "../index.csv",
+  "blocks": {
+    "dino_lq": {
+      "file": "dino_lq.npy",
+      "shape": [
+        1160,
+        384
+      ],
+      "sha256": "82e27bf50d1e76b679370b96ad8affe62de95f53940bd0331fbd907c898bb28e"
+    },
+    "dino_restored": {
+      "file": "dino_restored.npy",
+      "shape": [
+        1160,
+        384
+      ],
+      "sha256": "ee95fe1135f29ffc16baffdcb43011139799767c08e1c4a97836fb174b119c45"
+    },
+    "pairwise": {
+      "file": "pairwise.npy",
+      "shape": [
+        1160,
+        1538
+      ],
+      "sha256": "7e7b0ab839ae27c564c50869a6a8071181009280f8fff0054d4fa5d2c87a0d6e"
+    }
+  }
+}

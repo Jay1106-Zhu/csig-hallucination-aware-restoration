@@ -1,0 +1,10 @@
+{
+  "reviewed_human_regions": 0,
+  "status": "pending independent human annotations",
+  "psnr_bad_vs_hallucination_confusion": null,
+  "psnr_vs_human_spearman": null,
+  "token_vs_human_spearman": null,
+  "stability_vs_human_spearman": null,
+  "per_type_detectability": null,
+  "hallucination_trained_verifier": "not trained; independent reviewed scene coverage required"
+}

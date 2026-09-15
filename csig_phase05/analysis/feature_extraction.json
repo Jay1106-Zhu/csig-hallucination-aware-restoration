@@ -1,0 +1,208 @@
+{
+  "seconds": 226.37637759995414,
+  "feature_shapes": {
+    "dino_lq": [
+      1160,
+      384
+    ],
+    "dino_restored": [
+      1160,
+      384
+    ],
+    "clip": [
+      1160,
+      1024
+    ],
+    "pairwise": [
+      1160,
+      1538
+    ],
+    "token256": [
+      1160,
+      16
+    ],
+    "token512": [
+      1160,
+      16
+    ],
+    "structure": [
+      1160,
+      37
+    ],
+    "stability": [
+      1160,
+      12
+    ],
+    "stats": [
+      1160,
+      24
+    ]
+  },
+  "variants": {
+    "V1": [
+      1160,
+      768
+    ],
+    "V2": [
+      1160,
+      1538
+    ],
+    "V3": [
+      1160,
+      32
+    ],
+    "V4": [
+      1160,
+      37
+    ],
+    "V5": [
+      1160,
+      12
+    ],
+    "V6": [
+      1160,
+      1575
+    ],
+    "V7": [
+      1160,
+      1587
+    ],
+    "V8": [
+      1160,
+      1816
+    ],
+    "C1_lq": [
+      1160,
+      384
+    ],
+    "C1_restored": [
+      1160,
+      384
+    ],
+    "C1_absdiff": [
+      1160,
+      384
+    ],
+    "C3_token256": [
+      1160,
+      16
+    ],
+    "C3_token512": [
+      1160,
+      16
+    ],
+    "C5_pair_stability": [
+      1160,
+      1550
+    ]
+  },
+  "index_sha256": "b709106dbf08d6c3f64e7e4e8718824a03b8952fc8762c4d6619910d40087e79",
+  "features_sha256": "d1eeb7f91510be61cfcfa2fff328678e64b6dec3c86f594c49df067f26d6b45d",
+  "scene_hashes": {
+    "case1": "3b85e73d732aec6ad1921de3db747795c061bc80edb0bf3aeb84085d2ef478b9",
+    "case2": "0a140b56f7260a904d1b1c850026cb4f4d1ac973edc5abae92b7321b0380edfb",
+    "case3": "d339b3109678900826ed6774e0dbb8643b6c2912b2fca613154a5c83619c8150",
+    "case4": "5fdb05a35170ef50b9213e9527825a98d8d8f94671a54dff363525afe54e9937",
+    "case5": "9b0e4455d6e2aa02800641743a6213ea82e78550fb2ec8c3873143ae6c98c807",
+    "bsds_100098": "7fa001b5ec960c06dab056912bd9d1f2f0f7f6875d63766a6b8cb9df8e2d6065",
+    "bsds_106025": "92da9bd5e649d2dd7926b3c4bf9c12a68d96c897affdd936464f308cd0ee969b",
+    "bsds_112082": "9dc966e59afd962d73afee6e3fb0ed46362ea5c13916485ccdbb7c50628d0d4f",
+    "bsds_138078": "1cee9529de893aebae83f66a083aff71bfb5c8bb5ff447cd114cb404fedf1099",
+    "bsds_140055": "5d76a6c067706d104dba67b0166a27a2c5bfc083ecafa765c36abed0561b0393",
+    "bsds_147021": "f9fa8fdc454c54a11b0480a3b5001b013a93cb760605f8d90472e243268c5d79",
+    "bsds_153077": "5be916b1217954e189880c8addd21827296658281b52877f71db46b839be4443",
+    "bsds_159029": "614230ff559098a75de7379b21a05de5272b10197ef5fbf1ab21b9e2819ec299",
+    "bsds_159045": "ffd3f1b7ad3397110916dfb4e2f19e6998677e0b5464f7b4cfa16375ba38c2fe",
+    "bsds_159091": "d25ef05e75d9c4f02f011945d5017686b2abee3da1a06d9cf60816a378863d16",
+    "bsds_164074": "cf1fe2bcbd098dd760aab498ce5b84168dbeb66131921221d7214b1cce842cd3",
+    "bsds_166081": "82f84ac1c35ca761a9e12b4382afb91928e9de265bff4f9e5c82ba4cec0568d0",
+    "bsds_176039": "9717a21d3660f59cb040c6517db2e2bcabca7a6f598807f0f5b43c61778bc0f9",
+    "bsds_183055": "87177d527d343902bb9616c4494581e34e46dac5c584b7f0d78df0246e53a636",
+    "bsds_187029": "e2ce367b1d05cbc48a73d8a63e94bc7b10ac5b06c8d9267f3b0035009830bb44",
+    "bsds_188063": "89c81d42d6a532241a633d31558299688364614d37c6d65304f4cd48959b20a9",
+    "bsds_198023": "b824452f145fcd5628f77059f6aa60d60696348c2513f9bea332c107ff2bb75d",
+    "bsds_198054": "b1480efb7236cde0bb37e13b21f4c8cfa570b7684c7a0213045d0d29eb877fa3",
+    "bsds_20008": "8a2fe4bf3d092a3b6e22524ebed95cd86704b282e70de484741f028896886761",
+    "bsds_216041": "fae4de048978d0db86a42858f72ee2902c88b376576d8072c0fb96d4a8af1288",
+    "bsds_225017": "65e0592628fe80010d3e66cfe17de9c27fd99ba393ea997d592a127933f9b230",
+    "bsds_23025": "2659eab7e73c1c1bc21207eaebf57411ff6d6f718f0f4294af3ded2effeda0e3",
+    "bsds_23080": "bb89cb7a0b9ace00bd96126f61af3cf61869279bf3f8d01c5ac2705506d3a7cb",
+    "bsds_231015": "d6c60c4b24bbd36eca4f6930defe1d4f6ebc91ee08601ac5f90aa7402f291328",
+    "bsds_236017": "7ae3f018c5558e4d1fa9a72a7b9f05b83ea56627bb6c39843c0071ce9ee16b10",
+    "bsds_245051": "8276fc5617a823c9e7c6e8fcae34fe5b3163a7741079b0007e00384fc4cd084c",
+    "bsds_246016": "c1e76bde0d424d76270d88396a084bbbe92b2f766be0b774b8bdffa745daa353",
+    "bsds_249061": "df32e13255a9fd548af8be72762765c14b243ca0738714055d54b2d19b137cf1",
+    "bsds_25098": "666262a19a4b942ad5dc1c682675a20583a84bc83145e29ca9bb08239699989b",
+    "bsds_253036": "f3df109bbf4d7461a8853d1a6ff0145d8909ddfa094cf67ed8f310210f5b2117",
+    "bsds_254054": "eaa96e574219b7cebf1a31098986fdac63b390bf78d194dd4ad76676a92ed4a1",
+    "bsds_27059": "1c4934656e9e438ddf50664296d89d58df4538be808949cb5217262b7314f7b2",
+    "bsds_271008": "39be151f217f5f2a88b1e7a44c60e7fa09b5893a11dd1a2a0e00732743596194",
+    "bsds_274007": "10a44f4811d2fcc6a8126150bafd3892c9bdf8a61d233f49bbdfa716383292a7",
+    "bsds_286092": "ccd5609bdccceefc7d539f4a043dc507f568364752aaaaf0ace4991f15d2e3b1",
+    "bsds_309004": "e968524a505bd94e9d84b6f4325577d9c512f71fe9aabc1f42dfbe027d114d48",
+    "bsds_311081": "32f612c5485e18c2861bec8ea897af730a6e52b0e270bbc57c1330202794c1d2",
+    "bsds_314016": "b169ec22f66db30f1f7fad0501fdd1790e30037faedcb2632cf5cef379137da4",
+    "bsds_323016": "542e29a057bcabee77c07dcf99c134d7881f3db463e3de9babf7fcfe93d04ef4",
+    "bsds_368078": "51271309bc38c8737c3d5eab6b730fe3a83bd18627a45b9402300bfb084d24ab",
+    "bsds_374020": "00cc85ed5d53e095b666318053ca691282ad95e05824cdd0f847e8ea3fd42eec",
+    "bsds_385028": "464431222b15807efb6ca901db5bb6d7062d31d5ecedd05781f7f736430dbc58",
+    "bsds_41004": "4ce5cf5dd45772130c0ce89169fcd93e370e8306fad7ca8181e862303e76fc3b",
+    "bsds_45077": "851a71999cb9342208a567f928f5ab656c33b43f244e5f02b2e53ff986cc3874",
+    "bsds_46076": "a587337829523f151437bd1555048f571c72bd90a57d81c95891096fbec22594",
+    "bsds_59078": "3dad0c261fe418664dc689bb79a0dfc95acdd59af6c9a4dc5e695495aa8b064c",
+    "bsds_61086": "79c4430a855976b79b023c505cbae9466ed42264e074d2166842d9cda6a408ed",
+    "bsds_76002": "35537cbbb63f9e64fd4380b2bbe7e9a4eb5fc4121058cdb918d59f19981eb87f",
+    "bsds_80099": "2eceb11b304301633f3b145ac7f4b4095e35e03d4d48ebe01d8f072692a2399d",
+    "bsds_92059": "1c541bdbec180ff7105b0a7579d68c96de999127d1ea618a36bed7092a9c42bf"
+  },
+  "sources": [
+    "LQ",
+    "restored coefficients 50/100/150/200"
+  ],
+  "gt_in_features": false,
+  "frozen": true,
+  "token_grid": [
+    16,
+    16
+  ],
+  "tokens_saved": "L2-normalized float16 tokens, float32 computation",
+  "dino_views256": [
+    "LQ",
+    "50",
+    "100",
+    "150",
+    "200"
+  ],
+  "dino_views512": [
+    "LQ",
+    "200"
+  ],
+  "precision": "float16 autocast encoders; float32 normalized features",
+  "models": {
+    "clip": {
+      "repository": "openai/clip-vit-base-patch32",
+      "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+      "files": {
+        "config.json": "b575ef3c36f2a057fa19e221650105052d61cc9c1a972ec15019c6261ec98770",
+        "preprocessor_config.json": "910e70b3956ac9879ebc90b22fb3bc8a75b6a0677814500101a4c072bd7857bd",
+        "pytorch_model.bin": "a63082132ba4f97a80bea76823f544493bffa8082296d62d71581a4feff1576f"
+      }
+    },
+    "dino": {
+      "repository": "facebook/dinov2-small",
+      "revision": "ed25f3a31f01632728cabb09d1542f84ab7b0056",
+      "files": {
+        "config.json": "1809f83e3bdb1609a501a610ad4a742f4fd8ae44d72ca4aa0df52d1f2ac8628d",
+        "model.safetensors": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1",
+        "preprocessor_config.json": "14e780d86fa1861f8751f868d7f45425b5feb55c38ca26f152ca5097ab30f828"
+      }
+    }
+  },
+  "stability_definition": "controlled coefficient sensitivity, not random uncertainty",
+  "stats": "unchanged Phase0 statistical_features on 256 contexts; read-only import",
+  "token_field_of_view_original_pixels": {
+    "256_context": 224,
+    "512_context": 448
+  },
+  "processor_geometry": "resize short edge to 256 then center crop 224; token heatmaps cover central 7/8, not entire context"
+}

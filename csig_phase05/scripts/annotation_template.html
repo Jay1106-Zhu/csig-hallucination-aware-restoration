@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><title>Phase 0.5 blind human review</title>
+<style>body{max-width:1100px;margin:24px auto;font:17px sans-serif;background:#171b22;color:#eee}button,input,select{font:inherit;margin:8px;padding:7px}img{width:100%;image-rendering:auto}label{display:inline-block;margin:6px}textarea{width:95%;height:64px}a{color:#8dcaff}.panel{background:#252b36;padding:14px}#types{font-size:14px}</style>
+<h1>Phase 0.5 人工盲标注</h1><p>仅看 LQ / restored / GT；不显示任何指标或预测。深灰空白不属于有效区域。不能判断就保持未审核，不能以 0 代替缺失。</p>
+<p><a href="hallucination_protocol.md">完整协议</a> · 本页仅保存在当前浏览器，完成后必须导出 CSV。</p>
+<label>审核者 ID <input id="reviewer" autocomplete="off"></label><button id="previous">上一例</button><button id="next">下一例</button><button id="export">导出 CSV</button>
+<h2 id="position"></h2><img id="sample" alt="LQ、restored、GT 并排有效区域"><div class="panel">
+<label>严重度 <select id="severity"><option value="">未判断</option><option value="0">0 无</option><option value="1">1 轻微</option><option value="2">2 明确</option><option value="3">3 严重</option></select></label>
+<div id="types"></div><label>备注 <textarea id="note"></textarea></label><p id="status"></p></div>
+<script>
+const initialRows=__ROWS__, allowedTypes=__TYPES__, storageKey='csig_phase05_blind_review_v1';
+let rows=initialRows, current=0;
+try{const saved=JSON.parse(localStorage.getItem(storageKey));if(saved&&saved.rows.length===rows.length&&saved.rows.every((row,index)=>row.image_sha256===rows[index].image_sha256)){rows=saved.rows;document.getElementById('reviewer').value=saved.reviewer||'';}}catch(error){}
+const byId=identifier=>document.getElementById(identifier);
+allowedTypes.forEach(type=>{const label=document.createElement('label');const checkbox=document.createElement('input');checkbox.type='checkbox';checkbox.value=type;checkbox.name='type';label.append(checkbox,document.createTextNode(type));byId('types').append(label);});
+function save(){const row=rows[current];row.severity=byId('severity').value;row.hallucination_types=Array.from(document.querySelectorAll('[name=type]:checked')).map(element=>element.value).join(';');row.note=byId('note').value;row.reviewer_id=byId('reviewer').value.trim();row.reviewer_type=row.reviewer_id?'human':'';const valid=row.severity!==''&&row.reviewer_id&&(row.severity==='0'||row.hallucination_types);row.annotation_status=valid?'reviewed':'pending';row.reviewed_at=valid?new Date().toISOString().slice(0,10):'';localStorage.setItem(storageKey,JSON.stringify({rows,reviewer:row.reviewer_id}));byId('status').textContent='已审核 '+rows.filter(item=>item.annotation_status==='reviewed').length+'/'+rows.length;}
+function show(){const row=rows[current];byId('position').textContent=`${current+1} / ${rows.length} — ${row.sample_id}`;byId('sample').src=row.image_path;byId('severity').value=row.severity;byId('note').value=row.note;document.querySelectorAll('[name=type]').forEach(element=>element.checked=row.hallucination_types.split(';').includes(element.value));byId('status').textContent=row.annotation_status;}
+byId('previous').onclick=()=>{save();current=Math.max(0,current-1);show();};byId('next').onclick=()=>{save();current=Math.min(rows.length-1,current+1);show();};
+document.querySelectorAll('input,select,textarea').forEach(element=>element.addEventListener('change',save));
+byId('export').onclick=()=>{save();const keys=Object.keys(initialRows[0]);const escape=value=>'"'+String(value??'').replaceAll('"','""')+'"';const csv=[keys.map(escape).join(','),...rows.map(row=>keys.map(key=>escape(row[key])).join(','))].join('\r\n');const blob=new Blob([csv],{type:'text/csv;charset=utf-8'});const url=URL.createObjectURL(blob);const anchor=document.createElement('a');anchor.href=url;anchor.download='human_reviews.csv';anchor.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};show();
+</script></html>

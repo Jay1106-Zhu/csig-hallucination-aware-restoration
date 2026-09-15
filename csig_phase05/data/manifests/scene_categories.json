@@ -1,0 +1,222 @@
+{
+  "case1": {
+    "category": "text",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "case2": {
+    "category": "text",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "case3": {
+    "category": "animal",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "case4": {
+    "category": "vegetation",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "case5": {
+    "category": "architecture",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_100098": {
+    "category": "animal",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_106025": {
+    "category": "animal",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_112082": {
+    "category": "animal",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_138078": {
+    "category": "landscape",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_140055": {
+    "category": "vegetation",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_147021": {
+    "category": "people",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_153077": {
+    "category": "people",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_159029": {
+    "category": "animal",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_159045": {
+    "category": "animal",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_159091": {
+    "category": "animal",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_164074": {
+    "category": "animal",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_166081": {
+    "category": "architecture",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_176039": {
+    "category": "landscape",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_183055": {
+    "category": "animal",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_187029": {
+    "category": "people",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_188063": {
+    "category": "people",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_198023": {
+    "category": "people",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_198054": {
+    "category": "people",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_20008": {
+    "category": "landscape",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_216041": {
+    "category": "animal",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_225017": {
+    "category": "vegetation",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_23025": {
+    "category": "people",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_23080": {
+    "category": "people",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_231015": {
+    "category": "architecture",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_236017": {
+    "category": "animal",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_245051": {
+    "category": "people",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_246016": {
+    "category": "people",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_249061": {
+    "category": "landscape",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_25098": {
+    "category": "vegetation",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_253036": {
+    "category": "animal",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_254054": {
+    "category": "architecture",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_27059": {
+    "category": "landscape",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_271008": {
+    "category": "people",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_274007": {
+    "category": "architecture",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_286092": {
+    "category": "people",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_309004": {
+    "category": "animal",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_311081": {
+    "category": "architecture",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_314016": {
+    "category": "animal",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_323016": {
+    "category": "people",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_368078": {
+    "category": "architecture",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_374020": {
+    "category": "architecture",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_385028": {
+    "category": "architecture",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_41004": {
+    "category": "animal",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_45077": {
+    "category": "animal",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_46076": {
+    "category": "vegetation",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_59078": {
+    "category": "architecture",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_61086": {
+    "category": "architecture",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_76002": {
+    "category": "architecture",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_80099": {
+    "category": "animal",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  },
+  "bsds_92059": {
+    "category": "landscape",
+    "provenance": "assistant visual review of source contact sheets; not human hallucination labels"
+  }
+}

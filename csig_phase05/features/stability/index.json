@@ -1,0 +1,13 @@
+{
+  "row_index": "../index.csv",
+  "blocks": {
+    "stability": {
+      "file": "stability.npy",
+      "shape": [
+        1160,
+        12
+      ],
+      "sha256": "8e9744a991b2861ddcb432aa039ab00a16672dd433792d0f95146ccedca8d015"
+    }
+  }
+}
