@@ -473,8 +473,13 @@
     },
     {
       "path": "progress.md",
-      "bytes": 3883,
-      "sha256": "e9464bb422990adab8e6f6f986f13c90b4a2df99ea11efdcf6617449df877080"
+      "bytes": 4737,
+      "sha256": "c33fa0344e59450f845311d3cbd7099a1df9a42e0932db8bb05949fbb133dead"
+    },
+    {
+      "path": "publication/GITHUB_DELIVERY.md",
+      "bytes": 1935,
+      "sha256": "674bb523a1fd3cae70463a8a172814b1394fa14547432c75e36c6d488b7d4eb9"
     },
     {
       "path": "publication/README.md",
@@ -518,13 +523,13 @@
     },
     {
       "path": "publication/publish_release.py",
-      "bytes": 7215,
-      "sha256": "8fb5fdc88e00790410d216b3834740f3cc4b882374cd0929ef97483c9816b955"
+      "bytes": 7418,
+      "sha256": "12de09161c6b8ed7c4bd4f41e56f6742d6039bed16bb7201815875f211e47432"
     },
     {
       "path": "publication/remote_verification.json",
-      "bytes": 3158,
-      "sha256": "b4d53aab5b0ee98ce369153c5d4ca78a857f11f97b812b5de3578c510bc3251a"
+      "bytes": 3074,
+      "sha256": "a9d946f3377ca4b30694369c3c363dd2bc878e145d517f8b20bd914d3d0b104d"
     },
     {
       "path": "publication/requirements_full_freeze.txt",
@@ -538,12 +543,12 @@
     },
     {
       "path": "task_plan.md",
-      "bytes": 2868,
-      "sha256": "ba70961920008f96857e3ea41f97e8b22379289825d4726e7026399187f405ba"
+      "bytes": 2889,
+      "sha256": "1c83d944576d6c72ff2754162c8030ebf2921a81478a373df8c14df1cbe8a120"
     }
   ],
-  "file_count": 108,
-  "total_bytes": 13930474,
+  "file_count": 109,
+  "total_bytes": 13933403,
   "failures": [],
   "scope": "Exact staged Git blobs; Release artifacts verified separately."
 }

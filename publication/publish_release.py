@@ -115,6 +115,9 @@ def main():
     public_release = response_json(public)
     if public_release['draft'] or len(public_release['assets']) != len(sources):
         raise RuntimeError('Anonymous release verification failed')
+    public_assets = {asset['id']: asset for asset in public_release['assets']}
+    for asset in verified:
+        asset['browser_download_url'] = public_assets[asset['asset_id']]['browser_download_url']
     verification = {'repository': REPOSITORY, 'visibility': 'public', 'tag': manifest['tag'],
                     'release_url': release['html_url'], 'all_assets_verified': True, 'assets': verified,
                     'anonymous_release_access_verified': True, 'timestamp_utc': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())}
