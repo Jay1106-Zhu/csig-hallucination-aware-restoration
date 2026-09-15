@@ -1,0 +1,67 @@
+{
+  "repository": "Jay1106-Zhu/csig-hallucination-aware-restoration",
+  "visibility": "public",
+  "tag": "phase0-2026-09-15",
+  "release_url": "https://github.com/Jay1106-Zhu/csig-hallucination-aware-restoration/releases/tag/phase0-2026-09-15",
+  "all_assets_verified": true,
+  "assets": [
+    {
+      "name": "phase0-data-patches.zip",
+      "bytes": 869066016,
+      "sha256": "27d7c20c599e2b7082f40b2afb2d8d4a9f9772df671d931882b2c2d00fe01e1f",
+      "asset_id": 565305862,
+      "browser_download_url": "https://github.com/Jay1106-Zhu/csig-hallucination-aware-restoration/releases/download/untagged-2a0c85358b1b08a2fa5f/phase0-data-patches.zip",
+      "digest_verified": true
+    },
+    {
+      "name": "phase0-frozen-models.zip",
+      "bytes": 479957846,
+      "sha256": "3d17b9c91017dfe3a3f73f141ad40985e05a716477ae536a24d4894364ff43ee",
+      "asset_id": 565310806,
+      "browser_download_url": "https://github.com/Jay1106-Zhu/csig-hallucination-aware-restoration/releases/download/untagged-2a0c85358b1b08a2fa5f/phase0-frozen-models.zip",
+      "digest_verified": true
+    },
+    {
+      "name": "phase0-predictor-features.zip",
+      "bytes": 41940789,
+      "sha256": "c3d9e6da94f910938549dedcc59ac7b8b172f4667f514e3a110ebbadfc8425f1",
+      "asset_id": 565313029,
+      "browser_download_url": "https://github.com/Jay1106-Zhu/csig-hallucination-aware-restoration/releases/download/untagged-2a0c85358b1b08a2fa5f/phase0-predictor-features.zip",
+      "digest_verified": true
+    },
+    {
+      "name": "phase0-hypir-outputs.zip",
+      "bytes": 96343513,
+      "sha256": "929a63127e647668e5c9cdcd798f5957f0ab3cba9ebed8b17ddac1cda4055b77",
+      "asset_id": 565313370,
+      "browser_download_url": "https://github.com/Jay1106-Zhu/csig-hallucination-aware-restoration/releases/download/untagged-2a0c85358b1b08a2fa5f/phase0-hypir-outputs.zip",
+      "digest_verified": true
+    },
+    {
+      "name": "phase0-analysis-visualization.zip",
+      "bytes": 16804693,
+      "sha256": "cc4350033c26355894567c6218c79d3a9077e41f886601ec956564f27694ac26",
+      "asset_id": 565302482,
+      "browser_download_url": "https://github.com/Jay1106-Zhu/csig-hallucination-aware-restoration/releases/download/untagged-2a0c85358b1b08a2fa5f/phase0-analysis-visualization.zip",
+      "digest_verified": true
+    },
+    {
+      "name": "artifact_manifest.json",
+      "bytes": 62801,
+      "sha256": "df8bfc60b5b3b1f8c5ad2450bf622c584c306747cf1732d17c99603f358d692f",
+      "asset_id": 565313914,
+      "browser_download_url": "https://github.com/Jay1106-Zhu/csig-hallucination-aware-restoration/releases/download/untagged-2a0c85358b1b08a2fa5f/artifact_manifest.json",
+      "digest_verified": true
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 473,
+      "sha256": "d6d5a2dab8506805cc71044d03cfd1ec9b58af1df33ff6b2fcd0623b3cd62152",
+      "asset_id": 565313968,
+      "browser_download_url": "https://github.com/Jay1106-Zhu/csig-hallucination-aware-restoration/releases/download/untagged-2a0c85358b1b08a2fa5f/SHA256SUMS.txt",
+      "digest_verified": true
+    }
+  ],
+  "anonymous_release_access_verified": true,
+  "timestamp_utc": "2026-09-15T08:56:48Z"
+}

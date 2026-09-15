@@ -5,6 +5,7 @@
 本仓库公开原始方案、全部实验代码、指标和可视化。Phase 0 要求的 **patch、特征、模型、官方输出和完整日志** 全部放在同仓库 Release `phase0-2026-09-15`，不是仅有文档或示例。
 
 - 完整下载与逐项交付表：`publication/README.md`
+- GitHub 完整产物：[Phase 0 Release](https://github.com/Jay1106-Zhu/csig-hallucination-aware-restoration/releases/tag/phase0-2026-09-15)
 - Release 清单与文件 SHA-256：`publication/artifact_manifest.json`、`publication/SHA256SUMS.txt`
 - 下载并恢复完整实验目录：`python publication/download_artifacts.py --extract`
 

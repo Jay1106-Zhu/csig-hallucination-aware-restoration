@@ -2,6 +2,8 @@
 
 仓库：`Jay1106-Zhu/csig-hallucination-aware-restoration`，可见性 public。
 
+[浏览公开仓库](https://github.com/Jay1106-Zhu/csig-hallucination-aware-restoration) · [下载完整 Phase 0 Release](https://github.com/Jay1106-Zhu/csig-hallucination-aware-restoration/releases/tag/phase0-2026-09-15)
+
 本次按用户要求上传 **Phase 0 指导规定的全部实际产物**，不是仅上传源码。Git 保存便于浏览的文档、代码、指标和全部图片；同仓库 Release `phase0-2026-09-15` 保存完整二进制、数据和模型归档。
 
 ## 按原始指导逐项对应
@@ -54,6 +56,7 @@ python -m unittest discover -s csig_phase0/tests -v
 - 数值指标、图像、patch、特征和模型张量保持实际实验结果，不重新训练、不重推理。
 - 含本机绝对路径的文本/JSON 使用 `${CSIG_WORKSPACE}`、`${USER_HOME}` 占位根目录；pip freeze 中 file:// 构建路径替换为实际安装版本。
 - 最终 `confidence_mlp.pt` 中的路径元数据同样去除本机根目录；模型权重张量不变，但序列化文件 SHA-256 因此不同于本地原始 checkpoint。
+- 已逐项核验最终模型 12 个权重张量及 6 个 scaler 张量与本地完全相等；完整性记录见 `publication/completeness_verification.json`。
 - 原始本地文件保持不变。历史 `artifact_audit.json` 是完整本地实验的验收；本次导出的哈希以 `publication/artifact_manifest.json` 为准。
 - 读取下载的元数据时将占位根目录替换为自己的工作区；重新运行 `prepare_phase0.py data` 也会生成本机可用路径。外部 HYPIR 与 csig_dataset 采用阶段 README 所述工作区布局。
 - 不上传凭据、Python 安装依赖目录、下载缓存和 Git 内部文件。这些不属于 Phase 0 要求交付的数据或结果。

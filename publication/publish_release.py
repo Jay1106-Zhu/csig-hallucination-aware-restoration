@@ -3,6 +3,7 @@ import json
 import os
 import subprocess
 import time
+import urllib.parse
 from pathlib import Path
 
 import requests
@@ -40,6 +41,24 @@ def response_json(response):
     return response.json()
 
 
+def upload_asset(session, upload_base, source):
+    response_directory = ROOT / 'publication/upload_state'
+    response_directory.mkdir(parents=True, exist_ok=True)
+    response_path = response_directory / (source.name + '.json')
+    url = upload_base + '?' + urllib.parse.urlencode({'name': source.name})
+    configuration = ('header = "Authorization: ' + session.headers['Authorization'] + '"\n'
+                     'header = "Content-Type: application/octet-stream"\n')
+    command = ['curl.exe' if os.name == 'nt' else 'curl', '--config', '-', '--silent', '--show-error',
+               '--fail-with-body', '--connect-timeout', '30', '--max-time', '1800', '--request', 'POST',
+               '--data-binary', '@' + str(source), '--output', str(response_path),
+               '--write-out', 'status=%{http_code} speed=%{speed_upload} bytes_per_second', url]
+    completed = subprocess.run(command, input=configuration, capture_output=True, text=True, timeout=1810)
+    if completed.returncode:
+        raise RuntimeError(f'Native HTTPS upload failed ({completed.returncode}); inspect local upload state')
+    print(completed.stdout, flush=True)
+    return json.loads(response_path.read_text(encoding='utf-8'))
+
+
 def main():
     manifest = json.loads((ROOT / 'publication/artifact_manifest.json').read_text(encoding='utf-8'))
     session = authenticated_session()
@@ -74,11 +93,7 @@ def main():
                 raise RuntimeError('Published asset does not match local manifest')
         if asset is None:
             print(f'Uploading {source.name} ({source.stat().st_size / 1024**2:.1f} MiB)', flush=True)
-            with source.open('rb') as stream:
-                response = session.post(upload_base, params={'name': source.name}, data=stream,
-                                        headers={'Content-Type': 'application/octet-stream', 'Accept': 'application/vnd.github+json'},
-                                        timeout=(30, 1800))
-            asset = response_json(response)
+            asset = upload_asset(session, upload_base, source)
         if asset['state'] != 'uploaded' or asset['size'] != source.stat().st_size:
             raise RuntimeError('Remote upload is incomplete')
         if asset.get('digest') != 'sha256:' + expected:

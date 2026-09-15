@@ -1,0 +1,11 @@
+{
+  "checkpoint_tensor_equality": true,
+  "verified_weight_tensors": 12,
+  "verified_scalers": 6,
+  "required_files_present": true,
+  "archive_members": 245,
+  "patch_arrays": 15,
+  "fold_checkpoints": 90,
+  "failure_panels": 20,
+  "full_resolution_heatmap_arrays": 10
+}

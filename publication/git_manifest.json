@@ -33,8 +33,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3122,
-      "sha256": "499a7e877b470a5ae2ae88599bec10cc5accd141f2eb6d437fc6a339097e2283"
+      "bytes": 3264,
+      "sha256": "66d1947004e516c665c93276c677a19ec53c909fac0328ecab6670553c531cb0"
     },
     {
       "path": "csig_phase0/README.md",
@@ -473,13 +473,13 @@
     },
     {
       "path": "progress.md",
-      "bytes": 3134,
-      "sha256": "664ed80c28f9e2e3eab3516480f8e3c282ad9f87f5a19051f20e9767dd639785"
+      "bytes": 3883,
+      "sha256": "e9464bb422990adab8e6f6f986f13c90b4a2df99ea11efdcf6617449df877080"
     },
     {
       "path": "publication/README.md",
-      "bytes": 5487,
-      "sha256": "012777c1f217344996fb5cf1c332926be8f13719a561cee776705c65743313c3"
+      "bytes": 5874,
+      "sha256": "1d259702c55e05ef6b9aadf4cc0509c1a64547e7a7e5126378261ebb6a7d6dc0"
     },
     {
       "path": "publication/RELEASE_NOTES.md",
@@ -507,14 +507,24 @@
       "sha256": "f150b9e80e245c53e112e4a1d1ffa558f6174f37e446d477cafc3d36a02ce1df"
     },
     {
+      "path": "publication/completeness_verification.json",
+      "bytes": 271,
+      "sha256": "a2d3b52467f7d1488d95c2d0dfa71eb112f4c7967d8027bf2768b983554a7ea6"
+    },
+    {
       "path": "publication/download_artifacts.py",
       "bytes": 3604,
       "sha256": "bd2e1595832f2adcd1e40a9973bceafeb1ebff8bf9e5d4d622ed74160ac44a3d"
     },
     {
       "path": "publication/publish_release.py",
-      "bytes": 6297,
-      "sha256": "a73840487eb0bb735b7e5b9f96ca013b03b5c2e451e4d839da46bcbb17575954"
+      "bytes": 7215,
+      "sha256": "8fb5fdc88e00790410d216b3834740f3cc4b882374cd0929ef97483c9816b955"
+    },
+    {
+      "path": "publication/remote_verification.json",
+      "bytes": 3158,
+      "sha256": "b4d53aab5b0ee98ce369153c5d4ca78a857f11f97b812b5de3578c510bc3251a"
     },
     {
       "path": "publication/requirements_full_freeze.txt",
@@ -523,17 +533,17 @@
     },
     {
       "path": "publication/tests/test_release.py",
-      "bytes": 2679,
-      "sha256": "324f90e64e3a77519147a5b8bd3ceb73df780b943ee1e00237cd0c75b23dfd2e"
+      "bytes": 4068,
+      "sha256": "696f16cb34ea4b89bdcac99cc4bd066ac233799b3e847554f436f5331c5e47cc"
     },
     {
       "path": "task_plan.md",
-      "bytes": 2825,
-      "sha256": "dbd133767324b420adfa0d2507ca4aa46e1cba32ca82a1d9a108787eb559ad25"
+      "bytes": 2868,
+      "sha256": "ba70961920008f96857e3ea41f97e8b22379289825d4726e7026399187f405ba"
     }
   ],
-  "file_count": 106,
-  "total_bytes": 13923417,
+  "file_count": 108,
+  "total_bytes": 13930474,
   "failures": [],
   "scope": "Exact staged Git blobs; Release artifacts verified separately."
 }
