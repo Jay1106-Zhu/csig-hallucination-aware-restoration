@@ -1,0 +1,113 @@
+{
+  "repository": "Jay1106-Zhu/csig-hallucination-aware-restoration",
+  "visibility": "public",
+  "tag": "phase05-2026-09-15",
+  "release_id": 389646757,
+  "release_url": "https://github.com/Jay1106-Zhu/csig-hallucination-aware-restoration/releases/tag/phase05-2026-09-15",
+  "all_assets_verified": true,
+  "anonymous_release_access_verified": true,
+  "old_phase0_release_unchanged": true,
+  "assets": [
+    {
+      "name": "phase05-analysis-reports.zip",
+      "bytes": 27320561,
+      "sha256": "b3bcba8100930cecdb4cfad737b0d250bbeae85771b68223ef481a09bb7ea2a3",
+      "asset_id": 567208674,
+      "browser_download_url": "https://github.com/Jay1106-Zhu/csig-hallucination-aware-restoration/releases/download/phase05-2026-09-15/phase05-analysis-reports.zip",
+      "server_full_sha256_verified": true,
+      "anonymous_download_verified_bytes": 65536,
+      "verification_method": "GitHub full-asset SHA256 and size, plus independent anonymous byte download"
+    },
+    {
+      "name": "phase05-verifiers.zip",
+      "bytes": 24827072,
+      "sha256": "5e8992f6ac0a83be4028b7caf3fc270bb601b6da5e6e9bdd2166af3318f7ca55",
+      "asset_id": 567208649,
+      "browser_download_url": "https://github.com/Jay1106-Zhu/csig-hallucination-aware-restoration/releases/download/phase05-2026-09-15/phase05-verifiers.zip",
+      "server_full_sha256_verified": true,
+      "anonymous_download_verified_bytes": 65536,
+      "verification_method": "GitHub full-asset SHA256 and size, plus independent anonymous byte download"
+    },
+    {
+      "name": "phase05-data-patches.zip",
+      "bytes": 326333189,
+      "sha256": "e7ea4a386c9ebb05a91288c5bebd02cb0d1273907b719571ef93629c1ad10f19",
+      "asset_id": 567208875,
+      "browser_download_url": "https://github.com/Jay1106-Zhu/csig-hallucination-aware-restoration/releases/download/phase05-2026-09-15/phase05-data-patches.zip",
+      "server_full_sha256_verified": true,
+      "anonymous_download_verified_bytes": 65536,
+      "verification_method": "GitHub full-asset SHA256 and size, plus independent anonymous byte download"
+    },
+    {
+      "name": "phase05-features.zip",
+      "bytes": 1536060533,
+      "sha256": "4666e128a73fdfab8c51153b20d2a5186b0e0a08f7a88085f1c269acd62262e7",
+      "asset_id": 567227896,
+      "browser_download_url": "https://github.com/Jay1106-Zhu/csig-hallucination-aware-restoration/releases/download/phase05-2026-09-15/phase05-features.zip",
+      "server_full_sha256_verified": true,
+      "anonymous_download_verified_bytes": 65536,
+      "verification_method": "GitHub full-asset SHA256 and size, plus independent anonymous byte download"
+    },
+    {
+      "name": "phase05-hypir-outputs.zip",
+      "bytes": 377449986,
+      "sha256": "9d82295c53f518487bdaecc482d8dc49f9355b9b8af42be706a53650fffcf173",
+      "asset_id": 567211468,
+      "browser_download_url": "https://github.com/Jay1106-Zhu/csig-hallucination-aware-restoration/releases/download/phase05-2026-09-15/phase05-hypir-outputs.zip",
+      "server_full_sha256_verified": true,
+      "anonymous_download_verified_bytes": 65536,
+      "verification_method": "GitHub full-asset SHA256 and size, plus independent anonymous byte download"
+    },
+    {
+      "name": "phase05-selective-outputs.zip",
+      "bytes": 349347465,
+      "sha256": "3bccf0b71a54c0d183b5d383fd7a0f051ce7e7ee3ca3ae81a8bb9c9cf9f70d24",
+      "asset_id": 567208981,
+      "browser_download_url": "https://github.com/Jay1106-Zhu/csig-hallucination-aware-restoration/releases/download/phase05-2026-09-15/phase05-selective-outputs.zip",
+      "server_full_sha256_verified": true,
+      "anonymous_download_verified_bytes": 65536,
+      "verification_method": "GitHub full-asset SHA256 and size, plus independent anonymous byte download"
+    },
+    {
+      "name": "phase05-shared-encoders.zip",
+      "bytes": 479957846,
+      "sha256": "4af7aba10736c2593a2aab3269246b9aea3bb36f5da2dc5a146e78fafc57c77c",
+      "asset_id": 567217102,
+      "browser_download_url": "https://github.com/Jay1106-Zhu/csig-hallucination-aware-restoration/releases/download/phase05-2026-09-15/phase05-shared-encoders.zip",
+      "server_full_sha256_verified": true,
+      "anonymous_download_verified_bytes": 65536,
+      "verification_method": "GitHub full-asset SHA256 and size, plus independent anonymous byte download"
+    },
+    {
+      "name": "phase05-perceptual-models.zip",
+      "bytes": 742624303,
+      "sha256": "3692e2a4f6c03cf884874d8f45200c245eea33b0b6aedbb147493241ecd95c8e",
+      "asset_id": 567220001,
+      "browser_download_url": "https://github.com/Jay1106-Zhu/csig-hallucination-aware-restoration/releases/download/phase05-2026-09-15/phase05-perceptual-models.zip",
+      "server_full_sha256_verified": true,
+      "anonymous_download_verified_bytes": 65536,
+      "verification_method": "GitHub full-asset SHA256 and size, plus independent anonymous byte download"
+    },
+    {
+      "name": "artifact_manifest.json",
+      "bytes": 674846,
+      "sha256": "f890d2a88dbf93b2202e704d6886303f1eeb0200fc263205a934743517f659ba",
+      "asset_id": 567208622,
+      "browser_download_url": "https://github.com/Jay1106-Zhu/csig-hallucination-aware-restoration/releases/download/phase05-2026-09-15/artifact_manifest.json",
+      "server_full_sha256_verified": true,
+      "anonymous_download_verified_bytes": 674846,
+      "verification_method": "GitHub full-asset SHA256 and size, plus independent anonymous byte download"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 747,
+      "sha256": "d4269703c44236cd166b66f7e52d9580446e72f4331a6d0c9ce7d7764ef4226e",
+      "asset_id": 567208620,
+      "browser_download_url": "https://github.com/Jay1106-Zhu/csig-hallucination-aware-restoration/releases/download/phase05-2026-09-15/SHA256SUMS.txt",
+      "server_full_sha256_verified": true,
+      "anonymous_download_verified_bytes": 747,
+      "verification_method": "GitHub full-asset SHA256 and size, plus independent anonymous byte download"
+    }
+  ],
+  "timestamp_utc": "2026-09-16T05:19:19Z"
+}
