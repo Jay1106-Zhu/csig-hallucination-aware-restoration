@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "date": "2026-09-19",
+  "kind": "artifact_integrity_and_paired_scoring_audit_not_new_iqa_evaluation",
+  "candidate_count": 16,
+  "distinct_cases": [
+    38,
+    42
+  ],
+  "roi_count": 4,
+  "asset_hashes_verified": 10,
+  "scoring_weight_hashes_verified": 2,
+  "baseline_hashes_verified": 4,
+  "reference_crops_exact": 8,
+  "config_and_script_hashes_verified": true,
+  "screening_counts": {
+    "KEEP_H200_PRIMARY_REGRESSION": 11,
+    "VISUAL_REVIEW_REQUIRED": 3,
+    "REVIEW_SECONDARY_TRADEOFF": 2
+  },
+  "visual_decision_counts": {
+    "KEEP_H200": 13,
+    "RETAIN_FOR_INDEPENDENT_REVIEW": 3
+  },
+  "independent_human_review": "NOT_PERFORMED",
+  "deployed_candidates": 0,
+  "baseline_repeat_delta": {
+    "clipiqa": 0.0,
+    "topiq": 0.0
+  },
+  "evidence_sha256": {
+    "candidate_manifest.json": "059f834f8c2030990261056930cf46aa0a6dbc46765fa541f2ea2b5b4c16d475",
+    "metrics.json": "a55f0f5213f5fcfbd126b4c68220fe7d19940c9f3b34d2a127f97eef381869bc",
+    "comparisons.csv": "f189b37e86f07b44ed6cce9400ac33e0d9d149a39f6a93cccf19405d55a63f9c",
+    "visual_review.json": "fd98ec205bea937963cbeaa88164b02b7c85fb651ed77ab7052007982c871bc0"
+  },
+  "router": [
+    {
+      "case_id": 38,
+      "label_map_sha256": "e9d0146ac62678bc7bd84b48488d8e409965592696424dba780cfdbe77053912",
+      "signboard_ratio": 0.01792295773824056
+    },
+    {
+      "case_id": 42,
+      "label_map_sha256": "448b882b6b56be240ffa04889f3e4948ccc8bef019527995a9cb57a7def5e288",
+      "signboard_ratio": 0.009844700495402018
+    }
+  ],
+  "limitations": [
+    "Byte/shape/mask/delta checks do not establish image or text authenticity.",
+    "No full-set or leaderboard conclusion.",
+    "Two original images; ROIs and model variants are not independent scene samples."
+  ]
+}
+case38_facade_fftformer_realblur_j_from_original protected_pixels= 0 outside=0 protected_changes=0 exact_reconstruction=True
+case38_facade_fftformer_realblur_j_from_h200 protected_pixels= 0 outside=0 protected_changes=0 exact_reconstruction=True
+case38_red_sign_fftformer_realblur_j_from_original protected_pixels= 0 outside=0 protected_changes=0 exact_reconstruction=True
+case38_red_sign_fftformer_realblur_j_from_h200 protected_pixels= 0 outside=0 protected_changes=0 exact_reconstruction=True
+case42_lattice_fftformer_realblur_j_from_original protected_pixels= 0 outside=0 protected_changes=0 exact_reconstruction=True
+case42_lattice_fftformer_realblur_j_from_h200 protected_pixels= 0 outside=0 protected_changes=0 exact_reconstruction=True
+case42_red_sign_fftformer_realblur_j_from_original protected_pixels= 0 outside=0 protected_changes=0 exact_reconstruction=True
+case42_red_sign_fftformer_realblur_j_from_h200 protected_pixels= 0 outside=0 protected_changes=0 exact_reconstruction=True
+case38_facade_restormer_real_denoising_from_original protected_pixels= 0 outside=0 protected_changes=0 exact_reconstruction=True
+case38_facade_restormer_real_denoising_from_h200 protected_pixels= 0 outside=0 protected_changes=0 exact_reconstruction=True
+case38_red_sign_restormer_real_denoising_from_original protected_pixels= 0 outside=0 protected_changes=0 exact_reconstruction=True
+case38_red_sign_restormer_real_denoising_from_h200 protected_pixels= 0 outside=0 protected_changes=0 exact_reconstruction=True
+case42_lattice_restormer_real_denoising_from_original protected_pixels= 0 outside=0 protected_changes=0 exact_reconstruction=True
+case42_lattice_restormer_real_denoising_from_h200 protected_pixels= 0 outside=0 protected_changes=0 exact_reconstruction=True
+case42_red_sign_restormer_real_denoising_from_original protected_pixels= 0 outside=0 protected_changes=0 exact_reconstruction=True
+case42_red_sign_restormer_real_denoising_from_h200 protected_pixels= 0 outside=0 protected_changes=0 exact_reconstruction=True

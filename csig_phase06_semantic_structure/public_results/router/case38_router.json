@@ -1,0 +1,88 @@
+{
+  "input": "new_formal/csig_phase06_semantic_structure/data/input/case38.jpg",
+  "model_id": "shi-labs/oneformer_ade20k_swin_tiny",
+  "device": "cuda",
+  "image_shape": [
+    3072,
+    4096,
+    3
+  ],
+  "label_map_shape": [
+    3072,
+    4096
+  ],
+  "target_labels": {
+    "0": "wall",
+    "1": "building",
+    "2": "sky",
+    "4": "tree",
+    "6": "road",
+    "8": "window",
+    "11": "sidewalk",
+    "14": "door",
+    "17": "plant",
+    "32": "fence",
+    "43": "signboard",
+    "61": "bridge"
+  },
+  "structure_labels": {
+    "0": "wall",
+    "1": "building",
+    "6": "road",
+    "8": "window",
+    "11": "sidewalk",
+    "14": "door",
+    "32": "fence",
+    "61": "bridge"
+  },
+  "target_summary": [
+    {
+      "id": 1,
+      "label": "building",
+      "pixels": 11554751,
+      "ratio": 0.9182891050974528
+    },
+    {
+      "id": 4,
+      "label": "tree",
+      "pixels": 567552,
+      "ratio": 0.04510498046875
+    },
+    {
+      "id": 43,
+      "label": "signboard",
+      "pixels": 225523,
+      "ratio": 0.01792295773824056
+    },
+    {
+      "id": 6,
+      "label": "road",
+      "pixels": 33964,
+      "ratio": 0.0026992162068684897
+    }
+  ],
+  "structure_mask_ratio": 0.9209883213043213,
+  "structure_edge_ratio": 0.008742411931355795,
+  "structure_line_ratio": 0.00016657511393229166,
+  "structure_rois": [
+    {
+      "label": "building",
+      "x0": 0,
+      "y0": 0,
+      "x1": 4096,
+      "y1": 3072,
+      "component_area": 11553107
+    },
+    {
+      "label": "road",
+      "x0": 0,
+      "y0": 2609,
+      "x1": 353,
+      "y1": 2868,
+      "component_area": 32947
+    }
+  ],
+  "success_status": "requires_visual_review",
+  "training": false,
+  "full_set": false
+}

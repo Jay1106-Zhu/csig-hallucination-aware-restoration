@@ -1,0 +1,353 @@
+{
+  "status": "PASS",
+  "date": "2026-09-19",
+  "kind": "artifact_integrity_and_paired_scoring_audit_not_new_iqa_evaluation",
+  "candidate_count": 16,
+  "distinct_cases": [
+    38,
+    42
+  ],
+  "roi_count": 4,
+  "asset_hashes_verified": 10,
+  "scoring_weight_hashes_verified": 2,
+  "baseline_hashes_verified": 4,
+  "reference_crops_exact": 8,
+  "config_and_script_hashes_verified": true,
+  "screening_counts": {
+    "KEEP_H200_PRIMARY_REGRESSION": 11,
+    "VISUAL_REVIEW_REQUIRED": 3,
+    "REVIEW_SECONDARY_TRADEOFF": 2
+  },
+  "visual_decision_counts": {
+    "KEEP_H200": 13,
+    "RETAIN_FOR_INDEPENDENT_REVIEW": 3
+  },
+  "independent_human_review": "NOT_PERFORMED",
+  "deployed_candidates": 0,
+  "baseline_repeat_delta": {
+    "clipiqa": 0.0,
+    "topiq": 0.0
+  },
+  "evidence_sha256": {
+    "candidate_manifest.json": "059f834f8c2030990261056930cf46aa0a6dbc46765fa541f2ea2b5b4c16d475",
+    "metrics.json": "a55f0f5213f5fcfbd126b4c68220fe7d19940c9f3b34d2a127f97eef381869bc",
+    "comparisons.csv": "f189b37e86f07b44ed6cce9400ac33e0d9d149a39f6a93cccf19405d55a63f9c",
+    "visual_review.json": "fd98ec205bea937963cbeaa88164b02b7c85fb651ed77ab7052007982c871bc0"
+  },
+  "reviewed_artifact_sha256": {
+    "contacts/case38_facade.png": "a7bb16dec04d1af2bf72276c5810a3060d8ce9676f8261edcf7fb41c444061b9",
+    "contacts/case38_red_sign.png": "b34636fd7608623f82e61c013cdff6797e602fa8e5494b78cc29843d6d1496a6",
+    "contacts/case42_lattice.png": "8a49ac8b84de625a4d71b1ab22d085c3427c742961cfc429069001fb719274c7",
+    "contacts/case42_red_sign.png": "8a23b7e4d6bfaefecb30683c8c61047eb8c1c0f89e674d2da719b1902b1a8afe",
+    "review/case38_facade_fftformer_realblur_j_from_h200_context.png": "af0bfea353fab6bde771130e4be56b14b4a4878ef27e362d27e57cdbb200d499",
+    "review/case42_red_sign_fftformer_realblur_j_from_h200_context.png": "f89da9584dc9f45439e5ef368ab9ad2969021340634cb85998e641164d3475a1",
+    "review/case42_red_sign_restormer_real_denoising_from_h200_context.png": "e2e7845119c6cb9b47f6f35e12f2b94ac7876558137f598c3d744335fd8d41f6"
+  },
+  "router": [
+    {
+      "case_id": 38,
+      "label_map_sha256": "e9d0146ac62678bc7bd84b48488d8e409965592696424dba780cfdbe77053912",
+      "signboard_ratio": 0.01792295773824056
+    },
+    {
+      "case_id": 42,
+      "label_map_sha256": "448b882b6b56be240ffa04889f3e4948ccc8bef019527995a9cb57a7def5e288",
+      "signboard_ratio": 0.009844700495402018
+    }
+  ],
+  "candidates": [
+    {
+      "id": "case38_facade_fftformer_realblur_j_from_original",
+      "full_shape": [
+        3072,
+        4096,
+        3
+      ],
+      "roi_shape": [
+        768,
+        768,
+        3
+      ],
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0,
+      "protected_pixel_count": 0,
+      "blend_reconstruction_exact": true,
+      "full_sha256": "df1bf8aa1b4b441c5f629fdf7694c325b11e139f36d652ce541eb47790da7d15"
+    },
+    {
+      "id": "case38_facade_fftformer_realblur_j_from_h200",
+      "full_shape": [
+        3072,
+        4096,
+        3
+      ],
+      "roi_shape": [
+        768,
+        768,
+        3
+      ],
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0,
+      "protected_pixel_count": 0,
+      "blend_reconstruction_exact": true,
+      "full_sha256": "78bd988448a69deb4873756e053dd9e5341c542028ebd9e797b7b12d4aee8a4e"
+    },
+    {
+      "id": "case38_red_sign_fftformer_realblur_j_from_original",
+      "full_shape": [
+        3072,
+        4096,
+        3
+      ],
+      "roi_shape": [
+        368,
+        672,
+        3
+      ],
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0,
+      "protected_pixel_count": 0,
+      "blend_reconstruction_exact": true,
+      "full_sha256": "2d13522e2617b49673795747d0b6990a6a4f6e9bf312d1585f088b310f754b52"
+    },
+    {
+      "id": "case38_red_sign_fftformer_realblur_j_from_h200",
+      "full_shape": [
+        3072,
+        4096,
+        3
+      ],
+      "roi_shape": [
+        368,
+        672,
+        3
+      ],
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0,
+      "protected_pixel_count": 0,
+      "blend_reconstruction_exact": true,
+      "full_sha256": "3ec510d9fa281516a552e297b45cda89a1759f1d617d7b45ff9314583971c489"
+    },
+    {
+      "id": "case42_lattice_fftformer_realblur_j_from_original",
+      "full_shape": [
+        4096,
+        3072,
+        3
+      ],
+      "roi_shape": [
+        640,
+        1024,
+        3
+      ],
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0,
+      "protected_pixel_count": 0,
+      "blend_reconstruction_exact": true,
+      "full_sha256": "9d74e95d59a19c81d058002e12553cbb2586ace92571d17b0c4367327d206d9f"
+    },
+    {
+      "id": "case42_lattice_fftformer_realblur_j_from_h200",
+      "full_shape": [
+        4096,
+        3072,
+        3
+      ],
+      "roi_shape": [
+        640,
+        1024,
+        3
+      ],
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0,
+      "protected_pixel_count": 0,
+      "blend_reconstruction_exact": true,
+      "full_sha256": "ffdb43026695ff31e38fe68004dab5127f124a59e185fd45f9fe378d7b26d406"
+    },
+    {
+      "id": "case42_red_sign_fftformer_realblur_j_from_original",
+      "full_shape": [
+        4096,
+        3072,
+        3
+      ],
+      "roi_shape": [
+        408,
+        568,
+        3
+      ],
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0,
+      "protected_pixel_count": 0,
+      "blend_reconstruction_exact": true,
+      "full_sha256": "932a3393df5aa0ce390499330e8ba5bd39209030b8955881be70d60531216433"
+    },
+    {
+      "id": "case42_red_sign_fftformer_realblur_j_from_h200",
+      "full_shape": [
+        4096,
+        3072,
+        3
+      ],
+      "roi_shape": [
+        408,
+        568,
+        3
+      ],
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0,
+      "protected_pixel_count": 0,
+      "blend_reconstruction_exact": true,
+      "full_sha256": "5ccd48ae060c33de27506a8252200b1813949649b059b229a4e2984c2d28703d"
+    },
+    {
+      "id": "case38_facade_restormer_real_denoising_from_original",
+      "full_shape": [
+        3072,
+        4096,
+        3
+      ],
+      "roi_shape": [
+        768,
+        768,
+        3
+      ],
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0,
+      "protected_pixel_count": 0,
+      "blend_reconstruction_exact": true,
+      "full_sha256": "11455bcb91b5f6220f97b2a3d58991cd658dbe097df9b54333a40b958f360daa"
+    },
+    {
+      "id": "case38_facade_restormer_real_denoising_from_h200",
+      "full_shape": [
+        3072,
+        4096,
+        3
+      ],
+      "roi_shape": [
+        768,
+        768,
+        3
+      ],
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0,
+      "protected_pixel_count": 0,
+      "blend_reconstruction_exact": true,
+      "full_sha256": "99fe9eec7d2d279ac7d39f568fe87750ac983609cc83c1cd4705e053f1f423b6"
+    },
+    {
+      "id": "case38_red_sign_restormer_real_denoising_from_original",
+      "full_shape": [
+        3072,
+        4096,
+        3
+      ],
+      "roi_shape": [
+        368,
+        672,
+        3
+      ],
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0,
+      "protected_pixel_count": 0,
+      "blend_reconstruction_exact": true,
+      "full_sha256": "a28cabd1c48e860baaf814935b0fc368ab8be05e0d9ced5e52401b8c6b2722c2"
+    },
+    {
+      "id": "case38_red_sign_restormer_real_denoising_from_h200",
+      "full_shape": [
+        3072,
+        4096,
+        3
+      ],
+      "roi_shape": [
+        368,
+        672,
+        3
+      ],
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0,
+      "protected_pixel_count": 0,
+      "blend_reconstruction_exact": true,
+      "full_sha256": "9222e3b39477588f3286fa3b047fc5ca64e02dbc56efd5871590094d6cd97b91"
+    },
+    {
+      "id": "case42_lattice_restormer_real_denoising_from_original",
+      "full_shape": [
+        4096,
+        3072,
+        3
+      ],
+      "roi_shape": [
+        640,
+        1024,
+        3
+      ],
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0,
+      "protected_pixel_count": 0,
+      "blend_reconstruction_exact": true,
+      "full_sha256": "6e6abc123a4e6193a52bfecd30450ae2fa1291ab52f9ef5d7e6b2091ec09b7a9"
+    },
+    {
+      "id": "case42_lattice_restormer_real_denoising_from_h200",
+      "full_shape": [
+        4096,
+        3072,
+        3
+      ],
+      "roi_shape": [
+        640,
+        1024,
+        3
+      ],
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0,
+      "protected_pixel_count": 0,
+      "blend_reconstruction_exact": true,
+      "full_sha256": "4eb5c2afc335930d6b719c5cf665decff1d4f2025376b84df2f4886458bd1ec3"
+    },
+    {
+      "id": "case42_red_sign_restormer_real_denoising_from_original",
+      "full_shape": [
+        4096,
+        3072,
+        3
+      ],
+      "roi_shape": [
+        408,
+        568,
+        3
+      ],
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0,
+      "protected_pixel_count": 0,
+      "blend_reconstruction_exact": true,
+      "full_sha256": "d592f32ec8b3530805336ce89b55a2c6511f5e3e8255b50cf3a5869db49a2026"
+    },
+    {
+      "id": "case42_red_sign_restormer_real_denoising_from_h200",
+      "full_shape": [
+        4096,
+        3072,
+        3
+      ],
+      "roi_shape": [
+        408,
+        568,
+        3
+      ],
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0,
+      "protected_pixel_count": 0,
+      "blend_reconstruction_exact": true,
+      "full_sha256": "ee3d0e389e8bc4a5a652a84d8bb81d71869777d03aeaea1de61b26d40a6f243d"
+    }
+  ],
+  "limitations": [
+    "Byte/shape/mask/delta checks do not establish image or text authenticity.",
+    "No full-set or leaderboard conclusion.",
+    "Two original images; ROIs and model variants are not independent scene samples."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "protocol": "targeted_roi_screening_v2",
+  "seed": 231,
+  "context": 64,
+  "feather": 32,
+  "cases": [38, 42],
+  "models": ["fftformer_realblur_j", "restormer_real_denoising"],
+  "sources": ["original", "h200"],
+  "selection": "Manually fixed before candidate generation using original content and corrected OneFormer masks; exploratory subset, not held-out validation.",
+  "metrics": {"primary": "clipiqa", "secondary": "topiq_nr", "proxy_score": null},
+  "rois": [
+    {"case_id": 38, "name": "facade", "branch": "structure", "box": [1824, 1664, 2592, 2432]},
+    {"case_id": 38, "name": "red_sign", "branch": "signage", "box": [1728, 1296, 2400, 1664]},
+    {"case_id": 42, "name": "lattice", "branch": "structure", "box": [1792, 416, 2816, 1056]},
+    {"case_id": 42, "name": "red_sign", "branch": "signage", "box": [1296, 2024, 1864, 2432]}
+  ],
+  "stop_rule": "No automatic adoption. Compare paired full image and actual blended ROI metrics; visual/text veto required. Do not tune thresholds or ROI after looking at candidate scores.",
+  "training": false,
+  "full_set": false,
+  "automatic_deployment": false
+}

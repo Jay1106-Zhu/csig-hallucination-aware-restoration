@@ -1,4 +1,15 @@
-# Phase 0 发现
+# 阶段发现
+
+## 2026-09-19 Phase06 第二轮定向实测
+- 按 investigation MD：CLIPIQA 为主、TOPIQ NR 辅助；不混合加权，子集/跨模型 proxy 均为 null，Original 不是 GT。
+- case38/case42 四个预先固定 ROI，FFTformer RealBlur-J/Restormer real denoising × Original/H200 共 16 个候选；无训练、无 100 张全量、无提交或发布。
+- 3 项全图/实际融合 ROI 的两项指标同向提升：case38 facade FFTformer←H200（全图/ROI ΔCLIPIQA +0.001430/+0.103553）、case42 red_sign Restormer←H200（+0.004964/+0.063312）、同招牌 FFTformer←H200（+0.001413/+0.020008，次选）。均仅保留独立复核资格。
+- 11 项全图主指标下降；另 2 项 case42 招牌 Original 输入虽然 CLIPIQA 上升，ROI TOPIQ 大跌且视觉仍模糊，均不采用。默认 H200，未合成正式候选版本。
+- AI 观察：主要改善噪声/观感，H200 窗内疑似生成细节和红色光晕仍在；未验证字符正确或结构恢复。非盲法 AI 观察不替代独立人工审核。
+- OneFormer 旧代码漏掉 `signboard, sign` 别名；case42 Original 实际 signboard 约 0.98447%。4K 零 Hough 线也含阈值尺度实现问题。已修正并回归测试，router 仍只提供粗 mask，不是自动精细 ROI。
+- 两模型不是专用语义条件结构/中文文字/去炫光专家；语义和线先验没有作为网络条件。ROI 在推理前人工冻结；四个 ROI 内实际保护像素数为 0，不能把本轮称作实景招牌保护验证。
+- 39 项测试全通过；16 份产物 ROI 外像素零变化、raw+mask+feather 可逐像素重建输出、配置/源码/权重/输入哈希一致。旧 0.05 阈值和六张 affine 数值不再作为有效性判据。
+- 报告：`csig_phase06_semantic_structure/reports/round02_targeted_experts_2026-09-19.md`；指标、AI 筛查和审计分别独立归档，保留历史记录。
 
 ## Phase 0.5 预检
 - 主结果HOLD：V7 ROC-AUC0.404961，LQ-only0.664665；只有case2/case5和3张合成原图有两类，名义55原图不等于55个有效AUC。

@@ -1,0 +1,101 @@
+{
+  "scope": "phase06_public_source_and_evidence_bundle",
+  "date": "2026-09-19",
+  "source_artifacts_preserved_locally": true,
+  "absolute_paths_removed": true,
+  "files": [
+    {
+      "path": "audit.json",
+      "bytes": 10274,
+      "sha256": "3aca74b2d7f7656b150a08e740fd1d181058972d98fe6a07286b7d31fa76c175"
+    },
+    {
+      "path": "candidate_manifest.json",
+      "bytes": 29062,
+      "sha256": "8b886e7b55a5ac2edb20e5f1206ce2356d751064dea6c6a3081b253f8c2e809e"
+    },
+    {
+      "path": "comparisons.csv",
+      "bytes": 5651,
+      "sha256": "f189b37e86f07b44ed6cce9400ac33e0d9d149a39f6a93cccf19405d55a63f9c"
+    },
+    {
+      "path": "contacts/case38_facade.png",
+      "bytes": 3241079,
+      "sha256": "a7bb16dec04d1af2bf72276c5810a3060d8ce9676f8261edcf7fb41c444061b9"
+    },
+    {
+      "path": "contacts/case38_red_sign.png",
+      "bytes": 1614926,
+      "sha256": "b34636fd7608623f82e61c013cdff6797e602fa8e5494b78cc29843d6d1496a6"
+    },
+    {
+      "path": "contacts/case42_lattice.png",
+      "bytes": 3453919,
+      "sha256": "8a49ac8b84de625a4d71b1ab22d085c3427c742961cfc429069001fb719274c7"
+    },
+    {
+      "path": "contacts/case42_red_sign.png",
+      "bytes": 1738860,
+      "sha256": "8a23b7e4d6bfaefecb30683c8c61047eb8c1c0f89e674d2da719b1902b1a8afe"
+    },
+    {
+      "path": "logs/round02_audit.txt",
+      "bytes": 3859,
+      "sha256": "1e9a248a5feb11a055e9e065289950cb997b1b3b9eda1d5035c093b49f90c85a"
+    },
+    {
+      "path": "logs/round02_handoff_check.txt",
+      "bytes": 267,
+      "sha256": "44569fbc5f3007e565f24cd4e627bfa6cdb68c05d21c3f4898b3552170f7ba53"
+    },
+    {
+      "path": "logs/round02_tests.txt",
+      "bytes": 6635,
+      "sha256": "4b698d14dfcabc445b48d1523e5ec2bfe58e648d362a42be71f38c295c12f62c"
+    },
+    {
+      "path": "metrics.json",
+      "bytes": 28639,
+      "sha256": "6d0aa4a20e0f9e25f3f55ce485c51225ed96fb9d38483651af300ce43f329279"
+    },
+    {
+      "path": "review/case38_facade_fftformer_realblur_j_from_h200_context.png",
+      "bytes": 1824748,
+      "sha256": "af0bfea353fab6bde771130e4be56b14b4a4878ef27e362d27e57cdbb200d499"
+    },
+    {
+      "path": "review/case42_red_sign_fftformer_realblur_j_from_h200_context.png",
+      "bytes": 927696,
+      "sha256": "f89da9584dc9f45439e5ef368ab9ad2969021340634cb85998e641164d3475a1"
+    },
+    {
+      "path": "review/case42_red_sign_restormer_real_denoising_from_h200_context.png",
+      "bytes": 931552,
+      "sha256": "e2e7845119c6cb9b47f6f35e12f2b94ac7876558137f598c3d744335fd8d41f6"
+    },
+    {
+      "path": "router/case38_router.json",
+      "bytes": 1780,
+      "sha256": "9e4dd4ea9da69f3714afdd2d47aca739c8e7124f6b541dd3f45a80a2dc745b64"
+    },
+    {
+      "path": "router/case42_router.json",
+      "bytes": 1523,
+      "sha256": "2dd22f2dc534d1acfb1ad5f5e31eec7c9bbde6c095eb5989f0fbe05582155ccd"
+    },
+    {
+      "path": "visual_review.json",
+      "bytes": 6824,
+      "sha256": "a33915afd3412957982c5a5b72191ff51a2e835039d5bf18e2c3d8a34f7b6b62"
+    }
+  ],
+  "excluded_from_public_bundle": [
+    "original input images",
+    "HYPIR/H200 full outputs",
+    "OneFormer 4K label maps",
+    "16 complete candidate image directories",
+    "FFTformer/Restormer .pth weights",
+    "local dependency/cache trees"
+  ]
+}

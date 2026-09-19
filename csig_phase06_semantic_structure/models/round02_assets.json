@@ -1,0 +1,73 @@
+{
+  "scope": "round02 targeted pretrained experts; no training",
+  "assets": [
+    {
+      "path": "new_formal\\csig_phase06_semantic_structure\\third_party\\FFTformer\\basicsr\\models\\archs\\fftformer_arch.py",
+      "source": "https://raw.githubusercontent.com/kkkls/FFTformer/01306b5d4072146a011c8c6e9d4927cf4607f1d5/basicsr/models/archs/fftformer_arch.py",
+      "revision": "01306b5d4072146a011c8c6e9d4927cf4607f1d5",
+      "size": 10690,
+      "sha256": "dc0e1775eed3c3358f637084e9e345ec0246b66084487dc4220aad0a5cb66ddf"
+    },
+    {
+      "path": "new_formal\\csig_phase06_semantic_structure\\third_party\\FFTformer\\license",
+      "source": "https://raw.githubusercontent.com/kkkls/FFTformer/01306b5d4072146a011c8c6e9d4927cf4607f1d5/license",
+      "revision": "01306b5d4072146a011c8c6e9d4927cf4607f1d5",
+      "size": 1062,
+      "sha256": "ebbb97354efc45d568b5bd7100a3e70447256b7bbbe0c6d340cd382103751e30"
+    },
+    {
+      "path": "new_formal\\csig_phase06_semantic_structure\\third_party\\FFTformer\\options\\train\\Realblur.yml",
+      "source": "https://raw.githubusercontent.com/kkkls/FFTformer/01306b5d4072146a011c8c6e9d4927cf4607f1d5/options/train/Realblur.yml",
+      "revision": "01306b5d4072146a011c8c6e9d4927cf4607f1d5",
+      "size": 1974,
+      "sha256": "d2dc76580020fb3754755fc8bb378ed3a0bd8d3f92a68a225a035ea1e930408c"
+    },
+    {
+      "path": "new_formal\\csig_phase06_semantic_structure\\third_party\\FFTformer\\README.md",
+      "source": "https://raw.githubusercontent.com/kkkls/FFTformer/01306b5d4072146a011c8c6e9d4927cf4607f1d5/README.md",
+      "revision": "01306b5d4072146a011c8c6e9d4927cf4607f1d5",
+      "size": 2882,
+      "sha256": "8bea7c952d389fc3291bf497ad8b032c9897545e2edf3191d3c5337de1d4bf2f"
+    },
+    {
+      "path": "new_formal\\csig_phase06_semantic_structure\\third_party\\Restormer\\basicsr\\models\\archs\\restormer_arch.py",
+      "source": "https://raw.githubusercontent.com/swz30/Restormer/68dc6ac472db26f16361150cb7a96a1bc87da93f/basicsr/models/archs/restormer_arch.py",
+      "revision": "68dc6ac472db26f16361150cb7a96a1bc87da93f",
+      "size": 11428,
+      "sha256": "3be243fa3c8e2cb2c9459eeac062b04d6084dbcc328292dae1c3e52ba6f7434a"
+    },
+    {
+      "path": "new_formal\\csig_phase06_semantic_structure\\third_party\\Restormer\\Denoising\\Options\\RealDenoising_Restormer.yml",
+      "source": "https://raw.githubusercontent.com/swz30/Restormer/68dc6ac472db26f16361150cb7a96a1bc87da93f/Denoising/Options/RealDenoising_Restormer.yml",
+      "revision": "68dc6ac472db26f16361150cb7a96a1bc87da93f",
+      "size": 2941,
+      "sha256": "697bf6402c58d22e1f7314f1f87fbed2a5de6f5f912ae9dcc96bba203b3b5b32"
+    },
+    {
+      "path": "new_formal\\csig_phase06_semantic_structure\\third_party\\Restormer\\LICENSE.md",
+      "source": "https://raw.githubusercontent.com/swz30/Restormer/68dc6ac472db26f16361150cb7a96a1bc87da93f/LICENSE.md",
+      "revision": "68dc6ac472db26f16361150cb7a96a1bc87da93f",
+      "size": 1090,
+      "sha256": "2b93776512924bc095ec5d97a79d76cf1ab401ae641d1ae1f46e94f1c53a2e59"
+    },
+    {
+      "path": "new_formal\\csig_phase06_semantic_structure\\third_party\\Restormer\\README.md",
+      "source": "https://raw.githubusercontent.com/swz30/Restormer/68dc6ac472db26f16361150cb7a96a1bc87da93f/README.md",
+      "revision": "68dc6ac472db26f16361150cb7a96a1bc87da93f",
+      "size": 9620,
+      "sha256": "6a1ce0d30f78378ac64347840bf22985b0da75751442f55dd1ba7b14e7426d3e"
+    },
+    {
+      "path": "new_formal\\csig_phase06_semantic_structure\\models\\fftformer_realblur_j.pth",
+      "source": "https://drive.google.com/file/d/1ujZzfTHwaikEgp3lrSFWAtdj-7Hcl2xl/view",
+      "size": 66446644,
+      "sha256": "c687ba8a26e7af7a5fa4ed30c66c7af35eacf7469584a8f6b105227130b30c3a"
+    },
+    {
+      "path": "new_formal\\csig_phase06_semantic_structure\\models\\restormer_real_denoising.pth",
+      "source": "https://drive.google.com/file/d/1FF_4NTboTWQ7sHCq4xhyLZsSl0U0JfjH/view",
+      "size": 104611957,
+      "sha256": "4cae18bed8a291b9a5deeeab48756bbe6f61fcf7f31a4cca0969b24608601387"
+    }
+  ]
+}

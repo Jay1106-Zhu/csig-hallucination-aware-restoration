@@ -1,0 +1,630 @@
+{
+  "scope": "targeted_diagnostic_subset",
+  "proxy_score": null,
+  "primary": "CLIPIQA",
+  "secondary": "TOPIQ NR",
+  "preprocessing": "PIL RGB -> float32 [0,1], native image/ROI; pyiqa default internal preprocessing; no external resize; no GT",
+  "pyiqa": "0.1.16",
+  "torch": "2.11.0+cu128",
+  "metric_weights": [
+    {
+      "path": "EXTERNAL_CACHE/torch/hub/clip/RN50.pt",
+      "sha256": "afeb0e10f9e5a86da6080e35cf09123aca3b358a0c3e3b6c78a7b63bc04b6762"
+    },
+    {
+      "path": "EXTERNAL_CACHE/torch/hub/pyiqa/cfanet_nr_koniq_res50-9a73138b.pth",
+      "sha256": "9a73138beb3748dd6a83365610ac88fa1cd53225342c77fc9ed44a3be461354c"
+    }
+  ],
+  "baseline_summary": {
+    "family": "hypir",
+    "count": 2,
+    "clipiqa_mean": 0.40226811170578003,
+    "topiq_mean": 0.4389171898365021,
+    "proxy_score": null,
+    "scope": "targeted_diagnostic_subset"
+  },
+  "baseline_case42_repeat_delta": {
+    "clipiqa": 0.0,
+    "topiq": 0.0
+  },
+  "scores": {
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/hypir_h200/result/case38.png": {
+      "clipiqa": 0.3550068438053131,
+      "topiq": 0.4354667663574219
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/data/input/case38.jpg": {
+      "clipiqa": 0.12135716527700424,
+      "topiq": 0.15518304705619812
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/data/input/case42.jpg": {
+      "clipiqa": 0.16433796286582947,
+      "topiq": 0.22589340806007385
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/references/case38_facade_h200.png": {
+      "clipiqa": 0.3731514513492584,
+      "topiq": 0.4085887372493744
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/references/case38_facade_original.png": {
+      "clipiqa": 0.07806780189275742,
+      "topiq": 0.1763153374195099
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case38_facade_fftformer_realblur_j_from_original/raw_roi.png": {
+      "clipiqa": 0.1343531757593155,
+      "topiq": 0.2122209370136261
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case38_facade_fftformer_realblur_j_from_original/blended_roi.png": {
+      "clipiqa": 0.12297866493463516,
+      "topiq": 0.25949862599372864
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case38_facade_fftformer_realblur_j_from_original/case38.png": {
+      "clipiqa": 0.32815417647361755,
+      "topiq": 0.43516799807548523
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case38_facade_fftformer_realblur_j_from_h200/raw_roi.png": {
+      "clipiqa": 0.4888422191143036,
+      "topiq": 0.5084231495857239
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case38_facade_fftformer_realblur_j_from_h200/blended_roi.png": {
+      "clipiqa": 0.47670459747314453,
+      "topiq": 0.5006785988807678
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case38_facade_fftformer_realblur_j_from_h200/case38.png": {
+      "clipiqa": 0.3564365804195404,
+      "topiq": 0.4406147599220276
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/references/case38_red_sign_h200.png": {
+      "clipiqa": 0.397033154964447,
+      "topiq": 0.379354327917099
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/references/case38_red_sign_original.png": {
+      "clipiqa": 0.1485191136598587,
+      "topiq": 0.12595757842063904
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case38_red_sign_fftformer_realblur_j_from_original/raw_roi.png": {
+      "clipiqa": 0.23848505318164825,
+      "topiq": 0.1724080741405487
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case38_red_sign_fftformer_realblur_j_from_original/blended_roi.png": {
+      "clipiqa": 0.2009262889623642,
+      "topiq": 0.23478767275810242
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case38_red_sign_fftformer_realblur_j_from_original/case38.png": {
+      "clipiqa": 0.3465028703212738,
+      "topiq": 0.43465760350227356
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case38_red_sign_fftformer_realblur_j_from_h200/raw_roi.png": {
+      "clipiqa": 0.40398988127708435,
+      "topiq": 0.36224037408828735
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case38_red_sign_fftformer_realblur_j_from_h200/blended_roi.png": {
+      "clipiqa": 0.3836081922054291,
+      "topiq": 0.3710850179195404
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case38_red_sign_fftformer_realblur_j_from_h200/case38.png": {
+      "clipiqa": 0.3541989326477051,
+      "topiq": 0.436514288187027
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/references/case42_lattice_h200.png": {
+      "clipiqa": 0.21428294479846954,
+      "topiq": 0.4455277621746063
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/references/case42_lattice_original.png": {
+      "clipiqa": 0.10207995027303696,
+      "topiq": 0.2053411304950714
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case42_lattice_fftformer_realblur_j_from_original/raw_roi.png": {
+      "clipiqa": 0.14564846456050873,
+      "topiq": 0.24717772006988525
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case42_lattice_fftformer_realblur_j_from_original/blended_roi.png": {
+      "clipiqa": 0.16055582463741302,
+      "topiq": 0.3137425482273102
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case42_lattice_fftformer_realblur_j_from_original/case42.png": {
+      "clipiqa": 0.4452742636203766,
+      "topiq": 0.43965956568717957
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case42_lattice_fftformer_realblur_j_from_h200/raw_roi.png": {
+      "clipiqa": 0.19556553661823273,
+      "topiq": 0.46806177496910095
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case42_lattice_fftformer_realblur_j_from_h200/blended_roi.png": {
+      "clipiqa": 0.19257497787475586,
+      "topiq": 0.4654318392276764
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case42_lattice_fftformer_realblur_j_from_h200/case42.png": {
+      "clipiqa": 0.44860997796058655,
+      "topiq": 0.4431232810020447
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/references/case42_red_sign_h200.png": {
+      "clipiqa": 0.1747051477432251,
+      "topiq": 0.40471023321151733
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/references/case42_red_sign_original.png": {
+      "clipiqa": 0.10656043142080307,
+      "topiq": 0.1380685567855835
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case42_red_sign_fftformer_realblur_j_from_original/raw_roi.png": {
+      "clipiqa": 0.22504737973213196,
+      "topiq": 0.17745238542556763
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case42_red_sign_fftformer_realblur_j_from_original/blended_roi.png": {
+      "clipiqa": 0.23334327340126038,
+      "topiq": 0.2341427505016327
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case42_red_sign_fftformer_realblur_j_from_original/case42.png": {
+      "clipiqa": 0.4611341655254364,
+      "topiq": 0.43999117612838745
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case42_red_sign_fftformer_realblur_j_from_h200/raw_roi.png": {
+      "clipiqa": 0.19075535237789154,
+      "topiq": 0.4170711934566498
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case42_red_sign_fftformer_realblur_j_from_h200/blended_roi.png": {
+      "clipiqa": 0.19471322000026703,
+      "topiq": 0.41816234588623047
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case42_red_sign_fftformer_realblur_j_from_h200/case42.png": {
+      "clipiqa": 0.45094209909439087,
+      "topiq": 0.443020224571228
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case38_facade_restormer_real_denoising_from_original/raw_roi.png": {
+      "clipiqa": 0.14625738561153412,
+      "topiq": 0.1856844127178192
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case38_facade_restormer_real_denoising_from_original/blended_roi.png": {
+      "clipiqa": 0.13086754083633423,
+      "topiq": 0.2692355811595917
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case38_facade_restormer_real_denoising_from_original/case38.png": {
+      "clipiqa": 0.33014196157455444,
+      "topiq": 0.43580910563468933
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case38_facade_restormer_real_denoising_from_h200/raw_roi.png": {
+      "clipiqa": 0.35603511333465576,
+      "topiq": 0.41625526547431946
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case38_facade_restormer_real_denoising_from_h200/blended_roi.png": {
+      "clipiqa": 0.3561594486236572,
+      "topiq": 0.4192405343055725
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case38_facade_restormer_real_denoising_from_h200/case38.png": {
+      "clipiqa": 0.3492066562175751,
+      "topiq": 0.43765097856521606
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case38_red_sign_restormer_real_denoising_from_original/raw_roi.png": {
+      "clipiqa": 0.19804176688194275,
+      "topiq": 0.11827514320611954
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case38_red_sign_restormer_real_denoising_from_original/blended_roi.png": {
+      "clipiqa": 0.1581370085477829,
+      "topiq": 0.20740431547164917
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case38_red_sign_restormer_real_denoising_from_original/case38.png": {
+      "clipiqa": 0.3430843651294708,
+      "topiq": 0.43481436371803284
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case38_red_sign_restormer_real_denoising_from_h200/raw_roi.png": {
+      "clipiqa": 0.3581600785255432,
+      "topiq": 0.33510610461235046
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case38_red_sign_restormer_real_denoising_from_h200/blended_roi.png": {
+      "clipiqa": 0.32467183470726013,
+      "topiq": 0.3521724343299866
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case38_red_sign_restormer_real_denoising_from_h200/case38.png": {
+      "clipiqa": 0.35151365399360657,
+      "topiq": 0.4361096918582916
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case42_lattice_restormer_real_denoising_from_original/raw_roi.png": {
+      "clipiqa": 0.17966735363006592,
+      "topiq": 0.21221759915351868
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case42_lattice_restormer_real_denoising_from_original/blended_roi.png": {
+      "clipiqa": 0.18340042233467102,
+      "topiq": 0.29649618268013
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case42_lattice_restormer_real_denoising_from_original/case42.png": {
+      "clipiqa": 0.4485967755317688,
+      "topiq": 0.43944522738456726
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case42_lattice_restormer_real_denoising_from_h200/raw_roi.png": {
+      "clipiqa": 0.17663919925689697,
+      "topiq": 0.43034809827804565
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case42_lattice_restormer_real_denoising_from_h200/blended_roi.png": {
+      "clipiqa": 0.1805395781993866,
+      "topiq": 0.4316764771938324
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case42_lattice_restormer_real_denoising_from_h200/case42.png": {
+      "clipiqa": 0.4480622410774231,
+      "topiq": 0.44188204407691956
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case42_red_sign_restormer_real_denoising_from_original/raw_roi.png": {
+      "clipiqa": 0.17515502870082855,
+      "topiq": 0.14906957745552063
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case42_red_sign_restormer_real_denoising_from_original/blended_roi.png": {
+      "clipiqa": 0.18393786251544952,
+      "topiq": 0.2383071780204773
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case42_red_sign_restormer_real_denoising_from_original/case42.png": {
+      "clipiqa": 0.45709893107414246,
+      "topiq": 0.4412280321121216
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case42_red_sign_restormer_real_denoising_from_h200/raw_roi.png": {
+      "clipiqa": 0.23406977951526642,
+      "topiq": 0.4303198754787445
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case42_red_sign_restormer_real_denoising_from_h200/blended_roi.png": {
+      "clipiqa": 0.23801688849925995,
+      "topiq": 0.42984119057655334
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case42_red_sign_restormer_real_denoising_from_h200/case42.png": {
+      "clipiqa": 0.4544937312602997,
+      "topiq": 0.4431515634059906
+    },
+    "REPO_ROOT/csig_phase06_semantic_structure/outputs/hypir_h200/result/case42.png": {
+      "clipiqa": 0.44952937960624695,
+      "topiq": 0.4423676133155823
+    }
+  },
+  "comparisons": [
+    {
+      "id": "case38_facade_fftformer_realblur_j_from_original",
+      "case_id": 38,
+      "name": "facade",
+      "model": "fftformer_realblur_j",
+      "source": "original",
+      "global_clipiqa": 0.32815417647361755,
+      "global_topiq": 0.43516799807548523,
+      "global_clipiqa_delta": -0.026852667331695557,
+      "global_topiq_delta": -0.0002987682819366455,
+      "roi_clipiqa": 0.12297866493463516,
+      "roi_topiq": 0.25949862599372864,
+      "roi_clipiqa_delta": -0.25017278641462326,
+      "roi_topiq_delta": -0.14909011125564575,
+      "proxy_score": null,
+      "screening": "KEEP_H200_PRIMARY_REGRESSION",
+      "visual_status": "PENDING",
+      "raw_roi_clipiqa": 0.1343531757593155,
+      "raw_roi_topiq": 0.2122209370136261,
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0
+    },
+    {
+      "id": "case38_facade_fftformer_realblur_j_from_h200",
+      "case_id": 38,
+      "name": "facade",
+      "model": "fftformer_realblur_j",
+      "source": "h200",
+      "global_clipiqa": 0.3564365804195404,
+      "global_topiq": 0.4406147599220276,
+      "global_clipiqa_delta": 0.001429736614227295,
+      "global_topiq_delta": 0.005147993564605713,
+      "roi_clipiqa": 0.47670459747314453,
+      "roi_topiq": 0.5006785988807678,
+      "roi_clipiqa_delta": 0.10355314612388611,
+      "roi_topiq_delta": 0.09208986163139343,
+      "proxy_score": null,
+      "screening": "VISUAL_REVIEW_REQUIRED",
+      "visual_status": "PENDING",
+      "raw_roi_clipiqa": 0.4888422191143036,
+      "raw_roi_topiq": 0.5084231495857239,
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0
+    },
+    {
+      "id": "case38_red_sign_fftformer_realblur_j_from_original",
+      "case_id": 38,
+      "name": "red_sign",
+      "model": "fftformer_realblur_j",
+      "source": "original",
+      "global_clipiqa": 0.3465028703212738,
+      "global_topiq": 0.43465760350227356,
+      "global_clipiqa_delta": -0.008503973484039307,
+      "global_topiq_delta": -0.0008091628551483154,
+      "roi_clipiqa": 0.2009262889623642,
+      "roi_topiq": 0.23478767275810242,
+      "roi_clipiqa_delta": -0.19610686600208282,
+      "roi_topiq_delta": -0.14456665515899658,
+      "proxy_score": null,
+      "screening": "KEEP_H200_PRIMARY_REGRESSION",
+      "visual_status": "PENDING",
+      "raw_roi_clipiqa": 0.23848505318164825,
+      "raw_roi_topiq": 0.1724080741405487,
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0
+    },
+    {
+      "id": "case38_red_sign_fftformer_realblur_j_from_h200",
+      "case_id": 38,
+      "name": "red_sign",
+      "model": "fftformer_realblur_j",
+      "source": "h200",
+      "global_clipiqa": 0.3541989326477051,
+      "global_topiq": 0.436514288187027,
+      "global_clipiqa_delta": -0.0008079111576080322,
+      "global_topiq_delta": 0.0010475218296051025,
+      "roi_clipiqa": 0.3836081922054291,
+      "roi_topiq": 0.3710850179195404,
+      "roi_clipiqa_delta": -0.013424962759017944,
+      "roi_topiq_delta": -0.008269309997558594,
+      "proxy_score": null,
+      "screening": "KEEP_H200_PRIMARY_REGRESSION",
+      "visual_status": "PENDING",
+      "raw_roi_clipiqa": 0.40398988127708435,
+      "raw_roi_topiq": 0.36224037408828735,
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0
+    },
+    {
+      "id": "case42_lattice_fftformer_realblur_j_from_original",
+      "case_id": 42,
+      "name": "lattice",
+      "model": "fftformer_realblur_j",
+      "source": "original",
+      "global_clipiqa": 0.4452742636203766,
+      "global_topiq": 0.43965956568717957,
+      "global_clipiqa_delta": -0.004255115985870361,
+      "global_topiq_delta": -0.00270804762840271,
+      "roi_clipiqa": 0.16055582463741302,
+      "roi_topiq": 0.3137425482273102,
+      "roi_clipiqa_delta": -0.05372712016105652,
+      "roi_topiq_delta": -0.13178521394729614,
+      "proxy_score": null,
+      "screening": "KEEP_H200_PRIMARY_REGRESSION",
+      "visual_status": "PENDING",
+      "raw_roi_clipiqa": 0.14564846456050873,
+      "raw_roi_topiq": 0.24717772006988525,
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0
+    },
+    {
+      "id": "case42_lattice_fftformer_realblur_j_from_h200",
+      "case_id": 42,
+      "name": "lattice",
+      "model": "fftformer_realblur_j",
+      "source": "h200",
+      "global_clipiqa": 0.44860997796058655,
+      "global_topiq": 0.4431232810020447,
+      "global_clipiqa_delta": -0.0009194016456604004,
+      "global_topiq_delta": 0.0007556676864624023,
+      "roi_clipiqa": 0.19257497787475586,
+      "roi_topiq": 0.4654318392276764,
+      "roi_clipiqa_delta": -0.021707966923713684,
+      "roi_topiq_delta": 0.01990407705307007,
+      "proxy_score": null,
+      "screening": "KEEP_H200_PRIMARY_REGRESSION",
+      "visual_status": "PENDING",
+      "raw_roi_clipiqa": 0.19556553661823273,
+      "raw_roi_topiq": 0.46806177496910095,
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0
+    },
+    {
+      "id": "case42_red_sign_fftformer_realblur_j_from_original",
+      "case_id": 42,
+      "name": "red_sign",
+      "model": "fftformer_realblur_j",
+      "source": "original",
+      "global_clipiqa": 0.4611341655254364,
+      "global_topiq": 0.43999117612838745,
+      "global_clipiqa_delta": 0.011604785919189453,
+      "global_topiq_delta": -0.0023764371871948242,
+      "roi_clipiqa": 0.23334327340126038,
+      "roi_topiq": 0.2341427505016327,
+      "roi_clipiqa_delta": 0.05863812565803528,
+      "roi_topiq_delta": -0.17056748270988464,
+      "proxy_score": null,
+      "screening": "REVIEW_SECONDARY_TRADEOFF",
+      "visual_status": "PENDING",
+      "raw_roi_clipiqa": 0.22504737973213196,
+      "raw_roi_topiq": 0.17745238542556763,
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0
+    },
+    {
+      "id": "case42_red_sign_fftformer_realblur_j_from_h200",
+      "case_id": 42,
+      "name": "red_sign",
+      "model": "fftformer_realblur_j",
+      "source": "h200",
+      "global_clipiqa": 0.45094209909439087,
+      "global_topiq": 0.443020224571228,
+      "global_clipiqa_delta": 0.001412719488143921,
+      "global_topiq_delta": 0.000652611255645752,
+      "roi_clipiqa": 0.19471322000026703,
+      "roi_topiq": 0.41816234588623047,
+      "roi_clipiqa_delta": 0.02000807225704193,
+      "roi_topiq_delta": 0.013452112674713135,
+      "proxy_score": null,
+      "screening": "VISUAL_REVIEW_REQUIRED",
+      "visual_status": "PENDING",
+      "raw_roi_clipiqa": 0.19075535237789154,
+      "raw_roi_topiq": 0.4170711934566498,
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0
+    },
+    {
+      "id": "case38_facade_restormer_real_denoising_from_original",
+      "case_id": 38,
+      "name": "facade",
+      "model": "restormer_real_denoising",
+      "source": "original",
+      "global_clipiqa": 0.33014196157455444,
+      "global_topiq": 0.43580910563468933,
+      "global_clipiqa_delta": -0.024864882230758667,
+      "global_topiq_delta": 0.00034233927726745605,
+      "roi_clipiqa": 0.13086754083633423,
+      "roi_topiq": 0.2692355811595917,
+      "roi_clipiqa_delta": -0.2422839105129242,
+      "roi_topiq_delta": -0.13935315608978271,
+      "proxy_score": null,
+      "screening": "KEEP_H200_PRIMARY_REGRESSION",
+      "visual_status": "PENDING",
+      "raw_roi_clipiqa": 0.14625738561153412,
+      "raw_roi_topiq": 0.1856844127178192,
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0
+    },
+    {
+      "id": "case38_facade_restormer_real_denoising_from_h200",
+      "case_id": 38,
+      "name": "facade",
+      "model": "restormer_real_denoising",
+      "source": "h200",
+      "global_clipiqa": 0.3492066562175751,
+      "global_topiq": 0.43765097856521606,
+      "global_clipiqa_delta": -0.005800187587738037,
+      "global_topiq_delta": 0.0021842122077941895,
+      "roi_clipiqa": 0.3561594486236572,
+      "roi_topiq": 0.4192405343055725,
+      "roi_clipiqa_delta": -0.016992002725601196,
+      "roi_topiq_delta": 0.01065179705619812,
+      "proxy_score": null,
+      "screening": "KEEP_H200_PRIMARY_REGRESSION",
+      "visual_status": "PENDING",
+      "raw_roi_clipiqa": 0.35603511333465576,
+      "raw_roi_topiq": 0.41625526547431946,
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0
+    },
+    {
+      "id": "case38_red_sign_restormer_real_denoising_from_original",
+      "case_id": 38,
+      "name": "red_sign",
+      "model": "restormer_real_denoising",
+      "source": "original",
+      "global_clipiqa": 0.3430843651294708,
+      "global_topiq": 0.43481436371803284,
+      "global_clipiqa_delta": -0.011922478675842285,
+      "global_topiq_delta": -0.0006524026393890381,
+      "roi_clipiqa": 0.1581370085477829,
+      "roi_topiq": 0.20740431547164917,
+      "roi_clipiqa_delta": -0.23889614641666412,
+      "roi_topiq_delta": -0.17195001244544983,
+      "proxy_score": null,
+      "screening": "KEEP_H200_PRIMARY_REGRESSION",
+      "visual_status": "PENDING",
+      "raw_roi_clipiqa": 0.19804176688194275,
+      "raw_roi_topiq": 0.11827514320611954,
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0
+    },
+    {
+      "id": "case38_red_sign_restormer_real_denoising_from_h200",
+      "case_id": 38,
+      "name": "red_sign",
+      "model": "restormer_real_denoising",
+      "source": "h200",
+      "global_clipiqa": 0.35151365399360657,
+      "global_topiq": 0.4361096918582916,
+      "global_clipiqa_delta": -0.003493189811706543,
+      "global_topiq_delta": 0.000642925500869751,
+      "roi_clipiqa": 0.32467183470726013,
+      "roi_topiq": 0.3521724343299866,
+      "roi_clipiqa_delta": -0.07236132025718689,
+      "roi_topiq_delta": -0.027181893587112427,
+      "proxy_score": null,
+      "screening": "KEEP_H200_PRIMARY_REGRESSION",
+      "visual_status": "PENDING",
+      "raw_roi_clipiqa": 0.3581600785255432,
+      "raw_roi_topiq": 0.33510610461235046,
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0
+    },
+    {
+      "id": "case42_lattice_restormer_real_denoising_from_original",
+      "case_id": 42,
+      "name": "lattice",
+      "model": "restormer_real_denoising",
+      "source": "original",
+      "global_clipiqa": 0.4485967755317688,
+      "global_topiq": 0.43944522738456726,
+      "global_clipiqa_delta": -0.0009326040744781494,
+      "global_topiq_delta": -0.0029223859310150146,
+      "roi_clipiqa": 0.18340042233467102,
+      "roi_topiq": 0.29649618268013,
+      "roi_clipiqa_delta": -0.030882522463798523,
+      "roi_topiq_delta": -0.14903157949447632,
+      "proxy_score": null,
+      "screening": "KEEP_H200_PRIMARY_REGRESSION",
+      "visual_status": "PENDING",
+      "raw_roi_clipiqa": 0.17966735363006592,
+      "raw_roi_topiq": 0.21221759915351868,
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0
+    },
+    {
+      "id": "case42_lattice_restormer_real_denoising_from_h200",
+      "case_id": 42,
+      "name": "lattice",
+      "model": "restormer_real_denoising",
+      "source": "h200",
+      "global_clipiqa": 0.4480622410774231,
+      "global_topiq": 0.44188204407691956,
+      "global_clipiqa_delta": -0.0014671385288238525,
+      "global_topiq_delta": -0.0004855692386627197,
+      "roi_clipiqa": 0.1805395781993866,
+      "roi_topiq": 0.4316764771938324,
+      "roi_clipiqa_delta": -0.03374336659908295,
+      "roi_topiq_delta": -0.013851284980773926,
+      "proxy_score": null,
+      "screening": "KEEP_H200_PRIMARY_REGRESSION",
+      "visual_status": "PENDING",
+      "raw_roi_clipiqa": 0.17663919925689697,
+      "raw_roi_topiq": 0.43034809827804565,
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0
+    },
+    {
+      "id": "case42_red_sign_restormer_real_denoising_from_original",
+      "case_id": 42,
+      "name": "red_sign",
+      "model": "restormer_real_denoising",
+      "source": "original",
+      "global_clipiqa": 0.45709893107414246,
+      "global_topiq": 0.4412280321121216,
+      "global_clipiqa_delta": 0.007569551467895508,
+      "global_topiq_delta": -0.0011395812034606934,
+      "roi_clipiqa": 0.18393786251544952,
+      "roi_topiq": 0.2383071780204773,
+      "roi_clipiqa_delta": 0.009232714772224426,
+      "roi_topiq_delta": -0.16640305519104004,
+      "proxy_score": null,
+      "screening": "REVIEW_SECONDARY_TRADEOFF",
+      "visual_status": "PENDING",
+      "raw_roi_clipiqa": 0.17515502870082855,
+      "raw_roi_topiq": 0.14906957745552063,
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0
+    },
+    {
+      "id": "case42_red_sign_restormer_real_denoising_from_h200",
+      "case_id": 42,
+      "name": "red_sign",
+      "model": "restormer_real_denoising",
+      "source": "h200",
+      "global_clipiqa": 0.4544937312602997,
+      "global_topiq": 0.4431515634059906,
+      "global_clipiqa_delta": 0.004964351654052734,
+      "global_topiq_delta": 0.0007839500904083252,
+      "roi_clipiqa": 0.23801688849925995,
+      "roi_topiq": 0.42984119057655334,
+      "roi_clipiqa_delta": 0.06331174075603485,
+      "roi_topiq_delta": 0.02513095736503601,
+      "proxy_score": null,
+      "screening": "VISUAL_REVIEW_REQUIRED",
+      "visual_status": "PENDING",
+      "raw_roi_clipiqa": 0.23406977951526642,
+      "raw_roi_topiq": 0.4303198754787445,
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0
+    }
+  ],
+  "script_sha256": "5531c1996d0043149c70381708b534a6531772e6275c2a610877d3a2f0b1bf61",
+  "candidate_manifest_sha256": "059f834f8c2030990261056930cf46aa0a6dbc46765fa541f2ea2b5b4c16d475",
+  "warning": "Screening is not acceptance. Visual/text authenticity review required; original is not GT. No leaderboard/full-set conclusions."
+}

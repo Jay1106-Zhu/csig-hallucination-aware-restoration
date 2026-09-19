@@ -2,7 +2,13 @@
 
 **Public repository · Phase 0 complete**
 
-## 当前阶段：Phase 0.5（全量公开发布）
+## 当前阶段：Phase06 定向夜景专家验证
+
+2026-09-19：遵照 investigation MD，只做低分夜景的小范围实验，**不训练、不跑 100 张全量、不提交或发布**。入口：[Phase06 README](csig_phase06_semantic_structure/README.md)，主报告：[第二轮 16 个局部专家候选](csig_phase06_semantic_structure/reports/round02_targeted_experts_2026-09-19.md)。
+
+case38/case42 四个固定 ROI 的 FFTformer/Restormer × Original/H200 对照已完成：3 个候选仅保留独立复核资格，13 个不采用；默认仍用 H200。CLIPIQA 为主、TOPIQ NR 为辅助，跨模型和子集不套 affine。39 项测试和产物审计通过；独立人工真实性审核待进行，未证明去炫光或字符恢复成功。Phase06 的代码、报告、脱敏评分证据和精选可视化已随本仓库上传；原始输入、`.pth` 权重、4K 全量输出和本机路径仍不公开。
+
+## 历史阶段：Phase 0.5（全量公开发布）
 
 Phase 0.5 计算实验与完整审计已完成，结论 **HOLD**，不启动 Phase 1。入口：`csig_phase05/README.md`，主报告：`csig_phase05/reports/phase05_report.md`。
 
@@ -37,7 +43,7 @@ python publication/phase05/download_phase05.py --extract
 
 全部 20 个失败对照、五组 gain/confidence 热图、场景概览和补充语义区域均在 `csig_phase0/reports/visualization/`，原尺寸浮点热图另在 Release 中。
 
-本目录统一管理后续任务；Phase0已完成，新授权Phase0.5的本地进度见上方入口，不自动进入下一阶段。
+本目录统一管理后续任务；Phase0/Phase0.5 保留历史状态，当前 Phase06 本地进度见顶部入口，不自动启动训练或下一阶段。
 
 Phase 0 已于 2026-09-15 完成。Fusion AUC=0.7195 达到探索门槛，但仅三个有效 AUC 原图且一张只有一个 GOOD，实际推进建议 **HOLD：先补数据，不启动 Gate/专家训练**。
 

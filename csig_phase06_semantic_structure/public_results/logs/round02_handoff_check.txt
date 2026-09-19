@@ -1,0 +1,4 @@
+HISTORICAL SIGN RATIO oneformer_case42_original 0.009844700495402018
+HISTORICAL SIGN RATIO oneformer_case42 0.0070391496022542315
+FINAL CHECK PASS: 27 local links; 16 report rows match metrics; evidence hashes unchanged; 39 tests OK
+NO INFERENCE OR METRICS RERUN

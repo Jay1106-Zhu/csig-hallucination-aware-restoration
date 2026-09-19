@@ -1,0 +1,130 @@
+{
+  "date": "2026-09-19",
+  "reviewer_kind": "assistant_visual_screening",
+  "independent_human_review": "NOT_PERFORMED",
+  "scope": "case38/case42, four frozen ROIs, sixteen candidates",
+  "metrics_file": "metrics.json",
+  "candidate_manifest_sha256": "059f834f8c2030990261056930cf46aa0a6dbc46765fa541f2ea2b5b4c16d475",
+  "deployment_decision": "KEEP_H200",
+  "automatic_adoption": false,
+  "original_is_ground_truth": false,
+  "limitations": [
+    "非盲法 AI 辅助观察，不是独立人工标注；没有文字真值、结构真值或榜单验证。",
+    "只判断所查看 ROI 与上下文，未证实字符正确、H200 原有生成细节被纠正或炫光被去除。",
+    "指标原始记录中的 visual_status=PENDING 保持不变；本文件单独记录 AI 观察，不把观察冒充人工审核。",
+    "3 个正向候选只保留复核资格，不自动进入正式 pipeline；没有新增最小收益阈值。"
+  ],
+  "reviewed_artifacts": [
+    "contacts/case38_facade.png",
+    "contacts/case38_red_sign.png",
+    "contacts/case42_lattice.png",
+    "contacts/case42_red_sign.png",
+    "review/case38_facade_fftformer_realblur_j_from_h200_context.png",
+    "review/case42_red_sign_fftformer_realblur_j_from_h200_context.png",
+    "review/case42_red_sign_restormer_real_denoising_from_h200_context.png"
+  ],
+  "candidates": [
+    {
+      "id": "case38_facade_fftformer_realblur_j_from_original",
+      "decision": "KEEP_H200",
+      "basis": "PRIMARY_REGRESSION",
+      "observation": "Original 输入一路仍明显模糊，不能证明窗格结构更真实；全图和实际融合 ROI 主指标均下降。"
+    },
+    {
+      "id": "case38_facade_fftformer_realblur_j_from_h200",
+      "decision": "RETAIN_FOR_INDEPENDENT_REVIEW",
+      "review_priority": "PRIMARY_SHORTLIST",
+      "basis": "PAIRED_METRIC_GAINS_WITH_UNRESOLVED_AUTHENTICITY",
+      "observation": "立面细噪声减少、窗框较清楚，所查看上下文未发现明确新增硬拼接缝。窗内 H200 原有疑似生成细节仍在；只支持局部观感改善，不支持结构真实性已恢复。",
+      "risk": "过度平滑及继承 H200 幻觉；原图模糊不足以验证窗内物体。"
+    },
+    {
+      "id": "case38_red_sign_fftformer_realblur_j_from_original",
+      "decision": "KEEP_H200",
+      "basis": "PRIMARY_REGRESSION_AND_VISUAL_ARTIFACT_RISK",
+      "observation": "锐化笔画周边可见暗轮廓或振铃风险，没有字符真实性证据；全图主指标下降。"
+    },
+    {
+      "id": "case38_red_sign_fftformer_realblur_j_from_h200",
+      "decision": "KEEP_H200",
+      "basis": "PRIMARY_REGRESSION",
+      "observation": "没有明确文字结构收益；全图及 ROI 主指标下降，不能用辅助 TOPIQ 全图微升替代主指标。"
+    },
+    {
+      "id": "case42_lattice_fftformer_realblur_j_from_original",
+      "decision": "KEEP_H200",
+      "basis": "PRIMARY_REGRESSION",
+      "observation": "仍显著模糊，和保留的 H200 区域清晰度不一致；没有可靠重复结构修复证据。"
+    },
+    {
+      "id": "case42_lattice_fftformer_realblur_j_from_h200",
+      "decision": "KEEP_H200",
+      "basis": "PRIMARY_REGRESSION",
+      "observation": "与 H200 的格栅结构相近，没有可确证的几何纠正；全图及 ROI 主指标下降。"
+    },
+    {
+      "id": "case42_red_sign_fftformer_realblur_j_from_original",
+      "decision": "KEEP_H200",
+      "basis": "VISUAL_BLUR_AND_SECONDARY_TRADEOFF",
+      "observation": "尽管全图 CLIPIQA 上升，融合招牌仍明显模糊，与周围 H200 清晰度不一致，ROI TOPIQ 大幅下降；不因单项分数较高采用。"
+    },
+    {
+      "id": "case42_red_sign_fftformer_realblur_j_from_h200",
+      "decision": "RETAIN_FOR_INDEPENDENT_REVIEW",
+      "review_priority": "SECONDARY_SHORTLIST",
+      "basis": "PAIRED_METRIC_GAINS_WITH_UNRESOLVED_AUTHENTICITY",
+      "observation": "背景细噪声变弱，LED 点阵与主要笔画大体保留，所查看上下文未发现明确新增硬拼接缝。红色光晕仍明显，不能声称去炫光或字符纠正成功。",
+      "risk": "细点及背景平滑，不具备可靠文字真值；主指标增益小于同 ROI Restormer 候选。"
+    },
+    {
+      "id": "case38_facade_restormer_real_denoising_from_original",
+      "decision": "KEEP_H200",
+      "basis": "PRIMARY_REGRESSION",
+      "observation": "去噪不足以恢复模糊窗框；Original 路仍明显偏糊，全图及 ROI 主指标下降。"
+    },
+    {
+      "id": "case38_facade_restormer_real_denoising_from_h200",
+      "decision": "KEEP_H200",
+      "basis": "PRIMARY_REGRESSION",
+      "observation": "平滑未转化为可确证的窗格结构收益；全图及 ROI 主指标下降。"
+    },
+    {
+      "id": "case38_red_sign_restormer_real_denoising_from_original",
+      "decision": "KEEP_H200",
+      "basis": "PRIMARY_REGRESSION",
+      "observation": "笔画仍模糊，没有可靠中文字符恢复证据；全图和 ROI 主指标下降。"
+    },
+    {
+      "id": "case38_red_sign_restormer_real_denoising_from_h200",
+      "decision": "KEEP_H200",
+      "basis": "PRIMARY_REGRESSION",
+      "observation": "没有明确文字真实性收益；全图和 ROI 主指标下降，不采用。"
+    },
+    {
+      "id": "case42_lattice_restormer_real_denoising_from_original",
+      "decision": "KEEP_H200",
+      "basis": "PRIMARY_REGRESSION",
+      "observation": "去噪后的规则格栅仍模糊，与保留的 H200 区域清晰度不一致；主指标下降。"
+    },
+    {
+      "id": "case42_lattice_restormer_real_denoising_from_h200",
+      "decision": "KEEP_H200",
+      "basis": "PRIMARY_REGRESSION",
+      "observation": "未观察到可信的规则格栅修复；全图/ROI 的 CLIPIQA 和 TOPIQ 都下降。"
+    },
+    {
+      "id": "case42_red_sign_restormer_real_denoising_from_original",
+      "decision": "KEEP_H200",
+      "basis": "VISUAL_BLUR_AND_SECONDARY_TRADEOFF",
+      "observation": "全图 CLIPIQA 虽上升，局部招牌仍模糊且 ROI TOPIQ 大幅下降；视觉与辅助指标共同提示不可替换 H200。"
+    },
+    {
+      "id": "case42_red_sign_restormer_real_denoising_from_h200",
+      "decision": "RETAIN_FOR_INDEPENDENT_REVIEW",
+      "review_priority": "PRIMARY_SHORTLIST",
+      "basis": "PAIRED_METRIC_GAINS_WITH_UNRESOLVED_AUTHENTICITY",
+      "observation": "背景明显变平滑，LED 点阵和主要笔画大体保留，所查看上下文未发现明确新增硬拼接缝；红色光晕仍明显，字符是否正确不能由本实验确认。",
+      "risk": "背景可能过度平滑、出现塑料感；不是专用去炫光或中文文字模型。"
+    }
+  ]
+}

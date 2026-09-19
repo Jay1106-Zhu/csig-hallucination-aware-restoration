@@ -1,5 +1,20 @@
 # 执行日志
 
+## 2026-09-19 Phase06 第二轮定向局部专家实验
+- 承接并核对已完成的 16 个候选与统一评分，不重复推理、不训练、不扩展全量；固定 case38/case42 四个 ROI。
+- CLIPIQA 为主、TOPIQ NR 为辅助；3 个候选全图/实际融合 ROI 两项同向提升，2 个 case42 Original 输入招牌存在 TOPIQ trade-off，11 个全图主指标下降。
+- 已检查 case42 lattice 六面板：Original 输入两路仍模糊且与保留的 H200 区域清晰度不一致；H200 输入两路没有足够可见的重复结构收益。四路均主指标下降，保持 H200。
+- 正在核对正向候选边界并归档 AI 视觉意见；这些意见不替代独立人工审核、字符真值或正式榜单验证。
+- 原尺寸含 64px 上下文的对照复核：case38 facade FFTformer←H200 的立面细噪声减少、窗框更清楚，但窗内 H200 原有疑似生成细节仍在，未证明结构真实性得到纠正。
+- case42 red_sign Restormer←H200 的背景明显变平滑，LED 点阵/笔画大体保留，但红色光晕仍明显，存在过度平滑风险；在所查看边界未发现明确新增硬拼接缝，不据此宣布去炫光或文字恢复成功。
+- 已完成第三项 case42 red_sign FFTformer←H200 上下文复核：噪声变弱、光晕仍在，作为次选复核；独立 `visual_review.json` 覆盖全部 16 个候选，13 项 KEEP_H200，3 项只保留复核资格。
+- `.conda/python.exe -m unittest discover` 实测 39 项通过、0 skipped；scripts/tests compileall 通过。一个旧 Pillow 弃用警告不影响测试。日志目录原不存在，现已建立并归档本轮验证日志。
+- 独立产物审计 PASS：16 份全图及融合 ROI 尺寸/哈希/裁剪正确，ROI 外变化通道为 0，raw+mask+feather 可逐像素重建输出；配置、脚本、10 份专家资源、2 份指标权重及 4 份基准文件哈希匹配。
+- 审计补充限制：四个 ROI 内 allowed mask 均为全允许，保护像素数为 0；本轮不证明结构/招牌交界的实景保护能力，非空保护规则由契约测试覆盖。
+- 已写第二轮完整报告、Phase06 README、第一轮报告勘误并更新总入口/计划/发现；未重复运行推理、未更改冻结指标结果、未训练/跑全量/提交/发布。当前仅待队友独立真实性复核，不把它标成已完成。
+- 最终交付检查 PASS：27 个本地文档链接有效，报告 16 行 delta 与冻结指标逐项一致，审计记录的证据哈希未变；旧 case42 两份 label map 的 signboard 比例复核吻合。日志为 `logs/round02_handoff_check.txt`。
+- 用户授权完整上传 GitHub；已生成 `phase06-complete-2026-09-19.zip`（735,199,241 字节、1030 个成员、SHA-256 `457d8294260b8e053c8bf4b872c898ef99ad08fe07deed592a7c77e691012f37`），计划以独立 Release 上传，main 同步源码、报告与脱敏证据。
+
 ## 2026-09-15 Phase 0.5 全量公开发布
 - 用户明确要求“和上次一样，全部上传”，现授权本轮Git提交/push和新公开Release；沿用Jay1106-Zhu/csig-hallucination-aware-restoration。
 - 已核实远端public、main=404991c2821293f6693d4174041d0273001f49f7，旧phase0-2026-09-15有7个公开资产，保持不动。

@@ -1,0 +1,931 @@
+{
+  "config": {
+    "protocol": "targeted_roi_screening_v2",
+    "seed": 231,
+    "context": 64,
+    "feather": 32,
+    "cases": [
+      38,
+      42
+    ],
+    "models": [
+      "fftformer_realblur_j",
+      "restormer_real_denoising"
+    ],
+    "sources": [
+      "original",
+      "h200"
+    ],
+    "selection": "Manually fixed before candidate generation using original content and corrected OneFormer masks; exploratory subset, not held-out validation.",
+    "metrics": {
+      "primary": "clipiqa",
+      "secondary": "topiq_nr",
+      "proxy_score": null
+    },
+    "rois": [
+      {
+        "case_id": 38,
+        "name": "facade",
+        "branch": "structure",
+        "box": [
+          1824,
+          1664,
+          2592,
+          2432
+        ]
+      },
+      {
+        "case_id": 38,
+        "name": "red_sign",
+        "branch": "signage",
+        "box": [
+          1728,
+          1296,
+          2400,
+          1664
+        ]
+      },
+      {
+        "case_id": 42,
+        "name": "lattice",
+        "branch": "structure",
+        "box": [
+          1792,
+          416,
+          2816,
+          1056
+        ]
+      },
+      {
+        "case_id": 42,
+        "name": "red_sign",
+        "branch": "signage",
+        "box": [
+          1296,
+          2024,
+          1864,
+          2432
+        ]
+      }
+    ],
+    "stop_rule": "No automatic adoption. Compare paired full image and actual blended ROI metrics; visual/text veto required. Do not tune thresholds or ROI after looking at candidate scores.",
+    "training": false,
+    "full_set": false,
+    "automatic_deployment": false
+  },
+  "config_sha256": "125040ff9866fd71e8b3504e5a7565cb89b63b891636f34bbce849931a0726ff",
+  "script_sha256": "af80cb572c90f20851209e90f8b21cc6f89731a89aa7c9831dd0edd14f28373c",
+  "baselines": {
+    "38": {
+      "original": {
+        "path": "REPO_ROOT/csig_phase06_semantic_structure/data/input/case38.jpg",
+        "sha256": "6093f2f67601168b7591857b0caefba45e945e3bf3d5d6a594bdbc8037812aba"
+      },
+      "h200": {
+        "path": "REPO_ROOT/csig_phase06_semantic_structure/outputs/hypir_h200/result/case38.png",
+        "sha256": "0501120a52af8e5e2cdc483e1b9304db038ec600cc9c24f3172d0d795aa025ac"
+      }
+    },
+    "42": {
+      "original": {
+        "path": "REPO_ROOT/csig_phase06_semantic_structure/data/input/case42.jpg",
+        "sha256": "2c86da302a99cf95fe344c09b4227d01b48a14f5c6838201d71ca89a4d3ea3a5"
+      },
+      "h200": {
+        "path": "REPO_ROOT/csig_phase06_semantic_structure/outputs/hypir_h200/result/case42.png",
+        "sha256": "fec6dd13e8665b7d7368c62100a1742bb3a41896e8468e6387a6325439548f1e"
+      }
+    }
+  },
+  "environment": {
+    "torch": "2.11.0+cu128",
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 5080 Laptop GPU"
+  },
+  "candidates": [
+    {
+      "id": "case38_facade_fftformer_realblur_j_from_original",
+      "case_id": 38,
+      "name": "facade",
+      "branch": "structure",
+      "box": [
+        1824,
+        1664,
+        2592,
+        2432
+      ],
+      "model": "fftformer_realblur_j",
+      "source": "original",
+      "context_box": [
+        1760,
+        1600,
+        2656,
+        2496
+      ],
+      "resize": false,
+      "context_padding_multiple": 32,
+      "output_dir": "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case38_facade_fftformer_realblur_j_from_original",
+      "full_sha256": "df1bf8aa1b4b441c5f629fdf7694c325b11e139f36d652ce541eb47790da7d15",
+      "model_metadata": {
+        "weights": "REPO_ROOT/csig_phase06_semantic_structure/models/fftformer_realblur_j.pth",
+        "weights_sha256": "c687ba8a26e7af7a5fa4ed30c66c7af35eacf7469584a8f6b105227130b30c3a",
+        "source_sha256": "dc0e1775eed3c3358f637084e9e345ec0246b66084487dc4220aad0a5cb66ddf",
+        "options": {
+          "inp_channels": 3,
+          "out_channels": 3,
+          "dim": 48,
+          "num_blocks": [
+            6,
+            6,
+            12
+          ],
+          "num_refinement_blocks": 4,
+          "ffn_expansion_factor": 3,
+          "bias": false
+        }
+      },
+      "seconds": 7.316217899999174,
+      "clipped_fraction": 1.9099436030955985e-05,
+      "allowed_ratio": 1.0,
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0
+    },
+    {
+      "id": "case38_facade_fftformer_realblur_j_from_h200",
+      "case_id": 38,
+      "name": "facade",
+      "branch": "structure",
+      "box": [
+        1824,
+        1664,
+        2592,
+        2432
+      ],
+      "model": "fftformer_realblur_j",
+      "source": "h200",
+      "context_box": [
+        1760,
+        1600,
+        2656,
+        2496
+      ],
+      "resize": false,
+      "context_padding_multiple": 32,
+      "output_dir": "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case38_facade_fftformer_realblur_j_from_h200",
+      "full_sha256": "78bd988448a69deb4873756e053dd9e5341c542028ebd9e797b7b12d4aee8a4e",
+      "model_metadata": {
+        "weights": "REPO_ROOT/csig_phase06_semantic_structure/models/fftformer_realblur_j.pth",
+        "weights_sha256": "c687ba8a26e7af7a5fa4ed30c66c7af35eacf7469584a8f6b105227130b30c3a",
+        "source_sha256": "dc0e1775eed3c3358f637084e9e345ec0246b66084487dc4220aad0a5cb66ddf",
+        "options": {
+          "inp_channels": 3,
+          "out_channels": 3,
+          "dim": 48,
+          "num_blocks": [
+            6,
+            6,
+            12
+          ],
+          "num_refinement_blocks": 4,
+          "ffn_expansion_factor": 3,
+          "bias": false
+        }
+      },
+      "seconds": 5.087887200003024,
+      "clipped_fraction": 5.231584873399697e-05,
+      "allowed_ratio": 1.0,
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0
+    },
+    {
+      "id": "case38_red_sign_fftformer_realblur_j_from_original",
+      "case_id": 38,
+      "name": "red_sign",
+      "branch": "signage",
+      "box": [
+        1728,
+        1296,
+        2400,
+        1664
+      ],
+      "model": "fftformer_realblur_j",
+      "source": "original",
+      "context_box": [
+        1664,
+        1232,
+        2464,
+        1728
+      ],
+      "resize": false,
+      "context_padding_multiple": 32,
+      "output_dir": "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case38_red_sign_fftformer_realblur_j_from_original",
+      "full_sha256": "2d13522e2617b49673795747d0b6990a6a4f6e9bf312d1585f088b310f754b52",
+      "model_metadata": {
+        "weights": "REPO_ROOT/csig_phase06_semantic_structure/models/fftformer_realblur_j.pth",
+        "weights_sha256": "c687ba8a26e7af7a5fa4ed30c66c7af35eacf7469584a8f6b105227130b30c3a",
+        "source_sha256": "dc0e1775eed3c3358f637084e9e345ec0246b66084487dc4220aad0a5cb66ddf",
+        "options": {
+          "inp_channels": 3,
+          "out_channels": 3,
+          "dim": 48,
+          "num_blocks": [
+            6,
+            6,
+            12
+          ],
+          "num_refinement_blocks": 4,
+          "ffn_expansion_factor": 3,
+          "bias": false
+        }
+      },
+      "seconds": 3.258562700000766,
+      "clipped_fraction": 0.0006165994564071298,
+      "allowed_ratio": 1.0,
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0
+    },
+    {
+      "id": "case38_red_sign_fftformer_realblur_j_from_h200",
+      "case_id": 38,
+      "name": "red_sign",
+      "branch": "signage",
+      "box": [
+        1728,
+        1296,
+        2400,
+        1664
+      ],
+      "model": "fftformer_realblur_j",
+      "source": "h200",
+      "context_box": [
+        1664,
+        1232,
+        2464,
+        1728
+      ],
+      "resize": false,
+      "context_padding_multiple": 32,
+      "output_dir": "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case38_red_sign_fftformer_realblur_j_from_h200",
+      "full_sha256": "3ec510d9fa281516a552e297b45cda89a1759f1d617d7b45ff9314583971c489",
+      "model_metadata": {
+        "weights": "REPO_ROOT/csig_phase06_semantic_structure/models/fftformer_realblur_j.pth",
+        "weights_sha256": "c687ba8a26e7af7a5fa4ed30c66c7af35eacf7469584a8f6b105227130b30c3a",
+        "source_sha256": "dc0e1775eed3c3358f637084e9e345ec0246b66084487dc4220aad0a5cb66ddf",
+        "options": {
+          "inp_channels": 3,
+          "out_channels": 3,
+          "dim": 48,
+          "num_blocks": [
+            6,
+            6,
+            12
+          ],
+          "num_refinement_blocks": 4,
+          "ffn_expansion_factor": 3,
+          "bias": false
+        }
+      },
+      "seconds": 3.276169000004302,
+      "clipped_fraction": 1.1760752386180684e-05,
+      "allowed_ratio": 1.0,
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0
+    },
+    {
+      "id": "case42_lattice_fftformer_realblur_j_from_original",
+      "case_id": 42,
+      "name": "lattice",
+      "branch": "structure",
+      "box": [
+        1792,
+        416,
+        2816,
+        1056
+      ],
+      "model": "fftformer_realblur_j",
+      "source": "original",
+      "context_box": [
+        1728,
+        352,
+        2880,
+        1120
+      ],
+      "resize": false,
+      "context_padding_multiple": 32,
+      "output_dir": "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case42_lattice_fftformer_realblur_j_from_original",
+      "full_sha256": "9d74e95d59a19c81d058002e12553cbb2586ace92571d17b0c4367327d206d9f",
+      "model_metadata": {
+        "weights": "REPO_ROOT/csig_phase06_semantic_structure/models/fftformer_realblur_j.pth",
+        "weights_sha256": "c687ba8a26e7af7a5fa4ed30c66c7af35eacf7469584a8f6b105227130b30c3a",
+        "source_sha256": "dc0e1775eed3c3358f637084e9e345ec0246b66084487dc4220aad0a5cb66ddf",
+        "options": {
+          "inp_channels": 3,
+          "out_channels": 3,
+          "dim": 48,
+          "num_blocks": [
+            6,
+            6,
+            12
+          ],
+          "num_refinement_blocks": 4,
+          "ffn_expansion_factor": 3,
+          "bias": false
+        }
+      },
+      "seconds": 38.081749500001024,
+      "clipped_fraction": 2.7503496312419884e-05,
+      "allowed_ratio": 1.0,
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0
+    },
+    {
+      "id": "case42_lattice_fftformer_realblur_j_from_h200",
+      "case_id": 42,
+      "name": "lattice",
+      "branch": "structure",
+      "box": [
+        1792,
+        416,
+        2816,
+        1056
+      ],
+      "model": "fftformer_realblur_j",
+      "source": "h200",
+      "context_box": [
+        1728,
+        352,
+        2880,
+        1120
+      ],
+      "resize": false,
+      "context_padding_multiple": 32,
+      "output_dir": "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case42_lattice_fftformer_realblur_j_from_h200",
+      "full_sha256": "ffdb43026695ff31e38fe68004dab5127f124a59e185fd45f9fe378d7b26d406",
+      "model_metadata": {
+        "weights": "REPO_ROOT/csig_phase06_semantic_structure/models/fftformer_realblur_j.pth",
+        "weights_sha256": "c687ba8a26e7af7a5fa4ed30c66c7af35eacf7469584a8f6b105227130b30c3a",
+        "source_sha256": "dc0e1775eed3c3358f637084e9e345ec0246b66084487dc4220aad0a5cb66ddf",
+        "options": {
+          "inp_channels": 3,
+          "out_channels": 3,
+          "dim": 48,
+          "num_blocks": [
+            6,
+            6,
+            12
+          ],
+          "num_refinement_blocks": 4,
+          "ffn_expansion_factor": 3,
+          "bias": false
+        }
+      },
+      "seconds": 33.36986120000074,
+      "clipped_fraction": 0.011493824422359467,
+      "allowed_ratio": 1.0,
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0
+    },
+    {
+      "id": "case42_red_sign_fftformer_realblur_j_from_original",
+      "case_id": 42,
+      "name": "red_sign",
+      "branch": "signage",
+      "box": [
+        1296,
+        2024,
+        1864,
+        2432
+      ],
+      "model": "fftformer_realblur_j",
+      "source": "original",
+      "context_box": [
+        1232,
+        1960,
+        1928,
+        2496
+      ],
+      "resize": false,
+      "context_padding_multiple": 32,
+      "output_dir": "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case42_red_sign_fftformer_realblur_j_from_original",
+      "full_sha256": "932a3393df5aa0ce390499330e8ba5bd39209030b8955881be70d60531216433",
+      "model_metadata": {
+        "weights": "REPO_ROOT/csig_phase06_semantic_structure/models/fftformer_realblur_j.pth",
+        "weights_sha256": "c687ba8a26e7af7a5fa4ed30c66c7af35eacf7469584a8f6b105227130b30c3a",
+        "source_sha256": "dc0e1775eed3c3358f637084e9e345ec0246b66084487dc4220aad0a5cb66ddf",
+        "options": {
+          "inp_channels": 3,
+          "out_channels": 3,
+          "dim": 48,
+          "num_blocks": [
+            6,
+            6,
+            12
+          ],
+          "num_refinement_blocks": 4,
+          "ffn_expansion_factor": 3,
+          "bias": false
+        }
+      },
+      "seconds": 3.870473100003437,
+      "clipped_fraction": 0.002649289555847645,
+      "allowed_ratio": 1.0,
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0
+    },
+    {
+      "id": "case42_red_sign_fftformer_realblur_j_from_h200",
+      "case_id": 42,
+      "name": "red_sign",
+      "branch": "signage",
+      "box": [
+        1296,
+        2024,
+        1864,
+        2432
+      ],
+      "model": "fftformer_realblur_j",
+      "source": "h200",
+      "context_box": [
+        1232,
+        1960,
+        1928,
+        2496
+      ],
+      "resize": false,
+      "context_padding_multiple": 32,
+      "output_dir": "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case42_red_sign_fftformer_realblur_j_from_h200",
+      "full_sha256": "5ccd48ae060c33de27506a8252200b1813949649b059b229a4e2984c2d28703d",
+      "model_metadata": {
+        "weights": "REPO_ROOT/csig_phase06_semantic_structure/models/fftformer_realblur_j.pth",
+        "weights_sha256": "c687ba8a26e7af7a5fa4ed30c66c7af35eacf7469584a8f6b105227130b30c3a",
+        "source_sha256": "dc0e1775eed3c3358f637084e9e345ec0246b66084487dc4220aad0a5cb66ddf",
+        "options": {
+          "inp_channels": 3,
+          "out_channels": 3,
+          "dim": 48,
+          "num_blocks": [
+            6,
+            6,
+            12
+          ],
+          "num_refinement_blocks": 4,
+          "ffn_expansion_factor": 3,
+          "bias": false
+        }
+      },
+      "seconds": 3.6324214999985998,
+      "clipped_fraction": 0.004397016484290361,
+      "allowed_ratio": 1.0,
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0
+    },
+    {
+      "id": "case38_facade_restormer_real_denoising_from_original",
+      "case_id": 38,
+      "name": "facade",
+      "branch": "structure",
+      "box": [
+        1824,
+        1664,
+        2592,
+        2432
+      ],
+      "model": "restormer_real_denoising",
+      "source": "original",
+      "context_box": [
+        1760,
+        1600,
+        2656,
+        2496
+      ],
+      "resize": false,
+      "context_padding_multiple": 8,
+      "output_dir": "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case38_facade_restormer_real_denoising_from_original",
+      "full_sha256": "11455bcb91b5f6220f97b2a3d58991cd658dbe097df9b54333a40b958f360daa",
+      "model_metadata": {
+        "weights": "REPO_ROOT/csig_phase06_semantic_structure/models/restormer_real_denoising.pth",
+        "weights_sha256": "4cae18bed8a291b9a5deeeab48756bbe6f61fcf7f31a4cca0969b24608601387",
+        "source_sha256": "3be243fa3c8e2cb2c9459eeac062b04d6084dbcc328292dae1c3e52ba6f7434a",
+        "options": {
+          "inp_channels": 3,
+          "out_channels": 3,
+          "dim": 48,
+          "num_blocks": [
+            4,
+            6,
+            6,
+            8
+          ],
+          "num_refinement_blocks": 4,
+          "heads": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "ffn_expansion_factor": 2.66,
+          "bias": false,
+          "LayerNorm_type": "BiasFree",
+          "dual_pixel_task": false
+        }
+      },
+      "seconds": 4.550457500001357,
+      "clipped_fraction": 7.888897926022764e-06,
+      "allowed_ratio": 1.0,
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0
+    },
+    {
+      "id": "case38_facade_restormer_real_denoising_from_h200",
+      "case_id": 38,
+      "name": "facade",
+      "branch": "structure",
+      "box": [
+        1824,
+        1664,
+        2592,
+        2432
+      ],
+      "model": "restormer_real_denoising",
+      "source": "h200",
+      "context_box": [
+        1760,
+        1600,
+        2656,
+        2496
+      ],
+      "resize": false,
+      "context_padding_multiple": 8,
+      "output_dir": "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case38_facade_restormer_real_denoising_from_h200",
+      "full_sha256": "99fe9eec7d2d279ac7d39f568fe87750ac983609cc83c1cd4705e053f1f423b6",
+      "model_metadata": {
+        "weights": "REPO_ROOT/csig_phase06_semantic_structure/models/restormer_real_denoising.pth",
+        "weights_sha256": "4cae18bed8a291b9a5deeeab48756bbe6f61fcf7f31a4cca0969b24608601387",
+        "source_sha256": "3be243fa3c8e2cb2c9459eeac062b04d6084dbcc328292dae1c3e52ba6f7434a",
+        "options": {
+          "inp_channels": 3,
+          "out_channels": 3,
+          "dim": 48,
+          "num_blocks": [
+            4,
+            6,
+            6,
+            8
+          ],
+          "num_refinement_blocks": 4,
+          "heads": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "ffn_expansion_factor": 2.66,
+          "bias": false,
+          "LayerNorm_type": "BiasFree",
+          "dual_pixel_task": false
+        }
+      },
+      "seconds": 4.471335499998531,
+      "clipped_fraction": 5.6467899412382394e-05,
+      "allowed_ratio": 1.0,
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0
+    },
+    {
+      "id": "case38_red_sign_restormer_real_denoising_from_original",
+      "case_id": 38,
+      "name": "red_sign",
+      "branch": "signage",
+      "box": [
+        1728,
+        1296,
+        2400,
+        1664
+      ],
+      "model": "restormer_real_denoising",
+      "source": "original",
+      "context_box": [
+        1664,
+        1232,
+        2464,
+        1728
+      ],
+      "resize": false,
+      "context_padding_multiple": 8,
+      "output_dir": "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case38_red_sign_restormer_real_denoising_from_original",
+      "full_sha256": "a28cabd1c48e860baaf814935b0fc368ab8be05e0d9ced5e52401b8c6b2722c2",
+      "model_metadata": {
+        "weights": "REPO_ROOT/csig_phase06_semantic_structure/models/restormer_real_denoising.pth",
+        "weights_sha256": "4cae18bed8a291b9a5deeeab48756bbe6f61fcf7f31a4cca0969b24608601387",
+        "source_sha256": "3be243fa3c8e2cb2c9459eeac062b04d6084dbcc328292dae1c3e52ba6f7434a",
+        "options": {
+          "inp_channels": 3,
+          "out_channels": 3,
+          "dim": 48,
+          "num_blocks": [
+            4,
+            6,
+            6,
+            8
+          ],
+          "num_refinement_blocks": 4,
+          "heads": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "ffn_expansion_factor": 2.66,
+          "bias": false,
+          "LayerNorm_type": "BiasFree",
+          "dual_pixel_task": false
+        }
+      },
+      "seconds": 3.1335713000007672,
+      "clipped_fraction": 0.0005737566971220076,
+      "allowed_ratio": 1.0,
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0
+    },
+    {
+      "id": "case38_red_sign_restormer_real_denoising_from_h200",
+      "case_id": 38,
+      "name": "red_sign",
+      "branch": "signage",
+      "box": [
+        1728,
+        1296,
+        2400,
+        1664
+      ],
+      "model": "restormer_real_denoising",
+      "source": "h200",
+      "context_box": [
+        1664,
+        1232,
+        2464,
+        1728
+      ],
+      "resize": false,
+      "context_padding_multiple": 8,
+      "output_dir": "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case38_red_sign_restormer_real_denoising_from_h200",
+      "full_sha256": "9222e3b39477588f3286fa3b047fc5ca64e02dbc56efd5871590094d6cd97b91",
+      "model_metadata": {
+        "weights": "REPO_ROOT/csig_phase06_semantic_structure/models/restormer_real_denoising.pth",
+        "weights_sha256": "4cae18bed8a291b9a5deeeab48756bbe6f61fcf7f31a4cca0969b24608601387",
+        "source_sha256": "3be243fa3c8e2cb2c9459eeac062b04d6084dbcc328292dae1c3e52ba6f7434a",
+        "options": {
+          "inp_channels": 3,
+          "out_channels": 3,
+          "dim": 48,
+          "num_blocks": [
+            4,
+            6,
+            6,
+            8
+          ],
+          "num_refinement_blocks": 4,
+          "heads": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "ffn_expansion_factor": 2.66,
+          "bias": false,
+          "LayerNorm_type": "BiasFree",
+          "dual_pixel_task": false
+        }
+      },
+      "seconds": 2.9459569999962696,
+      "clipped_fraction": 0.00021085349726490676,
+      "allowed_ratio": 1.0,
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0
+    },
+    {
+      "id": "case42_lattice_restormer_real_denoising_from_original",
+      "case_id": 42,
+      "name": "lattice",
+      "branch": "structure",
+      "box": [
+        1792,
+        416,
+        2816,
+        1056
+      ],
+      "model": "restormer_real_denoising",
+      "source": "original",
+      "context_box": [
+        1728,
+        352,
+        2880,
+        1120
+      ],
+      "resize": false,
+      "context_padding_multiple": 8,
+      "output_dir": "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case42_lattice_restormer_real_denoising_from_original",
+      "full_sha256": "6e6abc123a4e6193a52bfecd30450ae2fa1291ab52f9ef5d7e6b2091ec09b7a9",
+      "model_metadata": {
+        "weights": "REPO_ROOT/csig_phase06_semantic_structure/models/restormer_real_denoising.pth",
+        "weights_sha256": "4cae18bed8a291b9a5deeeab48756bbe6f61fcf7f31a4cca0969b24608601387",
+        "source_sha256": "3be243fa3c8e2cb2c9459eeac062b04d6084dbcc328292dae1c3e52ba6f7434a",
+        "options": {
+          "inp_channels": 3,
+          "out_channels": 3,
+          "dim": 48,
+          "num_blocks": [
+            4,
+            6,
+            6,
+            8
+          ],
+          "num_refinement_blocks": 4,
+          "heads": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "ffn_expansion_factor": 2.66,
+          "bias": false,
+          "LayerNorm_type": "BiasFree",
+          "dual_pixel_task": false
+        }
+      },
+      "seconds": 4.846871099995042,
+      "clipped_fraction": 1.1302806797175435e-06,
+      "allowed_ratio": 1.0,
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0
+    },
+    {
+      "id": "case42_lattice_restormer_real_denoising_from_h200",
+      "case_id": 42,
+      "name": "lattice",
+      "branch": "structure",
+      "box": [
+        1792,
+        416,
+        2816,
+        1056
+      ],
+      "model": "restormer_real_denoising",
+      "source": "h200",
+      "context_box": [
+        1728,
+        352,
+        2880,
+        1120
+      ],
+      "resize": false,
+      "context_padding_multiple": 8,
+      "output_dir": "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case42_lattice_restormer_real_denoising_from_h200",
+      "full_sha256": "4eb5c2afc335930d6b719c5cf665decff1d4f2025376b84df2f4886458bd1ec3",
+      "model_metadata": {
+        "weights": "REPO_ROOT/csig_phase06_semantic_structure/models/restormer_real_denoising.pth",
+        "weights_sha256": "4cae18bed8a291b9a5deeeab48756bbe6f61fcf7f31a4cca0969b24608601387",
+        "source_sha256": "3be243fa3c8e2cb2c9459eeac062b04d6084dbcc328292dae1c3e52ba6f7434a",
+        "options": {
+          "inp_channels": 3,
+          "out_channels": 3,
+          "dim": 48,
+          "num_blocks": [
+            4,
+            6,
+            6,
+            8
+          ],
+          "num_refinement_blocks": 4,
+          "heads": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "ffn_expansion_factor": 2.66,
+          "bias": false,
+          "LayerNorm_type": "BiasFree",
+          "dual_pixel_task": false
+        }
+      },
+      "seconds": 4.363932299995213,
+      "clipped_fraction": 0.000564386835321784,
+      "allowed_ratio": 1.0,
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0
+    },
+    {
+      "id": "case42_red_sign_restormer_real_denoising_from_original",
+      "case_id": 42,
+      "name": "red_sign",
+      "branch": "signage",
+      "box": [
+        1296,
+        2024,
+        1864,
+        2432
+      ],
+      "model": "restormer_real_denoising",
+      "source": "original",
+      "context_box": [
+        1232,
+        1960,
+        1928,
+        2496
+      ],
+      "resize": false,
+      "context_padding_multiple": 8,
+      "output_dir": "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case42_red_sign_restormer_real_denoising_from_original",
+      "full_sha256": "d592f32ec8b3530805336ce89b55a2c6511f5e3e8255b50cf3a5869db49a2026",
+      "model_metadata": {
+        "weights": "REPO_ROOT/csig_phase06_semantic_structure/models/restormer_real_denoising.pth",
+        "weights_sha256": "4cae18bed8a291b9a5deeeab48756bbe6f61fcf7f31a4cca0969b24608601387",
+        "source_sha256": "3be243fa3c8e2cb2c9459eeac062b04d6084dbcc328292dae1c3e52ba6f7434a",
+        "options": {
+          "inp_channels": 3,
+          "out_channels": 3,
+          "dim": 48,
+          "num_blocks": [
+            4,
+            6,
+            6,
+            8
+          ],
+          "num_refinement_blocks": 4,
+          "heads": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "ffn_expansion_factor": 2.66,
+          "bias": false,
+          "LayerNorm_type": "BiasFree",
+          "dual_pixel_task": false
+        }
+      },
+      "seconds": 3.014419300001464,
+      "clipped_fraction": 0.002305283909663558,
+      "allowed_ratio": 1.0,
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0
+    },
+    {
+      "id": "case42_red_sign_restormer_real_denoising_from_h200",
+      "case_id": 42,
+      "name": "red_sign",
+      "branch": "signage",
+      "box": [
+        1296,
+        2024,
+        1864,
+        2432
+      ],
+      "model": "restormer_real_denoising",
+      "source": "h200",
+      "context_box": [
+        1232,
+        1960,
+        1928,
+        2496
+      ],
+      "resize": false,
+      "context_padding_multiple": 8,
+      "output_dir": "REPO_ROOT/csig_phase06_semantic_structure/outputs/round02/experiments/candidates/case42_red_sign_restormer_real_denoising_from_h200",
+      "full_sha256": "ee3d0e389e8bc4a5a652a84d8bb81d71869777d03aeaea1de61b26d40a6f243d",
+      "model_metadata": {
+        "weights": "REPO_ROOT/csig_phase06_semantic_structure/models/restormer_real_denoising.pth",
+        "weights_sha256": "4cae18bed8a291b9a5deeeab48756bbe6f61fcf7f31a4cca0969b24608601387",
+        "source_sha256": "3be243fa3c8e2cb2c9459eeac062b04d6084dbcc328292dae1c3e52ba6f7434a",
+        "options": {
+          "inp_channels": 3,
+          "out_channels": 3,
+          "dim": 48,
+          "num_blocks": [
+            4,
+            6,
+            6,
+            8
+          ],
+          "num_refinement_blocks": 4,
+          "heads": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "ffn_expansion_factor": 2.66,
+          "bias": false,
+          "LayerNorm_type": "BiasFree",
+          "dual_pixel_task": false
+        }
+      },
+      "seconds": 3.1574610999959987,
+      "clipped_fraction": 0.006875643506646156,
+      "allowed_ratio": 1.0,
+      "outside_changed_channels": 0,
+      "protected_changed_channels": 0
+    }
+  ]
+}
